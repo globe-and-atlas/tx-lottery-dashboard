@@ -1,0 +1,422 @@
+:root {
+    --lux-bg: #faf9f6;
+    /* Ivory / Off-white */
+    --lux-surface: #ffffff;
+    --lux-text-primary: #1a1a1a;
+    /* Deep charcoal */
+    --lux-text-secondary: #666666;
+    --lux-accent: #c5a059;
+    /* Muted gold */
+    --lux-border: #e2dfd8;
+    --lux-font-display: 'Cormorant Garamond', serif;
+    --lux-font-body: 'Inter', sans-serif;
+    --lux-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.05);
+}
+
+body {
+    background-color: var(--lux-bg);
+    color: var(--lux-text-primary);
+    font-family: var(--lux-font-body);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.lux-shell {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+/* Typography */
+h1 {
+    font-family: var(--lux-font-display);
+    font-size: 4.5rem;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    margin: 0 0 16px 0;
+    line-height: 1.1;
+    color: var(--lux-text-primary);
+}
+
+h1 i {
+    color: var(--lux-accent);
+    font-style: italic;
+}
+
+h2 {
+    font-family: var(--lux-font-display);
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin: 0 0 32px 0;
+    color: var(--lux-text-primary);
+    letter-spacing: -0.01em;
+    border-bottom: 1px solid var(--lux-border);
+    padding-bottom: 16px;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin: 0 0 12px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--lux-text-primary);
+}
+
+p {
+    font-weight: 300;
+    font-size: 1.1rem;
+    color: var(--lux-text-secondary);
+    max-width: 600px;
+}
+
+/* Header */
+.lux-header {
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lux-eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 0.8rem;
+    color: var(--lux-accent);
+    margin-bottom: 24px;
+    font-weight: 600;
+}
+
+.lux-stats-row {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 50px;
+    padding-top: 40px;
+    border-top: 1px solid var(--lux-border);
+    width: 100%;
+}
+
+.lux-stat {
+    text-align: center;
+}
+
+.lux-stat .label {
+    display: block;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--lux-text-secondary);
+    margin-bottom: 12px;
+}
+
+.lux-stat .val {
+    display: block;
+    font-family: var(--lux-font-display);
+    font-size: 3rem;
+    line-height: 1;
+    color: var(--lux-text-primary);
+}
+
+/* Controls */
+.lux-controls {
+    background: var(--lux-surface);
+    padding: 40px;
+    border: 1px solid var(--lux-border);
+    box-shadow: var(--lux-shadow);
+}
+
+.lux-controls-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+}
+
+.lux-control-group {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--lux-text-secondary);
+}
+
+input[type="text"] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--lux-border);
+    padding: 8px 0;
+    font-family: var(--lux-font-body);
+    font-size: 1.1rem;
+    color: var(--lux-text-primary);
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-bottom-color: var(--lux-accent);
+}
+
+input[type="text"]::placeholder {
+    color: #cccccc;
+    font-weight: 300;
+    font-style: italic;
+    font-family: var(--lux-font-display);
+}
+
+.lux-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.lux-chip {
+    background: transparent;
+    border: 1px solid var(--lux-border);
+    color: var(--lux-text-secondary);
+    padding: 8px 16px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 20px;
+}
+
+.lux-chip:hover {
+    border-color: var(--lux-text-primary);
+    color: var(--lux-text-primary);
+}
+
+.lux-chip.active {
+    background: var(--lux-text-primary);
+    color: var(--lux-surface);
+    border-color: var(--lux-text-primary);
+}
+
+.lux-chip.active-accent {
+    background: var(--lux-accent);
+    color: white;
+    border-color: var(--lux-accent);
+}
+
+/* Best Banner */
+.lux-best-banner {
+    margin-top: 40px;
+    padding: 30px;
+    background: var(--lux-text-primary);
+    color: var(--lux-surface);
+    text-align: center;
+}
+
+.lux-best-banner p {
+    color: var(--lux-surface);
+    margin: 0;
+    max-width: none;
+    font-family: var(--lux-font-display);
+    font-size: 1.8rem;
+    line-height: 1.3;
+}
+
+.lux-best-banner strong {
+    color: var(--lux-accent);
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* Tabs */
+.lux-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    border-bottom: 1px solid var(--lux-border);
+    padding-bottom: 0;
+    margin-bottom: 40px;
+}
+
+.lux-tab {
+    background: none;
+    border: none;
+    padding: 0 0 16px 0;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--lux-text-secondary);
+    cursor: pointer;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.lux-tab:hover {
+    color: var(--lux-text-primary);
+}
+
+.lux-tab.active {
+    color: var(--lux-text-primary);
+}
+
+.lux-tab.active::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: var(--lux-text-primary);
+}
+
+/* Cards */
+.lux-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 40px;
+}
+
+.lux-card {
+    background: var(--lux-surface);
+    border: 1px solid var(--lux-border);
+    padding: 40px;
+    transition: box-shadow 0.4s ease, transform 0.4s ease;
+}
+
+.lux-card:hover {
+    box-shadow: var(--lux-shadow);
+    transform: translateY(-5px);
+}
+
+.lux-card.premium {
+    border-color: var(--lux-accent);
+    position: relative;
+}
+
+.lux-card.premium::before {
+    content: 'OPTIMAL SELECTION';
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--lux-bg);
+    padding: 0 16px;
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    color: var(--lux-accent);
+}
+
+.lux-card h3 {
+    font-family: var(--lux-font-display);
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: normal;
+    border-bottom: 1px solid var(--lux-border);
+    padding-bottom: 16px;
+    margin-bottom: 24px;
+}
+
+.lux-card-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--lux-border);
+}
+
+.lux-card-row:last-child {
+    border-bottom: none;
+}
+
+.lux-card-row .k {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--lux-text-secondary);
+}
+
+.lux-card-row .v {
+    font-size: 1.1rem;
+    color: var(--lux-text-primary);
+}
+
+.lux-card-row .v.highlight {
+    font-family: var(--lux-font-display);
+    font-size: 1.6rem;
+    color: var(--lux-accent);
+}
+
+/* Tables */
+.lux-table-wrapper {
+    background: var(--lux-surface);
+    border: 1px solid var(--lux-border);
+    padding: 20px;
+}
+
+.lux-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.lux-table th {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--lux-text-secondary);
+    padding: 20px 16px;
+    border-bottom: 1px solid var(--lux-border);
+    font-weight: normal;
+}
+
+.lux-table td {
+    padding: 24px 16px;
+    border-bottom: 1px solid var(--lux-border);
+    color: var(--lux-text-primary);
+    vertical-align: middle;
+}
+
+.lux-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.lux-table tbody tr {
+    transition: background-color 0.3s ease;
+}
+
+.lux-table tbody tr:hover {
+    background-color: var(--lux-bg);
+}
+
+.lux-game-title {
+    font-family: var(--lux-font-display);
+    font-size: 1.5rem;
+    display: block;
+}
+
+.lux-game-id {
+    font-size: 0.75rem;
+    color: var(--lux-text-secondary);
+    letter-spacing: 0.1em;
+}
+
+.lux-metric-highlight {
+    font-family: var(--lux-font-display);
+    font-size: 1.6rem;
+    color: var(--lux-accent);
+}
+
+.lux-badge {
+    display: inline-block;
+    font-size: 0.75rem;
+    padding: 4px 8px;
+    background: var(--lux-bg);
+    border: 1px solid var(--lux-border);
+    border-radius: 4px;
+}

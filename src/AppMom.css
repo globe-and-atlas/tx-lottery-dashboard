@@ -1,0 +1,360 @@
+:root {
+    /* Mom/Pinterest Aesthetic */
+    --mom-bg: #FDFBF7;
+    /* Soft cream */
+    --mom-surface: #FFFFFF;
+    --mom-surface-muted: #F5EAE1;
+    /* Dusty peach/rose */
+    --mom-text-dark: #4A3B32;
+    /* Warm dark brown instead of black */
+    --mom-text-medium: #7A6A61;
+    --mom-text-light: #A3968F;
+    --mom-accent: #E29387;
+    /* Rose gold / terracotta */
+    --mom-accent-hover: #D67A6C;
+    --mom-accent-soft: #F9EBE8;
+    --mom-border: #E8DFD8;
+    --mom-success: #8B9B7E;
+    /* Sage green */
+
+    --mom-font-serif: 'Playfair Display', serif;
+    --mom-font-sans: 'Lato', sans-serif;
+
+    --mom-radius: 16px;
+    --mom-radius-lg: 24px;
+    --mom-shadow: 0 8px 30px rgba(74, 59, 50, 0.05);
+}
+
+body {
+    margin: 0;
+    background-color: var(--mom-bg);
+    color: var(--mom-text-dark);
+    font-family: var(--mom-font-sans);
+    -webkit-font-smoothing: antialiased;
+    padding: 0;
+    background-image: radial-gradient(var(--mom-surface-muted) 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+
+.mom-shell {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 24px 16px;
+    min-height: 100vh;
+}
+
+/* Header */
+.mom-header {
+    text-align: center;
+    margin-bottom: 32px;
+    padding: 32px 0;
+    border-bottom: 1px solid var(--mom-border);
+}
+
+.mom-header h1 {
+    margin: 0 0 8px 0;
+    font-size: 2.4rem;
+    font-family: var(--mom-font-serif);
+    font-weight: 700;
+    color: var(--mom-text-dark);
+    letter-spacing: -0.5px;
+}
+
+.mom-header p {
+    margin: 0;
+    font-size: 1.1rem;
+    color: var(--mom-text-medium);
+    font-style: italic;
+    font-family: var(--mom-font-serif);
+}
+
+/* Hero Stats */
+.mom-hero-stats {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.mom-stat {
+    text-align: center;
+}
+
+.mom-stat .val {
+    display: block;
+    font-size: 1.4rem;
+    font-family: var(--mom-font-serif);
+    color: var(--mom-accent);
+    font-weight: 700;
+}
+
+.mom-stat .label {
+    display: block;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--mom-text-light);
+    margin-top: 4px;
+}
+
+/* Panel */
+.mom-panel {
+    background: var(--mom-surface);
+    border-radius: var(--mom-radius-lg);
+    padding: 28px;
+    box-shadow: var(--mom-shadow);
+    margin-bottom: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.mom-panel h2 {
+    font-family: var(--mom-font-serif);
+    font-size: 1.6rem;
+    margin: 0 0 20px 0;
+    color: var(--mom-text-dark);
+    text-align: center;
+}
+
+/* Form Controls */
+.mom-control-group {
+    margin-bottom: 24px;
+}
+
+.mom-control-group label {
+    display: block;
+    font-family: var(--mom-font-serif);
+    font-size: 1.1rem;
+    color: var(--mom-text-dark);
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.mom-input {
+    width: 100%;
+    padding: 14px 16px;
+    background: var(--mom-bg);
+    border: 1px solid var(--mom-border);
+    border-radius: var(--mom-radius);
+    color: var(--mom-text-dark);
+    font-size: 1rem;
+    font-family: var(--mom-font-sans);
+    box-sizing: border-box;
+    transition: all 0.2s ease;
+}
+
+.mom-input:focus {
+    outline: none;
+    border-color: var(--mom-accent);
+    background: var(--mom-surface);
+    box-shadow: 0 0 0 3px var(--mom-accent-soft);
+}
+
+/* Chips/Pills */
+.mom-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.mom-chip {
+    background: var(--mom-surface);
+    border: 1px solid var(--mom-border);
+    color: var(--mom-text-medium);
+    padding: 10px 18px;
+    font-size: 0.95rem;
+    border-radius: 30px;
+    /* Full pill shape */
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-family: var(--mom-font-sans);
+}
+
+.mom-chip:hover {
+    border-color: var(--mom-accent);
+    color: var(--mom-accent);
+}
+
+.mom-chip.active {
+    background: var(--mom-accent);
+    border-color: var(--mom-accent);
+    color: white;
+}
+
+/* Best Ticket Alert */
+.mom-alert {
+    background: var(--mom-accent-soft);
+    border-radius: var(--mom-radius);
+    padding: 20px;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.mom-alert-title {
+    font-family: var(--mom-font-serif);
+    font-size: 1.2rem;
+    color: var(--mom-accent-hover);
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+.mom-alert-text {
+    font-size: 1.1rem;
+    color: var(--mom-text-dark);
+    line-height: 1.4;
+}
+
+/* Navigation Tabs */
+.mom-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid var(--mom-border);
+    padding-bottom: 16px;
+}
+
+.mom-tabs button {
+    background: transparent;
+    border: none;
+    color: var(--mom-text-light);
+    font-family: var(--mom-font-serif);
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 8px 16px;
+    transition: all 0.2s ease;
+    position: relative;
+}
+
+.mom-tabs button.active {
+    color: var(--mom-text-dark);
+    font-weight: 700;
+}
+
+.mom-tabs button.active::after {
+    content: '';
+    position: absolute;
+    bottom: -17px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: var(--mom-accent);
+}
+
+/* Cards (Budget / Rank) */
+.mom-card {
+    background: var(--mom-surface);
+    border-radius: var(--mom-radius-lg);
+    padding: 24px;
+    box-shadow: var(--mom-shadow);
+    margin-bottom: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    position: relative;
+    overflow: hidden;
+}
+
+.mom-card.highlight {
+    border: 2px solid var(--mom-accent-soft);
+}
+
+.mom-card-title {
+    font-family: var(--mom-font-serif);
+    font-size: 1.4rem;
+    color: var(--mom-text-dark);
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px dashed var(--mom-border);
+}
+
+.mom-card-content {
+    font-size: 1rem;
+}
+
+.mom-picks-list {
+    font-size: 1.2rem;
+    color: var(--mom-accent-hover);
+    font-family: var(--mom-font-serif);
+    margin-bottom: 20px;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.mom-metric-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--mom-bg);
+}
+
+.mom-metric-label {
+    color: var(--mom-text-medium);
+}
+
+.mom-metric-value {
+    font-weight: 700;
+    color: var(--mom-text-dark);
+}
+
+.mom-metric-value.good {
+    color: var(--mom-success);
+}
+
+/* Leaderboard */
+.mom-leaderboard {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.mom-rank-item {
+    background: var(--mom-surface);
+    border-radius: var(--mom-radius);
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    box-shadow: var(--mom-shadow);
+    border: 1px solid var(--mom-border);
+}
+
+.mom-rank-number {
+    font-family: var(--mom-font-serif);
+    font-size: 1.8rem;
+    color: var(--mom-accent-soft);
+    font-weight: 700;
+    width: 40px;
+    text-align: center;
+    margin-right: 16px;
+}
+
+.mom-rank-details {
+    flex: 1;
+}
+
+.mom-rank-title {
+    font-family: var(--mom-font-serif);
+    font-size: 1.2rem;
+    color: var(--mom-text-dark);
+    margin-bottom: 4px;
+}
+
+.mom-rank-meta {
+    font-size: 0.85rem;
+    color: var(--mom-text-medium);
+}
+
+.mom-rank-score {
+    text-align: right;
+}
+
+.mom-rank-score-val {
+    display: block;
+    font-weight: 700;
+    color: var(--mom-success);
+    font-size: 1.1rem;
+}
+
+.mom-rank-price {
+    display: block;
+    color: var(--mom-text-light);
+    font-size: 0.85rem;
+    margin-top: 4px;
+}

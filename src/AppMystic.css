@@ -1,0 +1,376 @@
+:root {
+    /* Mystic / Astrology Aesthetic */
+    --mys-bg: #0B0A11;
+    /* Deep space night */
+    --mys-surface: #171523;
+    --mys-surface-glow: #24203A;
+
+    --mys-accent-gold: #D4AF37;
+    /* Burnished gold */
+    --mys-accent-gold-soft: rgba(212, 175, 55, 0.2);
+    --mys-accent-purple: #7B32A3;
+    --mys-accent-silver: #E0E0E0;
+
+    --mys-text-gold: #E6C875;
+    --mys-text-light: #F0E6D2;
+    --mys-text-muted: #8A819E;
+
+    --mys-border: rgba(212, 175, 55, 0.3);
+
+    --mys-font-display: 'Cinzel', serif;
+    --mys-font-body: 'Cormorant Garamond', serif;
+
+    --mys-radius: 8px;
+    --mys-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    --mys-glow: 0 0 15px rgba(212, 175, 55, 0.15);
+}
+
+body {
+    margin: 0;
+    background-color: var(--mys-bg);
+    color: var(--mys-text-light);
+    font-family: var(--mys-font-body);
+    /* Starry background effect */
+    background-image:
+        radial-gradient(circle at 15% 50%, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+        radial-gradient(circle at 85% 30%, rgba(255, 255, 255, 0.08) 1px, transparent 1px),
+        radial-gradient(circle at 50% 80%, rgba(212, 175, 55, 0.05) 2px, transparent 2px),
+        radial-gradient(circle at 20% 90%, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    background-size: 150px 150px;
+    -webkit-font-smoothing: antialiased;
+    padding: 0;
+}
+
+::selection {
+    background: var(--mys-accent-purple);
+    color: var(--mys-text-gold);
+}
+
+.mys-shell {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 32px 16px;
+    min-height: 100vh;
+}
+
+/* Header */
+.mys-header {
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.mys-header::after {
+    content: '✧ ✦ ✧';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--mys-accent-gold);
+    font-size: 1.2rem;
+    letter-spacing: 4px;
+}
+
+.mys-header h1 {
+    margin: 0;
+    font-size: 2.8rem;
+    font-family: var(--mys-font-display);
+    font-weight: 500;
+    color: var(--mys-text-gold);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 0 0 20px rgba(212, 175, 55, 0.3);
+}
+
+.mys-header p {
+    margin: 12px 0 0 0;
+    font-size: 1.3rem;
+    color: var(--mys-text-light);
+    font-style: italic;
+}
+
+/* Panel */
+.mys-panel {
+    background: var(--mys-surface);
+    border: 1px solid var(--mys-border);
+    border-radius: var(--mys-radius);
+    padding: 28px;
+    box-shadow: var(--mys-shadow), var(--mys-glow);
+    margin-bottom: 24px;
+    position: relative;
+}
+
+/* Corner Ornaments */
+.mys-panel::before,
+.mys-panel::after {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border: 1px solid var(--mys-accent-gold);
+    opacity: 0.5;
+}
+
+.mys-panel::before {
+    top: 8px;
+    left: 8px;
+    border-right: none;
+    border-bottom: none;
+}
+
+.mys-panel::after {
+    bottom: 8px;
+    right: 8px;
+    border-left: none;
+    border-top: none;
+}
+
+.mys-panel h2 {
+    font-family: var(--mys-font-display);
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--mys-text-gold);
+    margin: 0 0 24px 0;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+/* Form Controls */
+.mys-control-group {
+    margin-bottom: 28px;
+}
+
+.mys-control-group label {
+    display: block;
+    font-family: var(--mys-font-display);
+    font-size: 0.95rem;
+    color: var(--mys-accent-gold);
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+}
+
+.mys-input {
+    width: 100%;
+    padding: 12px 16px;
+    background: var(--mys-bg);
+    border: 1px solid var(--mys-border);
+    border-radius: 4px;
+    font-family: var(--mys-font-body);
+    font-size: 1.2rem;
+    color: var(--mys-text-light);
+    box-sizing: border-box;
+    outline: none;
+    transition: all 0.3s;
+    text-align: center;
+}
+
+.mys-input:focus {
+    border-color: var(--mys-accent-gold);
+    box-shadow: 0 0 10px var(--mys-accent-gold-soft);
+}
+
+.mys-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+}
+
+.mys-chip {
+    background: transparent;
+    border: 1px solid var(--mys-border);
+    color: var(--mys-text-muted);
+    padding: 8px 16px;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: var(--mys-font-body);
+    font-style: italic;
+}
+
+.mys-chip:hover {
+    border-color: var(--mys-text-gold);
+    color: var(--mys-text-light);
+}
+
+.mys-chip.active {
+    background: var(--mys-accent-gold-soft);
+    border-color: var(--mys-accent-gold);
+    color: var(--mys-text-gold);
+    box-shadow: inset 0 0 10px rgba(212, 175, 55, 0.1);
+}
+
+/* Oracle Result */
+.mys-oracle {
+    margin-top: 32px;
+    padding: 24px;
+    background: linear-gradient(to bottom, var(--mys-surface-glow), var(--mys-surface));
+    border: 1px solid var(--mys-accent-gold);
+    text-align: center;
+    border-radius: var(--mys-radius);
+    position: relative;
+}
+
+.mys-oracle-title {
+    font-family: var(--mys-font-display);
+    color: var(--mys-accent-gold);
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+.mys-oracle-text {
+    font-size: 1.4rem;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+.mys-oracle-strong {
+    font-family: var(--mys-font-display);
+    font-size: 1.6rem;
+    color: var(--mys-text-light);
+    font-style: normal;
+    display: block;
+    margin: 8px 0;
+}
+
+/* Tabs */
+.mys-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+
+.mys-tabs button {
+    background: transparent;
+    border: none;
+    color: var(--mys-text-muted);
+    font-family: var(--mys-font-display);
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    cursor: pointer;
+    padding: 8px 0;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s;
+}
+
+.mys-tabs button.active {
+    color: var(--mys-text-gold);
+    border-bottom-color: var(--mys-accent-gold);
+    text-shadow: 0 0 8px rgba(212, 175, 55, 0.4);
+}
+
+/* Tarot Cards (Budget/Rank) */
+.mys-card {
+    background: var(--mys-bg);
+    border: 1px solid var(--mys-border);
+    border-radius: var(--mys-radius);
+    padding: 24px;
+    margin-bottom: 24px;
+    position: relative;
+    transition: transform 0.3s;
+}
+
+.mys-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+}
+
+.mys-card.highlight {
+    border-color: var(--mys-accent-gold);
+    background: radial-gradient(circle at center, var(--mys-surface-glow), var(--mys-bg));
+}
+
+.mys-card-title {
+    font-family: var(--mys-font-display);
+    color: var(--mys-text-gold);
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.mys-card-title::after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 1px;
+    background: var(--mys-accent-gold);
+    margin: 12px auto 0 auto;
+}
+
+.mys-picks-list {
+    font-size: 1.4rem;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 24px;
+    color: var(--mys-text-light);
+    line-height: 1.6;
+}
+
+.mys-metric-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    font-size: 1.1rem;
+}
+
+.mys-metric-label {
+    color: var(--mys-text-muted);
+    font-style: italic;
+}
+
+.mys-metric-value {
+    color: var(--mys-text-light);
+    font-family: var(--mys-font-display);
+    font-size: 1rem;
+}
+
+.mys-metric-value.good {
+    color: var(--mys-accent-gold);
+}
+
+/* Rankings */
+.mys-ranking-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.mys-rank-item {
+    background: var(--mys-surface);
+    border: 1px solid var(--mys-border);
+    padding: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.mys-rank-number {
+    font-family: var(--mys-font-display);
+    color: var(--mys-accent-gold);
+    font-size: 1.5rem;
+    width: 40px;
+    text-align: center;
+}
+
+.mys-rank-title {
+    font-family: var(--mys-font-display);
+    font-size: 1.1rem;
+    color: var(--mys-text-light);
+}
+
+.mys-rank-score {
+    margin-left: auto;
+    text-align: right;
+}
+
+.mys-rank-score-val {
+    display: block;
+    font-family: var(--mys-font-display);
+    color: var(--mys-accent-gold);
+    font-size: 1.1rem;
+}

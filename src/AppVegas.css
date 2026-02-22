@@ -1,0 +1,376 @@
+:root {
+    /* Las Vegas / Casino / High Roller Aesthetic */
+    --veg-bg: #14080E;
+    /* Deep casino carpet purple/black */
+    --veg-surface: #26111B;
+    /* Dark mahogany/velvet */
+    --veg-surface-light: #3D1C2B;
+
+    --veg-accent-gold: #FFD700;
+    --veg-accent-red: #E50914;
+    /* Casino chip red */
+    --veg-accent-green: #00B259;
+    /* Felt green */
+
+    --veg-text-main: #FFFFFF;
+    --veg-text-gold: #FCE883;
+    --veg-text-muted: #9E8B95;
+
+    --veg-border: #FFD700;
+
+    --veg-font-display: 'Rye', cursive;
+    /* Saloon / Vintage Vegas */
+    --veg-font-body: 'Outfit', sans-serif;
+    /* Clean modern casino font */
+
+    --veg-radius: 8px;
+
+    --veg-glow: 0 0 15px rgba(255, 215, 0, 0.4);
+    --veg-glow-red: 0 0 20px rgba(229, 9, 20, 0.6);
+}
+
+body {
+    margin: 0;
+    background-color: var(--veg-bg);
+    color: var(--veg-text-main);
+    font-family: var(--veg-font-body);
+    /* Casino carpet pattern */
+    background-image:
+        radial-gradient(var(--veg-surface-light) 2px, transparent 2px),
+        radial-gradient(var(--veg-surface-light) 2px, transparent 2px);
+    background-size: 60px 60px;
+    background-position: 0 0, 30px 30px;
+    -webkit-font-smoothing: antialiased;
+    padding: 0;
+}
+
+.veg-shell {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 24px 16px;
+    min-height: 100vh;
+}
+
+/* Header */
+.veg-header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid var(--veg-accent-gold);
+}
+
+.veg-header h1 {
+    margin: 0;
+    font-family: var(--veg-font-display);
+    font-size: 3.5rem;
+    color: var(--veg-accent-gold);
+    text-shadow: 2px 2px 0 #000, 0 0 20px rgba(255, 215, 0, 0.8), -1px -1px 0 #FFF;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.veg-header p {
+    margin: 12px 0 0 0;
+    font-size: 1.2rem;
+    color: var(--veg-text-main);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 800;
+}
+
+/* Lightbulbs decorative subheader */
+.veg-marquee-lights {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.veg-bulb {
+    width: 12px;
+    height: 12px;
+    background: var(--veg-text-main);
+    border-radius: 50%;
+    box-shadow: 0 0 10px #FFF, 0 0 20px #FFF;
+    animation: blink 1s infinite alternate;
+}
+
+.veg-bulb:nth-child(even) {
+    animation-delay: 0.5s;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0.4;
+        box-shadow: none;
+    }
+
+    100% {
+        opacity: 1;
+        box-shadow: 0 0 10px #FFF, 0 0 20px var(--veg-accent-gold);
+    }
+}
+
+/* Panel */
+.veg-panel {
+    background: var(--veg-surface);
+    border: 4px solid var(--veg-border);
+    border-radius: var(--veg-radius);
+    padding: 30px;
+    box-shadow: var(--veg-glow);
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.veg-panel::before {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    right: 4px;
+    bottom: 4px;
+    border: 1px dashed var(--veg-border);
+    border-radius: 4px;
+    pointer-events: none;
+}
+
+.veg-panel h2 {
+    font-family: var(--veg-font-display);
+    font-size: 2rem;
+    color: var(--veg-text-gold);
+    margin: 0 0 24px 0;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Controls */
+.veg-control-group {
+    margin-bottom: 24px;
+}
+
+.veg-control-group label {
+    display: block;
+    font-size: 1rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: var(--veg-text-gold);
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+}
+
+.veg-input {
+    width: 100%;
+    padding: 14px 20px;
+    background: var(--veg-surface-light);
+    border: 2px solid var(--veg-border);
+    border-radius: var(--veg-radius);
+    color: var(--veg-text-gold);
+    font-size: 1.2rem;
+    font-weight: 800;
+    font-family: var(--veg-font-body);
+    text-align: center;
+    box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.2s;
+}
+
+.veg-input:focus {
+    outline: none;
+    background: var(--veg-bg);
+    box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.8), var(--veg-glow);
+}
+
+.veg-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+}
+
+.veg-chip {
+    background: var(--veg-surface-light);
+    border: 2px solid var(--veg-border);
+    color: var(--veg-text-gold);
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-radius: var(--veg-radius);
+    cursor: pointer;
+    transition: all 0.2s;
+    box-shadow: 0 4px 0 #000;
+}
+
+.veg-chip:hover {
+    transform: translateY(2px);
+    box-shadow: 0 2px 0 #000;
+}
+
+.veg-chip.active {
+    background: var(--veg-accent-red);
+    color: white;
+    border-color: #FFF;
+    box-shadow: var(--veg-glow-red);
+    transform: translateY(4px);
+    box-shadow: 0 0 0 #000, var(--veg-glow-red);
+}
+
+/* Alert */
+.veg-alert {
+    background: black;
+    border: 2px solid var(--veg-accent-green);
+    border-radius: var(--veg-radius);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 178, 89, 0.3);
+    margin-top: 16px;
+}
+
+.veg-alert-title {
+    color: var(--veg-accent-green);
+    font-weight: 800;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.veg-alert-text {
+    font-size: 1.2rem;
+    color: white;
+}
+
+/* Tabs */
+.veg-tabs {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 24px;
+}
+
+.veg-tabs button {
+    flex: 1;
+    background: var(--veg-surface);
+    border: 2px solid var(--veg-border);
+    border-bottom: none;
+    color: var(--veg-text-muted);
+    font-family: var(--veg-font-display);
+    font-size: 1.2rem;
+    padding: 16px 0;
+    border-radius: 8px 8px 0 0;
+    cursor: pointer;
+}
+
+.veg-tabs button.active {
+    background: var(--veg-accent-red);
+    color: white;
+    border-color: var(--veg-accent-red);
+    box-shadow: 0 -4px 15px rgba(229, 9, 20, 0.4);
+}
+
+/* Card */
+.veg-card {
+    background: var(--veg-surface);
+    border: 2px solid var(--veg-border);
+    border-radius: var(--veg-radius);
+    padding: 0;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+    margin-bottom: 24px;
+    overflow: hidden;
+}
+
+.veg-card.highlight {
+    border: 4px solid var(--veg-accent-gold);
+    box-shadow: var(--veg-glow);
+}
+
+.veg-card-header {
+    background: var(--veg-surface-light);
+    padding: 14px 20px;
+    border-bottom: 2px solid var(--veg-border);
+    font-family: var(--veg-font-display);
+    font-size: 1.4rem;
+    color: var(--veg-text-gold);
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.veg-card-content {
+    padding: 24px;
+}
+
+.veg-picks-list {
+    font-size: 1.2rem;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+    margin-bottom: 24px;
+    line-height: 1.5;
+}
+
+.veg-metric-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 1rem;
+}
+
+.veg-metric-label {
+    color: var(--veg-text-muted);
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.veg-metric-val {
+    font-family: var(--veg-font-body);
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: white;
+}
+
+.veg-metric-val.good {
+    color: var(--veg-accent-green);
+}
+
+/* Rank Items */
+.veg-rank-item {
+    display: flex;
+    align-items: center;
+    background: var(--veg-surface);
+    border: 1px solid var(--veg-border);
+    padding: 16px;
+    margin-bottom: 12px;
+    border-radius: var(--veg-radius);
+}
+
+.veg-rank-number {
+    font-family: var(--veg-font-display);
+    font-size: 2rem;
+    color: var(--veg-text-gold);
+    width: 50px;
+    text-align: center;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    margin-right: 16px;
+    padding-right: 16px;
+}
+
+.veg-rank-title {
+    font-family: var(--veg-font-body);
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: white;
+    text-transform: uppercase;
+}
+
+.veg-rank-score {
+    margin-left: auto;
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: var(--veg-accent-green);
+}
+
+.veg-rank-meta {
+    color: var(--veg-text-muted);
+    font-size: 0.85rem;
+    margin-top: 4px;
+    font-weight: 600;
+}

@@ -1,0 +1,100 @@
+:root {
+    --hub-bg: #EAE6EC;
+    --hub-text-main: #1C1B1F;
+    --hub-text-sub: #49454E;
+    --hub-accent: #6C5CE7;
+    --hub-surface: #FFFFFF;
+    --hub-radius: 16px;
+    --hub-border: #D0D0D0;
+}
+
+body {
+    margin: 0;
+    background-color: var(--hub-bg);
+    color: var(--hub-text-main);
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.hub-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 60px 24px;
+}
+
+.hub-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.hub-header h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 0 0 16px 0;
+    letter-spacing: -1px;
+}
+
+.hub-header p {
+    font-size: 1.2rem;
+    color: var(--hub-text-sub);
+    margin: 0;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hub-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 24px;
+}
+
+.hub-card {
+    background: var(--hub-surface);
+    border-radius: var(--hub-radius);
+    border: 1px solid var(--hub-border);
+    padding: 24px;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+.hub-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+    border-color: var(--hub-accent);
+}
+
+.hub-card-icon {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hub-card-title {
+    font-size: 1.4rem;
+    font-weight: 800;
+    margin: 0 0 8px 0;
+}
+
+.hub-card-desc {
+    font-size: 1rem;
+    color: var(--hub-text-sub);
+    margin: 0;
+    flex-grow: 1;
+}
+
+.hub-card-badge {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: #FFEAA7;
+    color: #D63031;
+    font-size: 0.75rem;
+    font-weight: 800;
+    padding: 4px 8px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
