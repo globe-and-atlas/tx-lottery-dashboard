@@ -1,4 +1,5 @@
 import './Hub.css';
+import lotteryData from './data/lottery-data.json';
 
 const VARIANTS = [
     {
@@ -125,6 +126,10 @@ export default function Hub() {
                     </a>
                 ))}
             </div>
+
+            <footer className="hub-footer">
+                Data last updated: {new Date(lotteryData.generatedAt).toLocaleString('en-US', { dateStyle: 'medium', timeStyle: 'short' })}
+            </footer>
         </div>
     );
 }

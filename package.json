@@ -7,6 +7,7 @@
     "dev": "vite",
     "api:dev": "node api/server.mjs",
     "refresh:data": "node scripts/build-lottery-data.mjs",
+    "deploy": "bash scripts/deploy.sh",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"

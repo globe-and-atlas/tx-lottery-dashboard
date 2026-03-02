@@ -1380,7 +1380,7 @@ export default function AppAlt() {
         <section className="t-panel">
           <h2>MATRIX ALLOCATION_PLAN</h2>
           
-          <div className="t-control-group" style={{marginBottom: "24px", padingBottom: "16px", borderBottom: "1px dashed var(--term-muted)"}}>
+          <div className="t-control-group" style={{marginBottom: "24px", paddingBottom: "16px", borderBottom: "1px dashed var(--term-muted)"}}>
             <label>INPUT_FUNDS [CUSTOM_BUDGET]</label>
             <div style={{display: "flex", gap: "12px", alignItems: "center", marginTop: "8px"}}>
               <span style={{color: "var(--term-accent)", fontSize: "1.2rem"}}>$</span>
