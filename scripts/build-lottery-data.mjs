@@ -123,14 +123,14 @@ const parseScratchCsv = (csvText) => {
     }
 
     const prizeAmount = toInt(prizeLevelRaw);
-    if (!prizeAmount || !totalPrizesInLevel || prizesClaimed === null) {
+    if (!prizeAmount || !totalPrizesInLevel) {
       continue;
     }
 
     game.prizeLevels.push({
       amount: prizeAmount,
       totalPrizes: totalPrizesInLevel,
-      claimedPrizes: prizesClaimed,
+      claimedPrizes: prizesClaimed ?? 0,
     });
   }
 
@@ -226,17 +226,26 @@ const computeGameMetrics = (game, currentMeta, detailsMeta) => {
   const topPrizesRemaining = topPrize.remainingPrizes;
   const approxTicketsInGame = detailsMeta?.approxTicketsInGame ?? null;
 
-  const topPrizeOddsOneIn =
-    approxTicketsInGame && topPrizesRemaining > 0 ? approxTicketsInGame / topPrizesRemaining : null;
-
-  const anyPrizeOddsOneIn =
-    approxTicketsInGame && totalWinningTicketsRemaining > 0
-      ? approxTicketsInGame / totalWinningTicketsRemaining
-      : null;
-
   const estimatedTotalTicketsAtLaunch =
     detailsMeta?.overallOddsOneIn && totalWinningTicketsPrinted > 0
       ? Math.round(detailsMeta.overallOddsOneIn * totalWinningTicketsPrinted)
+      : null;
+
+  const estimatedTicketsRemaining = 
+    detailsMeta?.overallOddsOneIn && totalWinningTicketsRemaining > 0
+      ? Math.round(totalWinningTicketsRemaining * detailsMeta.overallOddsOneIn)
+      : (approxTicketsInGame && totalWinningTicketsPrinted > 0 
+          ? Math.round(approxTicketsInGame * (totalWinningTicketsRemaining / totalWinningTicketsPrinted)) 
+          : null);
+
+  const topPrizeOddsOneIn =
+    estimatedTicketsRemaining !== null && topPrizesRemaining > 0 
+      ? estimatedTicketsRemaining / topPrizesRemaining 
+      : null;
+
+  const anyPrizeOddsOneIn =
+    estimatedTicketsRemaining !== null && totalWinningTicketsRemaining > 0
+      ? estimatedTicketsRemaining / totalWinningTicketsRemaining
       : null;
 
   return {
@@ -400,7 +409,10 @@ const createSnapshot = (dataset) => {
 const updateHistory = async (dataset) => {
   const existing = await safeReadJson(historyPath, { updatedAt: null, snapshots: [] });
   const snapshots = Array.isArray(existing.snapshots) ? existing.snapshots : [];
-  const nextSnapshots = [...snapshots, createSnapshot(dataset)].slice(-240);
+  
+  const snapshot = createSnapshot(dataset);
+  const filtered = snapshots.filter(s => s.date !== snapshot.date);
+  const nextSnapshots = [...filtered, snapshot].slice(-240);
 
   const history = {
     updatedAt: dataset.generatedAt,

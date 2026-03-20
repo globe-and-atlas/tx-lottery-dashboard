@@ -3,190 +3,39 @@ import datasetJson from './data/lottery-data.json';
 import historyJson from './data/lottery-history.json';
 import './AppAlpha.css';
 
-type PrizeLevel = {
-  amount: number;
-  totalPrizes: number;
-  claimedPrizes: number;
-  remainingPrizes: number;
-};
-
-type Game = {
-  gameNumber: string;
-  gameName: string;
-  startDate: string | null;
-  closeDate: string | null;
-  detailsUrl: string | null;
-  ticketPrice: number;
-  approxTicketsInGame: number | null;
-  overallOddsOneIn: number | null;
-  detailsAsOfDate: string | null;
-  estimatedTotalTicketsAtLaunch: number | null;
-  topPrizeAmount: number;
-  topPrizesPrinted: number;
-  topPrizesClaimed: number;
-  topPrizesRemaining: number;
-  topPrizeOddsOneIn: number | null;
-  totalWinningTicketsPrinted: number;
-  totalWinningTicketsClaimed: number;
-  totalWinningTicketsRemaining: number;
-  anyPrizeOddsOneIn: number | null;
-  topPrizeMultiplier: number | null;
-  prizeLevels: PrizeLevel[];
-};
-
-type Dataset = {
-  generatedAt: string;
-  source: {
-    csvAsOfDate: string | null;
-    detailPagesWithFetchErrors: number;
-  };
-  summary: {
-    totalGames: number;
-    ticketPrices: number[];
-  };
-  games: Game[];
-};
-
-type HistoryByPrice = {
-  ticketPrice: number;
-  gameNumber: string;
-  gameName: string;
-  topPrizeAmount: number;
-  topPrizesRemaining: number;
-  topPrizeOddsOneIn: number;
-};
-
-type HistorySnapshot = {
-  date: string;
-  generatedAt: string;
-  csvAsOfDate: string | null;
-  totalGames: number;
-  totalTopPrizesRemaining: number;
-  bestOverall: {
-    gameNumber: string;
-    gameName: string;
-    ticketPrice: number;
-    topPrizeAmount: number;
-    topPrizesRemaining: number;
-    topPrizeOddsOneIn: number;
-  } | null;
-  bestByPrice: HistoryByPrice[];
-};
-
-type HistoryDataset = {
-  updatedAt: string | null;
-  snapshots: HistorySnapshot[];
-};
-
-type ZipGameActivity = {
-  claims: number;
-  hebClaims: number;
-  gasClaims: number;
-  otherClaims: number;
-  lastPaid: string | null;
-};
-
-type ZipActivityState = {
-  status: 'idle' | 'loading' | 'ready' | 'error';
-  zipCode: string;
-  fromDate: string;
-  totalClaims: number;
-  totalHebClaims: number;
-  totalGasClaims: number;
-  byGame: Record<string, ZipGameActivity>;
-  updatedAt: string | null;
-  errorMessage: string | null;
-};
-
-type ZipMonthlyClaimsState = {
-  status: 'idle' | 'loading' | 'ready' | 'error';
-  zipCode: string;
-  fromDate: string;
-  points: Array<{ month: string; claims: number }>;
-  updatedAt: string | null;
-  errorMessage: string | null;
-};
-
-type ObjectiveMode = 'probability10x' | 'jackpotTop' | 'bestReturn';
-type RecommendationTarget = 'highTier' | 'topPrize' | 'expectedValue';
-type WorkspaceView = 'buy' | 'rank' | 'detail';
-
-type RankedGame = Game & {
-  highTierThreshold: number;
-  highTierRemaining: number;
-  highTierOddsOneIn: number | null;
-  highTierLowerBoundOddsOneIn: number | null;
-  topPrizeLowerBoundOddsOneIn: number | null;
-  anyPrizeLowerBoundOddsOneIn: number | null;
-  highTierProbabilityPerTicket: number;
-  topPrizeProbabilityPerTicket: number;
-  confidenceAdjustedHighPrizeProbability: number;
-  confidenceAdjustedTopPrizeProbability: number;
-  rawExpectedValuePerTicket: number;
-  rawReturnPerDollar: number;
-  conservativeExpectedValuePerTicket: number;
-  conservativeExpectedNetPerTicket: number;
-  conservativeReturnPerDollar: number;
-  objectiveLabel: string;
-  objectiveBaseOddsOneIn: number | null;
-  objectiveConservativeOddsOneIn: number | null;
-  objectiveScore: number | null;
-  localClaims: number;
-  localHebClaims: number;
-  localGasClaims: number;
-  localOtherClaims: number;
-  localSignalScore: number;
-  localLastPaid: string | null;
-  freshnessConfidence: number;
-  evidenceConfidence: number;
-  localConfidence: number;
-  confidenceFactor: number;
-  localBoostFactor: number;
-  localWeightedObjectiveScore: number | null;
-};
-
-type BudgetPlanLine = {
-  game: RankedGame;
-  ticketCount: number;
-  spend: number;
-  targetProbabilityPerTicket: number;
-  highPrizeProbabilityPerTicket: number;
-  topPrizeProbabilityPerTicket: number;
-  expectedPayoutPerTicket: number;
-  expectedNetPerTicket: number;
-};
-
-type BudgetPlan = {
-  budget: number;
-  spent: number;
-  remainingBudget: number;
-  exactSpend: boolean;
-  recommendationTarget: RecommendationTarget;
-  targetLabel: string;
-  estimatedPrimaryChance: number;
-  estimatedHighPrizeChance: number;
-  estimatedTopPrizeChance: number;
-  expectedPrimaryWins: number;
-  estimatedExpectedPayout: number;
-  estimatedExpectedNet: number;
-  estimatedReturnPerDollar: number;
-  localBoostApplied: boolean;
-  localGamesInPool: number;
-  totalGamesInPool: number;
-  lines: BudgetPlanLine[];
-};
-
-type BudgetPlanScenario = {
-  budget: number;
-  isCustom: boolean;
-  strictPlan: BudgetPlan | null;
-  strictUnderBudgetPlan: BudgetPlan | null;
-  finalPlan: BudgetPlan | null;
-  usesMixedDenominations: boolean;
-  denominationFillOptions: string[];
-};
-
-const dataset = datasetJson as Dataset;
+import {
+  PrizeLevel,
+  Game,
+  Dataset,
+  HistoryByPrice,
+  HistorySnapshot,
+  HistoryDataset,
+  ZipGameActivity,
+  ZipActivityState,
+  ZipMonthlyClaimsState,
+  ObjectiveMode,
+  RecommendationTarget,
+  WorkspaceView,
+  RankedGame,
+  BudgetPlanLine,
+  BudgetPlan,
+  BudgetPlanScenario,
+  WILSON_Z_80,
+  clampNumber,
+  daysSinceDateString,
+  daysSinceTimestamp,
+  probabilityToOdds,
+  oddsToProbability,
+  wilsonLowerBoundProbability,
+  enumerateDenominationFillOptions,
+  isHebRetailer,
+  isGasRetailer,
+  objectiveModeTitle,
+  objectiveModeShortLabel,
+  recommendationTargetLabel,
+  rankGames,
+  buildBudgetPlan
+} from './utils/lotteryMath';\n\nconst dataset = datasetJson as Dataset;
 const history = historyJson as HistoryDataset;
 
 const currency = new Intl.NumberFormat('en-US', {
@@ -875,162 +724,17 @@ export default function AppAlpha() {
     objectiveMode === 'jackpotTop' ? 'topPrize' : objectiveMode === 'bestReturn' ? 'expectedValue' : 'highTier';
 
   const allRankedGames = useMemo<RankedGame[]>(() => {
-    const hebWeight = hebMixPercent / 100;
-    const gasWeight = gasMixPercent / 100;
-    const claimsValues = Object.values(zipActivity.byGame).map(
-      (entry) => entry.hebClaims * hebWeight + entry.gasClaims * gasWeight,
-    );
-    const maxLocalClaims = claimsValues.length > 0 ? Math.max(...claimsValues) : 0;
-
-    const mapped = dataset.games.map((game) => {
-      const highTierThreshold = game.ticketPrice * targetPrizeMultiplier;
-      const highTierRemaining = game.prizeLevels
-        .filter((level) => level.amount >= highTierThreshold)
-        .reduce((sum, level) => sum + level.remainingPrizes, 0);
-      const approxTickets =
-        game.approxTicketsInGame && Number.isFinite(game.approxTicketsInGame) && game.approxTicketsInGame > 0
-          ? Math.round(game.approxTicketsInGame)
-          : null;
-
-      const highTierOddsOneIn =
-        approxTickets && highTierRemaining > 0 ? approxTickets / highTierRemaining : null;
-      const highTierProbabilityPerTicket = oddsToProbability(highTierOddsOneIn);
-      const topPrizeProbabilityPerTicket = oddsToProbability(game.topPrizeOddsOneIn);
-
-      const local = zipActivity.byGame[game.gameNumber] ?? null;
-      const localClaims = local?.claims ?? 0;
-      const localHebClaims = local?.hebClaims ?? 0;
-      const localGasClaims = local?.gasClaims ?? 0;
-      const localOtherClaims = local?.otherClaims ?? 0;
-      const localSignalScore = localHebClaims * hebWeight + localGasClaims * gasWeight;
-      const localNormalized = maxLocalClaims > 0 ? localSignalScore / maxLocalClaims : 0;
-      const signalSampleConfidence = hasZipActivity ? 1 - Math.exp(-localSignalScore / 12) : 0;
-      const localAgeDays = daysSinceTimestamp(local?.lastPaid ?? null);
-      const localRecencyConfidence = localAgeDays === null ? 0.55 : clampNumber(Math.exp(-localAgeDays / 180), 0.45, 1);
-      const localConfidence =
-        localSort && hasZipActivity
-          ? clampNumber(0.45 + signalSampleConfidence * localRecencyConfidence * 0.55, 0.45, 1)
-          : 1;
-
-      const dataAsOfDate = game.detailsAsOfDate ?? dataset.source.csvAsOfDate;
-      const dataAgeDays = daysSinceDateString(dataAsOfDate);
-      const freshnessConfidence =
-        dataAgeDays === null ? 0.8 : clampNumber(Math.exp(-Math.max(dataAgeDays - 14, 0) / 180), 0.62, 1);
-      const evidenceConfidence = approxTickets ? clampNumber(Math.log10(approxTickets + 10) / 6, 0.62, 1) : 0.62;
-      const confidenceFactor = clampNumber(
-        freshnessConfidence * evidenceConfidence * (localSort && hasZipActivity ? localConfidence : 1),
-        0.2,
-        1,
-      );
-
-      const highTierLowerBoundProbability = approxTickets
-        ? wilsonLowerBoundProbability(highTierRemaining, approxTickets)
-        : 0;
-      const topPrizeLowerBoundProbability = approxTickets
-        ? wilsonLowerBoundProbability(game.topPrizesRemaining, approxTickets)
-        : 0;
-      const anyPrizeLowerBoundProbability = approxTickets
-        ? wilsonLowerBoundProbability(game.totalWinningTicketsRemaining, approxTickets)
-        : 0;
-
-      const confidenceAdjustedHighPrizeProbability = highTierLowerBoundProbability * confidenceFactor;
-      const confidenceAdjustedTopPrizeProbability = topPrizeLowerBoundProbability * confidenceFactor;
-      const confidenceAdjustedAnyPrizeProbability = anyPrizeLowerBoundProbability * confidenceFactor;
-
-      const highTierLowerBoundOddsOneIn = probabilityToOdds(confidenceAdjustedHighPrizeProbability);
-      const topPrizeLowerBoundOddsOneIn = probabilityToOdds(confidenceAdjustedTopPrizeProbability);
-      const anyPrizeLowerBoundOddsOneIn = probabilityToOdds(confidenceAdjustedAnyPrizeProbability);
-
-      const rawExpectedValuePerTicket =
-        approxTickets && approxTickets > 0
-          ? game.prizeLevels.reduce((sum, level) => sum + level.amount * (level.remainingPrizes / approxTickets), 0)
-          : 0;
-      const rawReturnPerDollar = game.ticketPrice > 0 ? rawExpectedValuePerTicket / game.ticketPrice : 0;
-      const conservativeExpectedValuePerTicket =
-        approxTickets && approxTickets > 0
-          ? game.prizeLevels.reduce(
-              (sum, level) => sum + level.amount * wilsonLowerBoundProbability(level.remainingPrizes, approxTickets),
-              0,
-            ) * confidenceFactor
-          : 0;
-      const conservativeExpectedNetPerTicket = conservativeExpectedValuePerTicket - game.ticketPrice;
-      const conservativeReturnPerDollar =
-        game.ticketPrice > 0 ? conservativeExpectedValuePerTicket / game.ticketPrice : 0;
-
-      let objectiveLabel = `${targetPrizeMultiplier}x+ Prize Odds`;
-      let objectiveBaseOddsOneIn: number | null = highTierOddsOneIn;
-      let objectiveConservativeOddsOneIn: number | null = highTierLowerBoundOddsOneIn;
-      let objectiveScore: number | null = confidenceAdjustedHighPrizeProbability;
-
-      if (objectiveMode === 'jackpotTop') {
-        objectiveLabel = 'Top Prize Odds';
-        objectiveBaseOddsOneIn = game.topPrizeOddsOneIn;
-        objectiveConservativeOddsOneIn = topPrizeLowerBoundOddsOneIn;
-        objectiveScore = confidenceAdjustedTopPrizeProbability;
-      } else if (objectiveMode === 'bestReturn') {
-        objectiveLabel = 'Expected Return';
-        objectiveBaseOddsOneIn = null;
-        objectiveConservativeOddsOneIn = null;
-        objectiveScore = conservativeReturnPerDollar > 0 ? conservativeReturnPerDollar : null;
-      }
-
-      const localBoostFactor = 1 + localNormalized * localConfidence * 0.22;
-      const localWeightedObjectiveScore =
-        objectiveScore !== null ? objectiveScore * (localSort && hasZipActivity ? localBoostFactor : 1) : null;
-
-      return {
-        ...game,
-        highTierThreshold,
-        highTierRemaining,
-        highTierOddsOneIn,
-        highTierLowerBoundOddsOneIn,
-        topPrizeLowerBoundOddsOneIn,
-        anyPrizeLowerBoundOddsOneIn,
-        highTierProbabilityPerTicket,
-        topPrizeProbabilityPerTicket,
-        confidenceAdjustedHighPrizeProbability,
-        confidenceAdjustedTopPrizeProbability,
-        rawExpectedValuePerTicket,
-        rawReturnPerDollar,
-        conservativeExpectedValuePerTicket,
-        conservativeExpectedNetPerTicket,
-        conservativeReturnPerDollar,
-        objectiveLabel,
-        objectiveBaseOddsOneIn,
-        objectiveConservativeOddsOneIn,
-        objectiveScore,
-        localClaims,
-        localHebClaims,
-        localGasClaims,
-        localOtherClaims,
-        localSignalScore,
-        localLastPaid: local?.lastPaid ?? null,
-        freshnessConfidence,
-        evidenceConfidence,
-        localConfidence,
-        confidenceFactor,
-        localBoostFactor,
-        localWeightedObjectiveScore,
-      };
+    return rankGames({
+      datasetGames: dataset.games,
+      zipActivityByGame: zipActivity.byGame,
+      hebMixPercent,
+      gasMixPercent,
+      localSort,
+      hasZipActivity,
+      objectiveMode,
+      targetPrizeMultiplier,
+      csvAsOfDate: dataset.source.csvAsOfDate
     });
-
-    mapped.sort((a, b) => {
-      const aMetric = localSort && hasZipActivity ? a.localWeightedObjectiveScore : a.objectiveScore;
-      const bMetric = localSort && hasZipActivity ? b.localWeightedObjectiveScore : b.objectiveScore;
-
-      if (aMetric === null && bMetric !== null) return 1;
-      if (aMetric !== null && bMetric === null) return -1;
-      if (aMetric !== null && bMetric !== null && aMetric !== bMetric) return bMetric - aMetric;
-
-      if (b.localSignalScore !== a.localSignalScore) return b.localSignalScore - a.localSignalScore;
-      if (b.localClaims !== a.localClaims) return b.localClaims - a.localClaims;
-      if (b.topPrizeAmount !== a.topPrizeAmount) return b.topPrizeAmount - a.topPrizeAmount;
-      if (b.topPrizesRemaining !== a.topPrizesRemaining) return b.topPrizesRemaining - a.topPrizesRemaining;
-
-      return a.gameNumber.localeCompare(b.gameNumber, undefined, { numeric: true });
-    });
-
-    return mapped;
   }, [
     gasMixPercent,
     hasZipActivity,
