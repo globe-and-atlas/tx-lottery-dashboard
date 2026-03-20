@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-20T05:00:03.063Z",
+  "updatedAt": "2026-03-20T15:15:22.037Z",
   "snapshots": [
     {
       "date": "2026-02-21",
@@ -1071,17 +1071,17 @@
     },
     {
       "date": "2026-03-20",
-      "generatedAt": "2026-03-20T05:00:03.063Z",
-      "csvAsOfDate": "2026-03-18",
+      "generatedAt": "2026-03-20T15:15:22.037Z",
+      "csvAsOfDate": "2026-03-19",
       "totalGames": 90,
-      "totalTopPrizesRemaining": 9627,
+      "totalTopPrizesRemaining": 6726,
       "bestOverall": {
-        "gameNumber": "2627",
-        "gameName": "$5 Million Titanium Black",
-        "ticketPrice": 100,
-        "topPrizeAmount": 2500,
-        "topPrizesRemaining": 2593,
-        "topPrizeOddsOneIn": 2163.8064018511377
+        "gameNumber": "2637",
+        "gameName": "$50, $100 OR $500!",
+        "ticketPrice": 10,
+        "topPrizeAmount": 500,
+        "topPrizesRemaining": 4082,
+        "topPrizeOddsOneIn": 1006.0090641842235
       },
       "bestByPrice": [
         {
@@ -1089,48 +1089,48 @@
           "gameNumber": "2710",
           "gameName": "9s In A Line",
           "topPrizeAmount": 500,
-          "topPrizesRemaining": 122,
-          "topPrizeOddsOneIn": 160512.29508196723
+          "topPrizesRemaining": 119,
+          "topPrizeOddsOneIn": 121225.81512605042
         },
         {
           "ticketPrice": 2,
-          "gameNumber": "2646",
-          "gameName": "20X The Money",
-          "topPrizeAmount": 1000,
-          "topPrizesRemaining": 14,
-          "topPrizeOddsOneIn": 638330.3571428572
+          "gameNumber": "2692",
+          "gameName": "Patriotic Payout",
+          "topPrizeAmount": 30000,
+          "topPrizesRemaining": 3,
+          "topPrizeOddsOneIn": 963840.3333333334
         },
         {
           "ticketPrice": 3,
-          "gameNumber": "2711",
-          "gameName": "30X The Cash Word Search",
-          "topPrizeAmount": 60000,
-          "topPrizesRemaining": 5,
-          "topPrizeOddsOneIn": 3441125
+          "gameNumber": "2697",
+          "gameName": "Holiday Word Blast",
+          "topPrizeAmount": 50000,
+          "topPrizesRemaining": 1,
+          "topPrizeOddsOneIn": 1882150
         },
         {
           "ticketPrice": 5,
           "gameNumber": "2742",
           "gameName": "$500 Frenzy",
           "topPrizeAmount": 500,
-          "topPrizesRemaining": 519,
-          "topPrizeOddsOneIn": 9817.91907514451
+          "topPrizesRemaining": 510,
+          "topPrizeOddsOneIn": 1773.6274509803923
         },
         {
           "ticketPrice": 10,
           "gameNumber": "2637",
           "gameName": "$50, $100 OR $500!",
           "topPrizeAmount": 500,
-          "topPrizesRemaining": 4091,
-          "topPrizeOddsOneIn": 2461.5741872402837
+          "topPrizesRemaining": 4082,
+          "topPrizeOddsOneIn": 1006.0090641842235
         },
         {
           "ticketPrice": 20,
           "gameNumber": "2609",
           "gameName": "$100, $200, $500 OR $1,000!",
           "topPrizeAmount": 1000,
-          "topPrizesRemaining": 1733,
-          "topPrizeOddsOneIn": 4696.581073283323
+          "topPrizesRemaining": 1731,
+          "topPrizeOddsOneIn": 1619.5880993645292
         },
         {
           "ticketPrice": 30,
@@ -1138,7 +1138,7 @@
           "gameName": "Premier Play",
           "topPrizeAmount": 1000000,
           "topPrizesRemaining": 7,
-          "topPrizeOddsOneIn": 872460.7142857143
+          "topPrizeOddsOneIn": 521266.85714285716
         },
         {
           "ticketPrice": 50,
@@ -1146,15 +1146,15 @@
           "gameName": "Casino Millions",
           "topPrizeAmount": 1000000,
           "topPrizesRemaining": 9,
-          "topPrizeOddsOneIn": 555824.4444444445
+          "topPrizeOddsOneIn": 456701.44444444444
         },
         {
           "ticketPrice": 100,
-          "gameNumber": "2627",
-          "gameName": "$5 Million Titanium Black",
-          "topPrizeAmount": 2500,
-          "topPrizesRemaining": 2593,
-          "topPrizeOddsOneIn": 2163.8064018511377
+          "gameNumber": "2588",
+          "gameName": "$400 Million Mega Bucks",
+          "topPrizeAmount": 5000000,
+          "topPrizesRemaining": 2,
+          "topPrizeOddsOneIn": 349705
         }
       ]
     }
