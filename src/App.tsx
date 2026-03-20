@@ -35,7 +35,9 @@ import {
   recommendationTargetLabel,
   rankGames,
   buildBudgetPlan
-} from './utils/lotteryMath';\n\nconst dataset = datasetJson as Dataset;
+} from './utils/lotteryMath';
+
+const dataset = datasetJson as Dataset;
 const history = historyJson as HistoryDataset;
 
 const currency = new Intl.NumberFormat('en-US', {

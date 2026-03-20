@@ -21,6 +21,38 @@ const clampInt = (value, fallback, min, max) => {
   return Math.min(Math.max(parsed, min), max);
 };
 
+const clamp = (value, min, max) => Math.min(max, Math.max(min, value));
+
+const WILSON_Z_80 = 1.2815515655446004;
+
+const wilsonLowerBound = (successes, totalTrials, z = WILSON_Z_80) => {
+  if (!Number.isFinite(successes) || !Number.isFinite(totalTrials) || totalTrials <= 0 || successes <= 0) return 0;
+  const bounded = Math.min(successes, totalTrials);
+  const pHat = bounded / totalTrials;
+  const z2 = z * z;
+  const denominator = 1 + z2 / totalTrials;
+  const center = pHat + z2 / (2 * totalTrials);
+  const margin = z * Math.sqrt((pHat * (1 - pHat) + z2 / (4 * totalTrials)) / totalTrials);
+  return clamp((center - margin) / denominator, 0, 1);
+};
+
+const daysSinceDate = (isoDate) => {
+  if (!isoDate) return null;
+  const parsed = new Date(`${isoDate}T00:00:00`);
+  if (Number.isNaN(parsed.getTime())) return null;
+  return Math.max(0, Math.floor((Date.now() - parsed.getTime()) / 86400000));
+};
+
+const computeConfidenceFactor = (game, csvAsOfDate) => {
+  const dataAsOfDate = game.detailsAsOfDate ?? csvAsOfDate;
+  const dataAgeDays = daysSinceDate(dataAsOfDate);
+  const freshness = dataAgeDays === null ? 0.8 : clamp(Math.exp(-Math.max(dataAgeDays - 14, 0) / 180), 0.62, 1);
+  const evidence = game.approxTicketsInGame
+    ? clamp(Math.log10(game.approxTicketsInGame + 10) / 6, 0.62, 1)
+    : 0.62;
+  return clamp(freshness * evidence, 0.2, 1);
+};
+
 const loadDataset = async () => {
   const raw = await readFile(dataPath, 'utf-8');
   return JSON.parse(raw);
@@ -76,6 +108,7 @@ const fetchZipActivity = async (zipCode) => {
 };
 
 const buildBudgetRecommendation = ({ dataset, zipActivity, budget, multiplier, ticketPrice, target }) => {
+  const csvAsOfDate = dataset.source?.csvAsOfDate ?? null;
   const recommendationTarget = target === 'topPrize' ? 'topPrize' : 'highTier';
 
   const allGames = dataset.games
@@ -86,22 +119,48 @@ const buildBudgetRecommendation = ({ dataset, zipActivity, budget, multiplier, t
         .filter((level) => level.amount >= threshold)
         .reduce((sum, level) => sum + level.remainingPrizes, 0);
 
+      // Fix: use estimated remaining tickets (consistent with frontend), not the static print run
+      const estimatedTicketsRemaining =
+        game.overallOddsOneIn && game.totalWinningTicketsRemaining > 0
+          ? Math.round(game.totalWinningTicketsRemaining * game.overallOddsOneIn)
+          : game.approxTicketsInGame && game.totalWinningTicketsPrinted > 0
+            ? Math.round(game.approxTicketsInGame * (game.totalWinningTicketsRemaining / game.totalWinningTicketsPrinted))
+            : null;
+
       const highTierOddsOneIn =
-        game.approxTicketsInGame && highTierRemaining > 0 ? game.approxTicketsInGame / highTierRemaining : null;
+        estimatedTicketsRemaining && highTierRemaining > 0
+          ? estimatedTicketsRemaining / highTierRemaining
+          : null;
+
+      // Confidence factors (aligned with frontend)
+      const confidenceFactor = computeConfidenceFactor(game, csvAsOfDate);
+
+      // Wilson-adjusted probabilities (aligned with frontend)
+      const highTierProbability =
+        estimatedTicketsRemaining && estimatedTicketsRemaining > 0
+          ? wilsonLowerBound(highTierRemaining, estimatedTicketsRemaining) * confidenceFactor
+          : 0;
+      const topPrizeProbability =
+        estimatedTicketsRemaining && estimatedTicketsRemaining > 0 && game.topPrizesRemaining > 0
+          ? wilsonLowerBound(game.topPrizesRemaining, estimatedTicketsRemaining) * confidenceFactor
+          : 0;
 
       return {
         ...game,
         highTierRemaining,
+        estimatedTicketsRemaining,
         highTierOddsOneIn,
+        highTierProbability,
+        topPrizeProbability,
         localClaims: zipActivity.byGame[game.gameNumber]?.claims ?? 0,
       };
     })
     .filter((game) => {
       if (game.ticketPrice > budget) return false;
       if (recommendationTarget === 'topPrize') {
-        return game.topPrizeOddsOneIn !== null && game.topPrizesRemaining > 0;
+        return game.topPrizeProbability > 0;
       }
-      return game.highTierOddsOneIn !== null && game.highTierRemaining > 0;
+      return game.highTierProbability > 0;
     });
 
   if (!allGames.length) {
@@ -114,11 +173,12 @@ const buildBudgetRecommendation = ({ dataset, zipActivity, budget, multiplier, t
   const maxLocalClaims = Math.max(...pool.map((game) => game.localClaims), 0);
   const entries = pool
     .map((game) => {
-      const highTierP = game.highTierOddsOneIn ? 1 / game.highTierOddsOneIn : 0;
-      const topPrizeP = game.topPrizeOddsOneIn ? 1 / game.topPrizeOddsOneIn : 0;
+      const highTierP = game.highTierProbability;
+      const topPrizeP = game.topPrizeProbability;
       const p = recommendationTarget === 'topPrize' ? topPrizeP : highTierP;
       const normalized = maxLocalClaims > 0 ? game.localClaims / maxLocalClaims : 0;
-      const adjusted = Math.min(p * (1 + normalized * 0.25), 0.95);
+      // Fix: aligned with frontend — 20% max boost (was 25%), no uncapped raw probability
+      const adjusted = Math.min(p * (1 + normalized * 0.20), 0.95);
       const utility = -Math.log(Math.max(1 - adjusted, 1e-12));
       return { game, p, highTierP, topPrizeP, utility };
     })
@@ -179,6 +239,8 @@ const buildBudgetRecommendation = ({ dataset, zipActivity, budget, multiplier, t
         highTierOddsOneIn: entry.game.highTierOddsOneIn,
         topPrizeOddsOneIn: entry.game.topPrizeOddsOneIn,
         targetProbabilityPerTicket: entry.p,
+        highTierProbabilityPerTicket: entry.highTierP,
+        topPrizeProbabilityPerTicket: entry.topPrizeP,
       };
     })
     .sort((a, b) => b.spend - a.spend);
@@ -189,18 +251,17 @@ const buildBudgetRecommendation = ({ dataset, zipActivity, budget, multiplier, t
       return failure * (1 - line.targetProbabilityPerTicket) ** line.ticketCount;
     }, 1);
 
+  // Use Wilson-adjusted probabilities (consistent with frontend)
   const highPrizeHitProbability =
     1 -
     lines.reduce((failure, line) => {
-      const p = line.highTierOddsOneIn ? 1 / line.highTierOddsOneIn : 0;
-      return failure * (1 - p) ** line.ticketCount;
+      return failure * (1 - line.highTierProbabilityPerTicket) ** line.ticketCount;
     }, 1);
 
   const topPrizeHitProbability =
     1 -
     lines.reduce((failure, line) => {
-      const p = line.topPrizeOddsOneIn ? 1 / line.topPrizeOddsOneIn : 0;
-      return failure * (1 - p) ** line.ticketCount;
+      return failure * (1 - line.topPrizeProbabilityPerTicket) ** line.ticketCount;
     }, 1);
 
   return {

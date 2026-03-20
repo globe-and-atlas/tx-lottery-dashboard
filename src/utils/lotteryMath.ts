@@ -262,7 +262,7 @@ export const enumerateDenominationFillOptions = (remainder: number, ticketPrices
 export const isHebRetailer = (name: string) => /\bH[\s-]?E[\s-]?B\b|CENTRAL\s+MARKET/i.test(name);
 
 export const isGasRetailer = (name: string) =>
-  /SHELL|CHEVRON|EXXON|MOBIL|TEXACO|VALERO|CIRCLE\s*K|7-?ELEVEN|STRIPES|RACETRAC|RACEWAY|QT\b|QUICKTRIP|SUNOCO|ARCO|BP\b|CONOCO|PHILLIPS\s*66|FOOD\s*MART|MINI\s*MART|CONVENIENCE|GAS/i.test(name);
+  /SHELL|CHEVRON|EXXON|MOBIL|TEXACO|VALERO|CIRCLE\s*K|7-?ELEVEN|STRIPES|RACETRAC|RACEWAY|QT\b|QUICKTRIP|SUNOCO|ARCO|BP\b|CONOCO|PHILLIPS\s*66|MURPHY\s*(USA|EXPRESS)?|FOOD\s*MART|MINI\s*MART|CONVENIENCE|GAS/i.test(name);
 
 export const objectiveModeTitle = (objectiveMode: ObjectiveMode, targetMultiplier: number) => {
   if (objectiveMode === 'jackpotTop') return 'Hit Top Prize (Jackpot Mode)';
@@ -506,12 +506,7 @@ export const buildBudgetPlan = (params: {
 
       let utility = 0;
       if (recommendationTarget === 'expectedValue') {
-        const objModeLabel = game.objectiveLabel;
-        if (objModeLabel === 'Expected Return') {
-          utility = game.conservativeReturnPerDollar * localMultiplier;
-        } else {
-          utility = game.conservativeExpectedNetPerTicket * localMultiplier;
-        }
+        utility = game.conservativeReturnPerDollar * localMultiplier;
       } else {
         utility = -Math.log(Math.max(1 - targetProbabilityPerTicket, 1e-12));
       }
