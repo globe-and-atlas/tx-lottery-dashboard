@@ -3,7 +3,7 @@ import datasetJson from './data/lottery-data.json';
 import historyJson from './data/lottery-history.json';
 import './AppGenz.css';
 
-import {
+import type {
   PrizeLevel,
   Game,
   Dataset,
@@ -20,6 +20,8 @@ import {
   BudgetPlanLine,
   BudgetPlan,
   BudgetPlanScenario,
+} from './utils/lotteryMath';
+import {
   WILSON_Z_80,
   clampNumber,
   daysSinceDateString,
@@ -34,7 +36,7 @@ import {
   objectiveModeShortLabel,
   recommendationTargetLabel,
   rankGames,
-  buildBudgetPlan
+  buildBudgetPlan,
 } from './utils/lotteryMath';
 
 const dataset = datasetJson as Dataset;
@@ -108,269 +110,6 @@ const monthLabel = (monthIso: string) => {
   const date = new Date(monthIso);
   if (Number.isNaN(date.getTime())) return monthIso;
   return date.toLocaleDateString('en-US', { month: 'short', year: '2-digit' });
-};
-
-const clampNumber = (value: number, min: number, max: number) => Math.min(max, Math.max(min, value));
-
-const daysSinceDateString = (isoDate: string | null) => {
-  if (!isoDate) return null;
-  const parsed = new Date(`${isoDate}T00:00:00`);
-  if (Number.isNaN(parsed.getTime())) return null;
-  const now = new Date();
-  const diff = now.getTime() - parsed.getTime();
-  return Math.max(0, Math.floor(diff / (1000 * 60 * 60 * 24)));
-};
-
-const daysSinceTimestamp = (isoTimestamp: string | null) => {
-  if (!isoTimestamp) return null;
-  const parsed = new Date(isoTimestamp);
-  if (Number.isNaN(parsed.getTime())) return null;
-  const now = new Date();
-  const diff = now.getTime() - parsed.getTime();
-  return Math.max(0, Math.floor(diff / (1000 * 60 * 60 * 24)));
-};
-
-const probabilityToOdds = (probability: number) => {
-  if (!Number.isFinite(probability) || probability <= 0) return null;
-  return 1 / probability;
-};
-
-const oddsToProbability = (odds: number | null) => {
-  if (!odds || !Number.isFinite(odds) || odds <= 0) return 0;
-  return 1 / odds;
-};
-
-const enumerateDenominationFillOptions = (remainder: number, ticketPrices: number[], limit = 3) => {
-  if (remainder <= 0) return [] as string[];
-
-  const usablePrices = [...new Set(ticketPrices.filter((price) => price > 0 && price <= remainder))].sort(
-    (a, b) => b - a,
-  );
-  const solutions: string[] = [];
-
-  const dfs = (startIndex: number, remaining: number, picks: number[]) => {
-    if (solutions.length >= limit) return;
-    if (remaining === 0) {
-      const counts = new Map<number, number>();
-      picks.forEach((price) => counts.set(price, (counts.get(price) ?? 0) + 1));
-      const label = [...counts.entries()]
-        .sort((a, b) => b[0] - a[0])
-        .map(([price, count]) => `${count}x ${currency.format(price)}`)
-        .join(' + ');
-      solutions.push(label);
-      return;
-    }
-
-    for (let index = startIndex; index < usablePrices.length; index += 1) {
-      const price = usablePrices[index];
-      if (price > remaining) continue;
-      picks.push(price);
-      dfs(index, remaining - price, picks);
-      picks.pop();
-      if (solutions.length >= limit) return;
-    }
-  };
-
-  dfs(0, remainder, []);
-  return solutions;
-};
-
-const isHebRetailer = (name: string) => /\bH[\s-]?E[\s-]?B\b|CENTRAL\s+MARKET/i.test(name);
-
-const isGasRetailer = (name: string) =>
-  /SHELL|CHEVRON|EXXON|MOBIL|TEXACO|VALERO|CIRCLE\s*K|7-?ELEVEN|STRIPES|RACETRAC|RACEWAY|QT\b|QUICKTRIP|SUNOCO|ARCO|BP\b|CONOCO|PHILLIPS\s*66|FOOD\s*MART|MINI\s*MART|CONVENIENCE|GAS/i.test(
-    name,
-  );
-
-const objectiveModeTitle = (objectiveMode: ObjectiveMode, targetMultiplier: number) => {
-  if (objectiveMode === 'jackpotTop') return 'Hit Top Prize (Jackpot Mode)';
-  if (objectiveMode === 'bestReturn') return 'Best Return (EV Mode)';
-  return `Hit ${targetMultiplier}x+ Prize (Probability Mode)`;
-};
-
-const objectiveModeShortLabel = (objectiveMode: ObjectiveMode, targetMultiplier: number) => {
-  if (objectiveMode === 'jackpotTop') return 'Top Prize';
-  if (objectiveMode === 'bestReturn') return 'Best Return';
-  return `${targetMultiplier}x+ Prize`;
-};
-
-const recommendationTargetLabel = (target: RecommendationTarget, targetMultiplier: number) => {
-  if (target === 'topPrize') return 'Top Prize';
-  if (target === 'expectedValue') return 'Expected Return';
-  return `${targetMultiplier}x+ Prize`;
-};
-
-const buildBudgetPlan = (params: {
-  budget: number;
-  games: RankedGame[];
-  recommendationTarget: RecommendationTarget;
-  targetMultiplier: number;
-  applyLocalBoost: boolean;
-  requireExactSpend?: boolean;
-}) => {
-  const { budget, games, recommendationTarget, targetMultiplier, applyLocalBoost, requireExactSpend = false } = params;
-
-  const validGames = games.filter((game) => {
-    if (game.ticketPrice > budget) return false;
-    if (recommendationTarget === 'topPrize') {
-      return game.confidenceAdjustedTopPrizeProbability > 0;
-    }
-    if (recommendationTarget === 'expectedValue') {
-      return game.conservativeExpectedValuePerTicket > 0;
-    }
-
-    return game.confidenceAdjustedHighPrizeProbability > 0;
-  });
-
-  if (!validGames.length) return null;
-
-  const localGamesInPool = validGames.filter((game) => game.localSignalScore > 0).length;
-  const pool = validGames;
-
-  const maxClaims = Math.max(...pool.map((game) => game.localSignalScore), 0);
-
-  const entries = pool
-    .map((game) => {
-      const localNormalized = applyLocalBoost && maxClaims > 0 ? game.localSignalScore / maxClaims : 0;
-      const localMultiplier = 1 + localNormalized * game.localConfidence * 0.2;
-
-      const highPrizeProbabilityPerTicket = Math.min(game.confidenceAdjustedHighPrizeProbability * localMultiplier, 0.95);
-      const topPrizeProbabilityPerTicket = Math.min(game.confidenceAdjustedTopPrizeProbability * localMultiplier, 0.95);
-      const targetProbabilityPerTicket =
-        recommendationTarget === 'topPrize' ? topPrizeProbabilityPerTicket : highPrizeProbabilityPerTicket;
-      const expectedPayoutPerTicket = game.conservativeExpectedValuePerTicket;
-      const expectedNetPerTicket = game.conservativeExpectedNetPerTicket;
-
-      const utility =
-        recommendationTarget === 'expectedValue'
-          ? expectedPayoutPerTicket * localMultiplier
-          : -Math.log(Math.max(1 - targetProbabilityPerTicket, 1e-12));
-
-      return {
-        game,
-        targetProbabilityPerTicket,
-        highPrizeProbabilityPerTicket,
-        topPrizeProbabilityPerTicket,
-        expectedPayoutPerTicket,
-        expectedNetPerTicket,
-        utility,
-      };
-    })
-    .filter((entry) => Number.isFinite(entry.utility) && entry.utility > 0);
-
-  if (!entries.length) return null;
-
-  const dp: Array<{ score: number; picks: Map<number, number> } | null> = Array.from(
-    { length: budget + 1 },
-    () => null,
-  );
-  dp[0] = { score: 0, picks: new Map() };
-
-  for (let spend = 1; spend <= budget; spend += 1) {
-    let best: { score: number; picks: Map<number, number> } | null = null;
-
-    entries.forEach((entry, index) => {
-      const cost = entry.game.ticketPrice;
-      if (cost > spend) return;
-
-      const previous = dp[spend - cost];
-      if (!previous) return;
-
-      const nextScore = previous.score + entry.utility;
-      if (!best || nextScore > best.score) {
-        const picks = new Map(previous.picks);
-        picks.set(index, (picks.get(index) ?? 0) + 1);
-        best = { score: nextScore, picks };
-      }
-    });
-
-    dp[spend] = best;
-  }
-
-  let finalSpend = 0;
-  let finalPlan: { score: number; picks: Map<number, number> } | null = null;
-
-  const exactCandidate = dp[budget];
-  if (exactCandidate && exactCandidate.picks.size > 0) {
-    finalPlan = exactCandidate;
-    finalSpend = budget;
-  } else if (!requireExactSpend) {
-    for (let spend = 0; spend < dp.length; spend += 1) {
-      const candidate = dp[spend];
-      if (!candidate || candidate.picks.size === 0) continue;
-      if (!finalPlan || candidate.score > finalPlan.score) {
-        finalPlan = candidate;
-        finalSpend = spend;
-      }
-    }
-  }
-
-  if (!finalPlan) return null;
-
-  const lines = Array.from(finalPlan.picks.entries())
-    .map(([entryIndex, ticketCount]) => {
-      const entry = entries[entryIndex];
-      return {
-        game: entry.game,
-        ticketCount,
-        spend: entry.game.ticketPrice * ticketCount,
-        targetProbabilityPerTicket: entry.targetProbabilityPerTicket,
-        highPrizeProbabilityPerTicket: entry.highPrizeProbabilityPerTicket,
-        topPrizeProbabilityPerTicket: entry.topPrizeProbabilityPerTicket,
-        expectedPayoutPerTicket: entry.expectedPayoutPerTicket,
-        expectedNetPerTicket: entry.expectedNetPerTicket,
-      };
-    })
-    .sort((a, b) => b.spend - a.spend);
-
-  const estimatedPrimaryChance =
-    1 -
-    lines.reduce((failure, line) => failure * (1 - line.targetProbabilityPerTicket) ** line.ticketCount, 1);
-
-  const estimatedHighPrizeChance =
-    1 -
-    lines.reduce(
-      (failure, line) => failure * (1 - line.highPrizeProbabilityPerTicket) ** line.ticketCount,
-      1,
-    );
-
-  const estimatedTopPrizeChance =
-    1 -
-    lines.reduce(
-      (failure, line) => failure * (1 - line.topPrizeProbabilityPerTicket) ** line.ticketCount,
-      1,
-    );
-
-  const expectedPrimaryWins = lines.reduce(
-    (sum, line) => sum + line.ticketCount * line.targetProbabilityPerTicket,
-    0,
-  );
-  const estimatedExpectedPayout = lines.reduce(
-    (sum, line) => sum + line.ticketCount * line.expectedPayoutPerTicket,
-    0,
-  );
-  const estimatedExpectedNet = estimatedExpectedPayout - finalSpend;
-  const estimatedReturnPerDollar = finalSpend > 0 ? estimatedExpectedPayout / finalSpend : 0;
-
-  return {
-    budget,
-    spent: finalSpend,
-    remainingBudget: Math.max(0, budget - finalSpend),
-    exactSpend: finalSpend === budget,
-    recommendationTarget,
-    targetLabel: recommendationTargetLabel(recommendationTarget, targetMultiplier),
-    estimatedPrimaryChance,
-    estimatedHighPrizeChance,
-    estimatedTopPrizeChance,
-    expectedPrimaryWins,
-    estimatedExpectedPayout,
-    estimatedExpectedNet,
-    estimatedReturnPerDollar,
-    localBoostApplied: applyLocalBoost,
-    localGamesInPool,
-    totalGamesInPool: pool.length,
-    lines,
-  } as BudgetPlan;
 };
 
 function TrendChart({
