@@ -105,6 +105,14 @@ const VARIANTS = [
         desc: '8-Bit MS-DOS pixel art. Equip your inventory and grind for EXP.',
         url: '/index-bit.html',
         badge: 'New'
+    },
+    {
+        id: 'gibson',
+        title: 'Gibson Matrix',
+        icon: '📟',
+        desc: 'Direct neural link to the state lottery grid. Green phosphor, high-risk, high-reward.',
+        url: '/index-gibson.html',
+        badge: 'Hot'
     }
 ];
 

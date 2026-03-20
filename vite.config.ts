@@ -22,6 +22,7 @@ export default defineConfig({
         mom: resolve(__dirname, 'index-mom.html'),
         mystic: resolve(__dirname, 'index-mystic.html'),
         vegas: resolve(__dirname, 'index-vegas.html'),
+        gibson: resolve(__dirname, 'index-gibson.html'),
       },
     },
   },

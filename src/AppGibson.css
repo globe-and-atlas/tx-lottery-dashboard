@@ -1,0 +1,336 @@
+/* AppGibson.css */
+:root {
+  --gib-green: #00ff41;
+  --gib-green-dim: #003b00;
+  --gib-bg: #000100;
+  --gib-accent: #008f11;
+  --gib-glow: 0 0 10px rgba(0, 255, 65, 0.5);
+  --font-mono: 'JetBrains Mono', 'Courier New', Courier, monospace;
+}
+
+@keyframes flicker {
+  0% { opacity: 0.97; }
+  5% { opacity: 0.95; }
+  10% { opacity: 0.9; }
+  15% { opacity: 0.98; }
+  20% { opacity: 0.92; }
+  25% { opacity: 0.97; }
+  30% { opacity: 0.94; }
+  35% { opacity: 0.91; }
+  40% { opacity: 0.99; }
+  45% { opacity: 0.93; }
+  50% { opacity: 0.96; }
+  55% { opacity: 0.92; }
+  60% { opacity: 0.95; }
+  65% { opacity: 0.9; }
+  70% { opacity: 0.98; }
+  75% { opacity: 0.94; }
+  80% { opacity: 0.97; }
+  85% { opacity: 0.91; }
+  90% { opacity: 0.99; }
+  95% { opacity: 0.96; }
+  100% { opacity: 0.97; }
+}
+
+@keyframes scanline {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100%); }
+}
+
+@keyframes textShadow {
+  0% { text-shadow: 0.4389924193300864px 0 1px rgba(0,30,255,0.5), -0.4389924193300864px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
+  5% { text-shadow: 2.7928974010788217px 0 1px rgba(0,30,255,0.5), -2.7928974010788217px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
+  100% { text-shadow: 0.4389924193300864px 0 1px rgba(0,30,255,0.5), -0.4389924193300864px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
+}
+
+body {
+  background-color: var(--gib-bg);
+  color: var(--gib-green);
+  font-family: var(--font-mono);
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.gib-shell {
+  min-height: 100vh;
+  padding: 24px;
+  position: relative;
+  background: radial-gradient(circle, rgba(0, 59, 0, 0.2) 0%, rgba(0, 1, 0, 1) 100%);
+  animation: flicker 0.15s infinite;
+}
+
+.gib-shell::before {
+  content: " ";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+  z-index: 2000;
+  background-size: 100% 2px, 3px 100%;
+  pointer-events: none;
+}
+
+.gib-shell::after {
+  content: " ";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(18, 16, 16, 0.1);
+  opacity: 0;
+  z-index: 2000;
+  pointer-events: none;
+  animation: scanline 8s linear infinite;
+  background: linear-gradient(to bottom, transparent, rgba(0, 255, 65, 0.05) 50%, transparent);
+}
+
+.gib-header {
+  border-bottom: 2px solid var(--gib-green);
+  margin-bottom: 32px;
+  padding-bottom: 16px;
+  text-align: center;
+}
+
+.gib-header h1 {
+  font-size: 3rem;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  animation: textShadow 1.6s infinite;
+}
+
+.gib-header p {
+  font-size: 1rem;
+  opacity: 0.8;
+}
+
+.gib-panel {
+  border: 1.5px solid var(--gib-green);
+  padding: 24px;
+  background: rgba(0, 59, 0, 0.05);
+  box-shadow: inset 0 0 15px rgba(0, 255, 65, 0.1);
+  margin-bottom: 32px;
+  position: relative;
+}
+
+.gib-panel::before {
+  content: "[ SYSTEM_CORE ]";
+  position: absolute;
+  top: -10px;
+  left: 20px;
+  background: var(--gib-bg);
+  padding: 0 8px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.gib-control-group {
+  margin-bottom: 24px;
+}
+
+.gib-control-group label {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  color: var(--gib-green);
+  opacity: 0.7;
+}
+
+.gib-input {
+  background: var(--gib-bg);
+  border: 1px solid var(--gib-green);
+  color: var(--gib-green);
+  padding: 8px 12px;
+  font-family: var(--font-mono);
+  font-size: 1.2rem;
+  outline: none;
+  box-shadow: var(--gib-glow);
+}
+
+.gib-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.gib-chip {
+  background: transparent;
+  border: 1px solid var(--gib-green);
+  color: var(--gib-green);
+  padding: 6px 16px;
+  cursor: pointer;
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  transition: all 0.2s;
+  text-transform: uppercase;
+}
+
+.gib-chip:hover {
+  background: rgba(0, 255, 65, 0.1);
+}
+
+.gib-chip.active {
+  background: var(--gib-green);
+  color: var(--gib-bg);
+  box-shadow: var(--gib-glow);
+}
+
+.gib-alert {
+  border: 1px dashed var(--gib-green);
+  padding: 16px;
+  margin-top: 24px;
+  background: rgba(0, 255, 65, 0.05);
+  position: relative;
+}
+
+.gib-alert::before {
+  content: "!";
+  position: absolute;
+  left: -8px;
+  top: -8px;
+  background: var(--gib-green);
+  color: var(--gib-bg);
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.gib-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-bottom: 24px;
+}
+
+.gib-tabs button {
+  background: none;
+  border: none;
+  color: var(--gib-green);
+  font-family: var(--font-mono);
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 8px 16px;
+  text-transform: uppercase;
+  position: relative;
+  opacity: 0.6;
+}
+
+.gib-tabs button.active {
+  opacity: 1;
+  font-weight: bold;
+}
+
+.gib-tabs button.active::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--gib-green);
+  box-shadow: var(--gib-glow);
+}
+
+.gib-card {
+  border: 1px solid var(--gib-green-dim);
+  padding: 20px;
+  margin-bottom: 16px;
+  background: rgba(0, 59, 0, 0.02);
+  transition: border-color 0.3s;
+}
+
+.gib-card:hover {
+  border-color: var(--gib-green);
+}
+
+.gib-card.highlight {
+  border: 1.5px solid var(--gib-green);
+  background: rgba(0, 255, 65, 0.03);
+}
+
+.gib-card-header {
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 12px;
+  border-bottom: 1px solid var(--gib-green-dim);
+  padding-bottom: 8px;
+}
+
+.gib-picks-list {
+  font-size: 1rem;
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+.gib-metric-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4px;
+  font-size: 0.9rem;
+}
+
+.gib-metric-label {
+  opacity: 0.6;
+}
+
+.gib-metric-val {
+  font-weight: bold;
+}
+
+.gib-metric-val.good {
+  color: #fff;
+  text-shadow: var(--gib-glow);
+}
+
+.gib-rank-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px;
+  border-bottom: 1px solid var(--gib-green-dim);
+}
+
+.gib-rank-number {
+  font-size: 1.5rem;
+  font-weight: 100;
+  width: 40px;
+  text-align: center;
+}
+
+.gib-rank-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.gib-rank-score {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--gib-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--gib-green-dim);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--gib-green);
+}
