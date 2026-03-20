@@ -59,8 +59,6 @@ const percentage = new Intl.NumberFormat('en-US', {
 const BUDGET_SCENARIOS = [5, 10, 20, 40, 50];
 const DEFAULT_PROBABILITY_TARGET_MULTIPLIER = 10;
 const PROBABILITY_TARGET_OPTIONS = [2, 3, 5, 10, 20, 50];
-const WILSON_Z_80 = 1.2815515655446004;
-
 const formatOdds = (odds: number | null) => {
   if (!odds || !Number.isFinite(odds)) {
     return 'N/A';
@@ -140,20 +138,6 @@ const probabilityToOdds = (probability: number) => {
 const oddsToProbability = (odds: number | null) => {
   if (!odds || !Number.isFinite(odds) || odds <= 0) return 0;
   return 1 / odds;
-};
-
-const wilsonLowerBoundProbability = (successes: number, totalTrials: number, z = WILSON_Z_80) => {
-  if (!Number.isFinite(successes) || !Number.isFinite(totalTrials) || totalTrials <= 0 || successes <= 0) {
-    return 0;
-  }
-
-  const boundedSuccesses = clampNumber(successes, 0, totalTrials);
-  const pHat = boundedSuccesses / totalTrials;
-  const z2 = z * z;
-  const denominator = 1 + z2 / totalTrials;
-  const center = pHat + z2 / (2 * totalTrials);
-  const margin = z * Math.sqrt((pHat * (1 - pHat) + z2 / (4 * totalTrials)) / totalTrials);
-  return clampNumber((center - margin) / denominator, 0, 1);
 };
 
 const enumerateDenominationFillOptions = (remainder: number, ticketPrices: number[], limit = 3) => {
