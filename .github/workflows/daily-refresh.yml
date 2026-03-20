@@ -30,8 +30,8 @@ jobs:
         
       - name: Commit & Push Changes
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "dbally@gmail.com"
+          git config --local user.name "Daniel"
           git add src/data/lottery-data.json src/data/lottery-history.json
           git commit -m "chore(data): automated daily automated lottery update" || echo "No changes to commit"
           git push
