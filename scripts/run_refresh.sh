@@ -21,6 +21,7 @@ node scripts/build-lottery-data.mjs >> "$LOG" 2>&1
 echo "Committing and pushing to GitHub (Triggering Vercel deployment)..." >> "$LOG"
 git add src/data/lottery-data.json src/data/lottery-history.json >> "$LOG" 2>&1
 git commit -m "chore(data): Mac local nightly automated data deployment" || echo "No changes" >> "$LOG" 2>&1
+git pull --rebase origin main >> "$LOG" 2>&1
 git push origin main >> "$LOG" 2>&1
 
 echo "Done!" >> "$LOG"
