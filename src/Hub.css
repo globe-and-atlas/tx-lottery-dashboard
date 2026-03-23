@@ -1,11 +1,11 @@
 :root {
-    --hub-bg: #EAE6EC;
-    --hub-text-main: #1C1B1F;
-    --hub-text-sub: #49454E;
-    --hub-accent: #6C5CE7;
-    --hub-surface: #FFFFFF;
+    --hub-bg: #0f0f13;
+    --hub-text-main: #e2e2e8;
+    --hub-text-sub: #8b8b9a;
+    --hub-accent: #8b7cf8;
+    --hub-surface: #1a1a24;
     --hub-radius: 16px;
-    --hub-border: #D0D0D0;
+    --hub-border: #2a2a38;
 }
 
 body {
