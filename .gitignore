@@ -1,3 +1,8 @@
+# Secrets & temp
+.env
+.env.*
+.tmp/
+
 # Logs
 logs
 *.log
