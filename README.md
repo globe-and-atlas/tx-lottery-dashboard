@@ -67,6 +67,56 @@ Lower `1 in N` is better.
 - ZIP activity is used as a weighting signal; games are not hard-excluded for lacking local claims.
 - Missing source values are shown as `N/A`.
 
+## Fork: what to change
+
+### Default ZIP code
+
+The ZIP code used for local retailer activity is hardcoded in two places. Change both if you're adapting this for a different area:
+
+| File | Location | Default |
+|---|---|---|
+| `src/AppAlpha.tsx` | line 197 — `defaultZip` or ZIP state initializer | `77379` |
+| `api/server.mjs` | line 313 — fallback ZIP in the recommendations handler | `77379` |
+
+### API query parameters
+
+The budget recommendations endpoint accepts these parameters:
+
+| Parameter | Type | Description |
+|---|---|---|
+| `budget` | number | Total dollars to spend (e.g. `50`) |
+| `zipCode` | string | ZIP code for nearby retailer weighting |
+| `multiplier` | number | Prize multiplier threshold — used for high-prize odds calculation |
+| `ticketPrice` | string | Filter by ticket price (`1`, `2`, `5`, `10`, `20`, `all`) |
+| `target` | string | Optimization target: omit for default (high-prize), `highTier`, or `topPrize` |
+
+Example:
+```
+GET /api/recommendations?budget=50&zipCode=77379&multiplier=50&ticketPrice=5&target=highTier
+```
+
+### Data source URLs
+
+Live data is fetched from Texas Lottery public endpoints in `scripts/build-lottery-data.mjs`. If Texas Lottery changes its URL structure, update these constants:
+
+- Scratch prize CSV: `https://www.txbingo.org/export/sites/lottery/Games/Scratch_Offs/scratchoff.csv`
+- Current games list: `https://www.txbingo.org/export/sites/lottery/Games/Scratch_Offs/all.html`
+- ZIP winners activity: `https://data.texas.gov/resource/54pj-3dxy.json`
+
+### Themed variants
+
+The dashboard ships 13+ visual themes (Alpha, Alt, Bit, GenZ, Lux, Mass, Mom, Mystic, Neo, Sports, Tac, Vegas, Hub). Each variant is self-contained:
+
+```
+src/AppAlpha.tsx + src/AppAlpha.css + src/main-alpha.tsx + index-alpha.html
+```
+
+To add a new variant: copy an existing set, rename consistently, and add the new entry point to `vite.config.ts` under `build.rollupOptions.input`.
+
+The Hub variant (`src/Hub.tsx`) renders a landing page linking all variants — update it when adding a new theme.
+
+---
+
 ## Wishlist
 
 - Add phone geolocation support to detect nearby retailers and refine recommendations to likely available games at the current location.
