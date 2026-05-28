@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-27T15:49:13.169Z",
+  "updatedAt": "2026-05-28T16:01:42.345Z",
   "snapshots": [
     {
       "date": "2026-03-24",
@@ -1244,6 +1244,95 @@
           "topPrizeAmount": 5000000,
           "topPrizesRemaining": 3,
           "topPrizeOddsOneIn": 1484779.3333333333
+        }
+      ]
+    },
+    {
+      "date": "2026-05-28",
+      "generatedAt": "2026-05-28T16:01:42.345Z",
+      "csvAsOfDate": "2026-05-27",
+      "totalGames": 74,
+      "totalTopPrizesRemaining": 12430,
+      "bestOverall": {
+        "gameNumber": "2637",
+        "gameName": "$50, $100 OR $500!",
+        "ticketPrice": 10,
+        "topPrizeAmount": 500,
+        "topPrizesRemaining": 3198,
+        "topPrizeOddsOneIn": 1002.2220137585991
+      },
+      "bestByPrice": [
+        {
+          "ticketPrice": 1,
+          "gameNumber": "2710",
+          "gameName": "9s In A Line",
+          "topPrizeAmount": 500,
+          "topPrizesRemaining": 69,
+          "topPrizeOddsOneIn": 127275.73913043478
+        },
+        {
+          "ticketPrice": 2,
+          "gameNumber": "2715",
+          "gameName": "Find $200",
+          "topPrizeAmount": 200,
+          "topPrizesRemaining": 7141,
+          "topPrizeOddsOneIn": 1217.5531438173925
+        },
+        {
+          "ticketPrice": 3,
+          "gameNumber": "2662",
+          "gameName": "Cashword",
+          "topPrizeAmount": 50000,
+          "topPrizesRemaining": 11,
+          "topPrizeOddsOneIn": 2055738.9090909092
+        },
+        {
+          "ticketPrice": 5,
+          "gameNumber": "2742",
+          "gameName": "$500 Frenzy",
+          "topPrizeAmount": 500,
+          "topPrizesRemaining": 287,
+          "topPrizeOddsOneIn": 1892.6933797909408
+        },
+        {
+          "ticketPrice": 10,
+          "gameNumber": "2637",
+          "gameName": "$50, $100 OR $500!",
+          "topPrizeAmount": 500,
+          "topPrizesRemaining": 3198,
+          "topPrizeOddsOneIn": 1002.2220137585991
+        },
+        {
+          "ticketPrice": 20,
+          "gameNumber": "2609",
+          "gameName": "$100, $200, $500 OR $1,000!",
+          "topPrizeAmount": 1000,
+          "topPrizesRemaining": 1519,
+          "topPrizeOddsOneIn": 1585.6668861092824
+        },
+        {
+          "ticketPrice": 30,
+          "gameNumber": "2661",
+          "gameName": "Premier Play",
+          "topPrizeAmount": 1000000,
+          "topPrizesRemaining": 6,
+          "topPrizeOddsOneIn": 530333.8333333334
+        },
+        {
+          "ticketPrice": 50,
+          "gameNumber": "2689",
+          "gameName": "Casino Millions",
+          "topPrizeAmount": 1000000,
+          "topPrizesRemaining": 8,
+          "topPrizeOddsOneIn": 423578.5
+        },
+        {
+          "ticketPrice": 100,
+          "gameNumber": "2627",
+          "gameName": "$5 Million Titanium Black",
+          "topPrizeAmount": 5000000,
+          "topPrizesRemaining": 3,
+          "topPrizeOddsOneIn": 1482052.3333333333
         }
       ]
     }
