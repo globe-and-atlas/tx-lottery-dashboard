@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-15T16:28:40.674Z",
+  "generatedAt": "2026-10-16T16:13:55.014Z",
   "source": {
     "scratchCsvUrl": "https://www.txbingo.org/export/sites/lottery/Games/Scratch_Offs/scratchoff.csv",
     "currentGamesUrl": "https://www.txbingo.org/export/sites/lottery/Games/Scratch_Offs/all.html",
-    "csvAsOfDate": "2026-10-14",
+    "csvAsOfDate": "2026-10-15",
     "detailPagesDiscovered": 73,
     "detailPagesWithFetchErrors": 0
   },
@@ -39,8 +39,8 @@
       "topPrizesRemaining": 3,
       "topPrizeOddsOneIn": null,
       "totalWinningTicketsPrinted": 240212,
-      "totalWinningTicketsClaimed": 194568,
-      "totalWinningTicketsRemaining": 45644,
+      "totalWinningTicketsClaimed": 195149,
+      "totalWinningTicketsRemaining": 45063,
       "anyPrizeOddsOneIn": null,
       "topPrizeMultiplier": 500,
       "prizeLevels": [
@@ -53,56 +53,56 @@
         {
           "amount": 50,
           "totalPrizes": 130,
-          "claimedPrizes": 109,
-          "remainingPrizes": 21
+          "claimedPrizes": 110,
+          "remainingPrizes": 20
         },
         {
           "amount": 20,
           "totalPrizes": 1120,
-          "claimedPrizes": 949,
-          "remainingPrizes": 171
+          "claimedPrizes": 951,
+          "remainingPrizes": 169
         },
         {
           "amount": 10,
           "totalPrizes": 5688,
-          "claimedPrizes": 4748,
-          "remainingPrizes": 940
+          "claimedPrizes": 4760,
+          "remainingPrizes": 928
         },
         {
           "amount": 6,
           "totalPrizes": 5643,
-          "claimedPrizes": 4661,
-          "remainingPrizes": 982
+          "claimedPrizes": 4680,
+          "remainingPrizes": 963
         },
         {
           "amount": 5,
           "totalPrizes": 5688,
-          "claimedPrizes": 4701,
-          "remainingPrizes": 987
+          "claimedPrizes": 4716,
+          "remainingPrizes": 972
         },
         {
           "amount": 4,
           "totalPrizes": 8547,
-          "claimedPrizes": 7036,
-          "remainingPrizes": 1511
+          "claimedPrizes": 7061,
+          "remainingPrizes": 1486
         },
         {
           "amount": 3,
           "totalPrizes": 34188,
-          "claimedPrizes": 28042,
-          "remainingPrizes": 6146
+          "claimedPrizes": 28117,
+          "remainingPrizes": 6071
         },
         {
           "amount": 2,
           "totalPrizes": 36987,
-          "claimedPrizes": 30194,
-          "remainingPrizes": 6793
+          "claimedPrizes": 30283,
+          "remainingPrizes": 6704
         },
         {
           "amount": 1,
           "totalPrizes": 142200,
-          "claimedPrizes": 114110,
-          "remainingPrizes": 28090
+          "claimedPrizes": 114453,
+          "remainingPrizes": 27747
         }
       ]
     },
@@ -123,8 +123,8 @@
       "topPrizesRemaining": 5,
       "topPrizeOddsOneIn": null,
       "totalWinningTicketsPrinted": 214148,
-      "totalWinningTicketsClaimed": 138065,
-      "totalWinningTicketsRemaining": 76083,
+      "totalWinningTicketsClaimed": 138294,
+      "totalWinningTicketsRemaining": 75854,
       "anyPrizeOddsOneIn": null,
       "topPrizeMultiplier": 500,
       "prizeLevels": [
@@ -143,44 +143,44 @@
         {
           "amount": 20,
           "totalPrizes": 2731,
-          "claimedPrizes": 1820,
-          "remainingPrizes": 911
+          "claimedPrizes": 1822,
+          "remainingPrizes": 909
         },
         {
           "amount": 10,
           "totalPrizes": 5516,
-          "claimedPrizes": 3738,
-          "remainingPrizes": 1778
+          "claimedPrizes": 3743,
+          "remainingPrizes": 1773
         },
         {
           "amount": 5,
           "totalPrizes": 5489,
-          "claimedPrizes": 3649,
-          "remainingPrizes": 1840
+          "claimedPrizes": 3654,
+          "remainingPrizes": 1835
         },
         {
           "amount": 4,
           "totalPrizes": 8243,
-          "claimedPrizes": 5408,
-          "remainingPrizes": 2835
+          "claimedPrizes": 5415,
+          "remainingPrizes": 2828
         },
         {
           "amount": 3,
           "totalPrizes": 38449,
-          "claimedPrizes": 25134,
-          "remainingPrizes": 13315
+          "claimedPrizes": 25173,
+          "remainingPrizes": 13276
         },
         {
           "amount": 2,
           "totalPrizes": 43872,
-          "claimedPrizes": 28429,
-          "remainingPrizes": 15443
+          "claimedPrizes": 28495,
+          "remainingPrizes": 15377
         },
         {
           "amount": 1,
           "totalPrizes": 109744,
-          "claimedPrizes": 69815,
-          "remainingPrizes": 39929
+          "claimedPrizes": 69920,
+          "remainingPrizes": 39824
         }
       ]
     },
@@ -193,17 +193,17 @@
       "ticketPrice": 5,
       "approxTicketsInGame": 20201100,
       "overallOddsOneIn": 4.28,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 20181570,
       "topPrizeAmount": 100000,
       "topPrizesPrinted": 10,
       "topPrizesClaimed": 5,
       "topPrizesRemaining": 5,
-      "topPrizeOddsOneIn": 1594175.8,
+      "topPrizeOddsOneIn": 1590793.8,
       "totalWinningTicketsPrinted": 4715320,
-      "totalWinningTicketsClaimed": 2852965,
-      "totalWinningTicketsRemaining": 1862355,
-      "anyPrizeOddsOneIn": 4.279999785218178,
+      "totalWinningTicketsClaimed": 2856916,
+      "totalWinningTicketsRemaining": 1858404,
+      "anyPrizeOddsOneIn": 4.279999935428465,
       "topPrizeMultiplier": 20000,
       "prizeLevels": [
         {
@@ -221,44 +221,44 @@
         {
           "amount": 500,
           "totalPrizes": 2537,
-          "claimedPrizes": 1575,
-          "remainingPrizes": 962
+          "claimedPrizes": 1577,
+          "remainingPrizes": 960
         },
         {
           "amount": 100,
           "totalPrizes": 66501,
-          "claimedPrizes": 41157,
-          "remainingPrizes": 25344
+          "claimedPrizes": 41218,
+          "remainingPrizes": 25283
         },
         {
           "amount": 50,
           "totalPrizes": 336757,
-          "claimedPrizes": 207576,
-          "remainingPrizes": 129181
+          "claimedPrizes": 207847,
+          "remainingPrizes": 128910
         },
         {
           "amount": 20,
           "totalPrizes": 403915,
-          "claimedPrizes": 248270,
-          "remainingPrizes": 155645
+          "claimedPrizes": 248615,
+          "remainingPrizes": 155300
         },
         {
           "amount": 15,
           "totalPrizes": 807963,
-          "claimedPrizes": 495014,
-          "remainingPrizes": 312949
+          "claimedPrizes": 495701,
+          "remainingPrizes": 312262
         },
         {
           "amount": 10,
           "totalPrizes": 1346695,
-          "claimedPrizes": 820260,
-          "remainingPrizes": 526435
+          "claimedPrizes": 821417,
+          "remainingPrizes": 525278
         },
         {
           "amount": 5,
           "totalPrizes": 1750840,
-          "claimedPrizes": 1039041,
-          "remainingPrizes": 711799
+          "claimedPrizes": 1040469,
+          "remainingPrizes": 710371
         }
       ]
     },
@@ -271,17 +271,17 @@
       "ticketPrice": 100,
       "approxTicketsInGame": 9179475,
       "overallOddsOneIn": 3.49,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 9166726,
       "topPrizeAmount": 10000000,
       "topPrizesPrinted": 4,
       "topPrizesClaimed": 0,
       "topPrizesRemaining": 4,
-      "topPrizeOddsOneIn": 2138739.25,
+      "topPrizeOddsOneIn": 2136905.25,
       "totalWinningTicketsPrinted": 2626569,
-      "totalWinningTicketsClaimed": 175292,
-      "totalWinningTicketsRemaining": 2451277,
-      "anyPrizeOddsOneIn": 3.4900001101466707,
+      "totalWinningTicketsClaimed": 177394,
+      "totalWinningTicketsRemaining": 2449175,
+      "anyPrizeOddsOneIn": 3.4900001020751885,
       "topPrizeMultiplier": 100000,
       "prizeLevels": [
         {
@@ -305,32 +305,32 @@
         {
           "amount": 1000,
           "totalPrizes": 25787,
-          "claimedPrizes": 1555,
-          "remainingPrizes": 24232
+          "claimedPrizes": 1581,
+          "remainingPrizes": 24206
         },
         {
           "amount": 500,
           "totalPrizes": 459042,
-          "claimedPrizes": 31324,
-          "remainingPrizes": 427718
+          "claimedPrizes": 31675,
+          "remainingPrizes": 427367
         },
         {
           "amount": 300,
           "totalPrizes": 458979,
-          "claimedPrizes": 30909,
-          "remainingPrizes": 428070
+          "claimedPrizes": 31260,
+          "remainingPrizes": 427719
         },
         {
           "amount": 200,
           "totalPrizes": 917874,
-          "claimedPrizes": 61052,
-          "remainingPrizes": 856822
+          "claimedPrizes": 61826,
+          "remainingPrizes": 856048
         },
         {
           "amount": 150,
           "totalPrizes": 764703,
-          "claimedPrizes": 50441,
-          "remainingPrizes": 714262
+          "claimedPrizes": 51041,
+          "remainingPrizes": 713662
         }
       ]
     },
@@ -343,17 +343,17 @@
       "ticketPrice": 5,
       "approxTicketsInGame": 7330275,
       "overallOddsOneIn": 4.07,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 7322272,
       "topPrizeAmount": 100000,
       "topPrizesPrinted": 5,
       "topPrizesClaimed": 1,
       "topPrizesRemaining": 4,
-      "topPrizeOddsOneIn": 708657.25,
+      "topPrizeOddsOneIn": 707182.75,
       "totalWinningTicketsPrinted": 1799084,
-      "totalWinningTicketsClaimed": 1102615,
-      "totalWinningTicketsRemaining": 696469,
-      "anyPrizeOddsOneIn": 4.070000244088394,
+      "totalWinningTicketsClaimed": 1104064,
+      "totalWinningTicketsRemaining": 695020,
+      "anyPrizeOddsOneIn": 4.069999424476993,
       "topPrizeMultiplier": 20000,
       "prizeLevels": [
         {
@@ -371,44 +371,44 @@
         {
           "amount": 500,
           "totalPrizes": 1204,
-          "claimedPrizes": 739,
-          "remainingPrizes": 465
+          "claimedPrizes": 740,
+          "remainingPrizes": 464
         },
         {
           "amount": 200,
           "totalPrizes": 2369,
-          "claimedPrizes": 1465,
-          "remainingPrizes": 904
+          "claimedPrizes": 1467,
+          "remainingPrizes": 902
         },
         {
           "amount": 100,
           "totalPrizes": 19976,
-          "claimedPrizes": 12452,
-          "remainingPrizes": 7524
+          "claimedPrizes": 12462,
+          "remainingPrizes": 7514
         },
         {
           "amount": 50,
           "totalPrizes": 114109,
-          "claimedPrizes": 71678,
-          "remainingPrizes": 42431
+          "claimedPrizes": 71751,
+          "remainingPrizes": 42358
         },
         {
           "amount": 20,
           "totalPrizes": 293130,
-          "claimedPrizes": 182461,
-          "remainingPrizes": 110669
+          "claimedPrizes": 182691,
+          "remainingPrizes": 110439
         },
         {
           "amount": 10,
           "totalPrizes": 586584,
-          "claimedPrizes": 360751,
-          "remainingPrizes": 225833
+          "claimedPrizes": 361235,
+          "remainingPrizes": 225349
         },
         {
           "amount": 5,
           "totalPrizes": 781645,
-          "claimedPrizes": 473037,
-          "remainingPrizes": 308608
+          "claimedPrizes": 473686,
+          "remainingPrizes": 307959
         }
       ]
     },
@@ -421,17 +421,17 @@
       "ticketPrice": 100,
       "approxTicketsInGame": 6027705,
       "overallOddsOneIn": 3.23,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 6023643,
       "topPrizeAmount": 7500000,
       "topPrizesPrinted": 4,
       "topPrizesClaimed": 2,
       "topPrizesRemaining": 2,
-      "topPrizeOddsOneIn": 1544316.5,
+      "topPrizeOddsOneIn": 1541525.5,
       "totalWinningTicketsPrinted": 1864905,
-      "totalWinningTicketsClaimed": 908672,
-      "totalWinningTicketsRemaining": 956233,
-      "anyPrizeOddsOneIn": 3.2300004287657926,
+      "totalWinningTicketsClaimed": 910400,
+      "totalWinningTicketsRemaining": 954505,
+      "anyPrizeOddsOneIn": 3.2299998428504826,
       "topPrizeMultiplier": 75000,
       "prizeLevels": [
         {
@@ -455,38 +455,38 @@
         {
           "amount": 5000,
           "totalPrizes": 2314,
-          "claimedPrizes": 1124,
-          "remainingPrizes": 1190
+          "claimedPrizes": 1125,
+          "remainingPrizes": 1189
         },
         {
           "amount": 1000,
           "totalPrizes": 54123,
-          "claimedPrizes": 25825,
-          "remainingPrizes": 28298
+          "claimedPrizes": 25875,
+          "remainingPrizes": 28248
         },
         {
           "amount": 500,
           "totalPrizes": 301489,
-          "claimedPrizes": 148134,
-          "remainingPrizes": 153355
+          "claimedPrizes": 148389,
+          "remainingPrizes": 153100
         },
         {
           "amount": 300,
           "totalPrizes": 100437,
-          "claimedPrizes": 49153,
-          "remainingPrizes": 51284
+          "claimedPrizes": 49245,
+          "remainingPrizes": 51192
         },
         {
           "amount": 200,
           "totalPrizes": 602484,
-          "claimedPrizes": 293190,
-          "remainingPrizes": 309294
+          "claimedPrizes": 293787,
+          "remainingPrizes": 308697
         },
         {
           "amount": 100,
           "totalPrizes": 803862,
-          "claimedPrizes": 391163,
-          "remainingPrizes": 412699
+          "claimedPrizes": 391896,
+          "remainingPrizes": 411966
         }
       ]
     },
@@ -499,17 +499,17 @@
       "ticketPrice": 50,
       "approxTicketsInGame": 4531160,
       "overallOddsOneIn": 3.59,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 4530648,
       "topPrizeAmount": 1000000,
       "topPrizesPrinted": 4,
       "topPrizesClaimed": 2,
       "topPrizesRemaining": 2,
-      "topPrizeOddsOneIn": 1295484,
+      "topPrizeOddsOneIn": 1292132.5,
       "totalWinningTicketsPrinted": 1262019,
-      "totalWinningTicketsClaimed": 540301,
-      "totalWinningTicketsRemaining": 721718,
-      "anyPrizeOddsOneIn": 3.590000526521439,
+      "totalWinningTicketsClaimed": 542168,
+      "totalWinningTicketsRemaining": 719851,
+      "anyPrizeOddsOneIn": 3.5899998749741266,
       "topPrizeMultiplier": 20000,
       "prizeLevels": [
         {
@@ -533,32 +533,32 @@
         {
           "amount": 500,
           "totalPrizes": 72448,
-          "claimedPrizes": 31146,
-          "remainingPrizes": 41302
+          "claimedPrizes": 31270,
+          "remainingPrizes": 41178
         },
         {
           "amount": 250,
           "totalPrizes": 113303,
-          "claimedPrizes": 48806,
-          "remainingPrizes": 64497
+          "claimedPrizes": 48974,
+          "remainingPrizes": 64329
         },
         {
           "amount": 150,
           "totalPrizes": 169941,
-          "claimedPrizes": 73308,
-          "remainingPrizes": 96633
+          "claimedPrizes": 73554,
+          "remainingPrizes": 96387
         },
         {
           "amount": 100,
           "totalPrizes": 566617,
-          "claimedPrizes": 242329,
-          "remainingPrizes": 324288
+          "claimedPrizes": 243149,
+          "remainingPrizes": 323468
         },
         {
           "amount": 75,
           "totalPrizes": 339468,
-          "claimedPrizes": 144609,
-          "remainingPrizes": 194859
+          "claimedPrizes": 145118,
+          "remainingPrizes": 194350
         }
       ]
     },
@@ -571,17 +571,17 @@
       "ticketPrice": 20,
       "approxTicketsInGame": 8186150,
       "overallOddsOneIn": 3.41,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 8195724,
       "topPrizeAmount": 1000000,
       "topPrizesPrinted": 4,
       "topPrizesClaimed": 2,
       "topPrizesRemaining": 2,
-      "topPrizeOddsOneIn": 2814812,
+      "topPrizeOddsOneIn": 2807477,
       "totalWinningTicketsPrinted": 2403438,
-      "totalWinningTicketsClaimed": 752522,
-      "totalWinningTicketsRemaining": 1650916,
-      "anyPrizeOddsOneIn": 3.4100002665187086,
+      "totalWinningTicketsClaimed": 756824,
+      "totalWinningTicketsRemaining": 1646614,
+      "anyPrizeOddsOneIn": 3.410000157899787,
       "topPrizeMultiplier": 50000,
       "prizeLevels": [
         {
@@ -611,38 +611,38 @@
         {
           "amount": 500,
           "totalPrizes": 8256,
-          "claimedPrizes": 2586,
-          "remainingPrizes": 5670
+          "claimedPrizes": 2606,
+          "remainingPrizes": 5650
         },
         {
           "amount": 200,
           "totalPrizes": 102652,
-          "claimedPrizes": 32232,
-          "remainingPrizes": 70420
+          "claimedPrizes": 32417,
+          "remainingPrizes": 70235
         },
         {
           "amount": 100,
           "totalPrizes": 327446,
-          "claimedPrizes": 103271,
-          "remainingPrizes": 224175
+          "claimedPrizes": 103863,
+          "remainingPrizes": 223583
         },
         {
           "amount": 50,
           "totalPrizes": 523815,
-          "claimedPrizes": 165205,
-          "remainingPrizes": 358610
+          "claimedPrizes": 166134,
+          "remainingPrizes": 357681
         },
         {
           "amount": 30,
           "totalPrizes": 458485,
-          "claimedPrizes": 143392,
-          "remainingPrizes": 315093
+          "claimedPrizes": 144219,
+          "remainingPrizes": 314266
         },
         {
           "amount": 20,
           "totalPrizes": 982465,
-          "claimedPrizes": 305753,
-          "remainingPrizes": 676712
+          "claimedPrizes": 307502,
+          "remainingPrizes": 674963
         }
       ]
     },
@@ -655,17 +655,17 @@
       "ticketPrice": 50,
       "approxTicketsInGame": 6039620,
       "overallOddsOneIn": 3.66,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 6035984,
       "topPrizeAmount": 5000000,
       "topPrizesPrinted": 4,
       "topPrizesClaimed": 2,
       "topPrizesRemaining": 2,
-      "topPrizeOddsOneIn": 927091,
+      "topPrizeOddsOneIn": 925052,
       "totalWinningTicketsPrinted": 1649176,
-      "totalWinningTicketsClaimed": 1142569,
-      "totalWinningTicketsRemaining": 506607,
-      "anyPrizeOddsOneIn": 3.660000750088333,
+      "totalWinningTicketsClaimed": 1143683,
+      "totalWinningTicketsRemaining": 505493,
+      "anyPrizeOddsOneIn": 3.6599992482586305,
       "topPrizeMultiplier": 100000,
       "prizeLevels": [
         {
@@ -683,38 +683,38 @@
         {
           "amount": 1000,
           "totalPrizes": 5691,
-          "claimedPrizes": 3866,
-          "remainingPrizes": 1825
+          "claimedPrizes": 3870,
+          "remainingPrizes": 1821
         },
         {
           "amount": 500,
           "totalPrizes": 103290,
-          "claimedPrizes": 71808,
-          "remainingPrizes": 31482
+          "claimedPrizes": 71880,
+          "remainingPrizes": 31410
         },
         {
           "amount": 200,
           "totalPrizes": 181127,
-          "claimedPrizes": 125912,
-          "remainingPrizes": 55215
+          "claimedPrizes": 126044,
+          "remainingPrizes": 55083
         },
         {
           "amount": 150,
           "totalPrizes": 301981,
-          "claimedPrizes": 209221,
-          "remainingPrizes": 92760
+          "claimedPrizes": 209417,
+          "remainingPrizes": 92564
         },
         {
           "amount": 100,
           "totalPrizes": 453117,
-          "claimedPrizes": 314299,
-          "remainingPrizes": 138818
+          "claimedPrizes": 314609,
+          "remainingPrizes": 138508
         },
         {
           "amount": 50,
           "totalPrizes": 603854,
-          "claimedPrizes": 417383,
-          "remainingPrizes": 186471
+          "claimedPrizes": 417783,
+          "remainingPrizes": 186071
         }
       ]
     },
@@ -727,17 +727,17 @@
       "ticketPrice": 100,
       "approxTicketsInGame": 5610750,
       "overallOddsOneIn": 3.89,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 5612095,
       "topPrizeAmount": 5000000,
       "topPrizesPrinted": 4,
       "topPrizesClaimed": 1,
       "topPrizesRemaining": 3,
-      "topPrizeOddsOneIn": 1184651.6666666667,
+      "topPrizeOddsOneIn": 1182749.3333333333,
       "totalWinningTicketsPrinted": 1442698,
-      "totalWinningTicketsClaimed": 529085,
-      "totalWinningTicketsRemaining": 913613,
-      "anyPrizeOddsOneIn": 3.890000470658802,
+      "totalWinningTicketsClaimed": 530552,
+      "totalWinningTicketsRemaining": 912146,
+      "anyPrizeOddsOneIn": 3.8900000657789433,
       "topPrizeMultiplier": 50000,
       "prizeLevels": [
         {
@@ -755,38 +755,38 @@
         {
           "amount": 2500,
           "totalPrizes": 2825,
-          "claimedPrizes": 1015,
-          "remainingPrizes": 1810
+          "claimedPrizes": 1018,
+          "remainingPrizes": 1807
         },
         {
           "amount": 1000,
           "totalPrizes": 37116,
-          "claimedPrizes": 13253,
-          "remainingPrizes": 23863
+          "claimedPrizes": 13288,
+          "remainingPrizes": 23828
         },
         {
           "amount": 500,
           "totalPrizes": 374050,
-          "claimedPrizes": 138484,
-          "remainingPrizes": 235566
+          "claimedPrizes": 138859,
+          "remainingPrizes": 235191
         },
         {
           "amount": 300,
           "totalPrizes": 187035,
-          "claimedPrizes": 69052,
-          "remainingPrizes": 117983
+          "claimedPrizes": 69264,
+          "remainingPrizes": 117771
         },
         {
           "amount": 200,
           "totalPrizes": 280463,
-          "claimedPrizes": 102434,
-          "remainingPrizes": 178029
+          "claimedPrizes": 102694,
+          "remainingPrizes": 177769
         },
         {
           "amount": 150,
           "totalPrizes": 561184,
-          "claimedPrizes": 204840,
-          "remainingPrizes": 356344
+          "claimedPrizes": 205422,
+          "remainingPrizes": 355762
         }
       ]
     },
@@ -799,17 +799,17 @@
       "ticketPrice": 3,
       "approxTicketsInGame": 32682825,
       "overallOddsOneIn": 4.38,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 32660162,
       "topPrizeAmount": 50000,
       "topPrizesPrinted": 14,
       "topPrizesClaimed": 11,
       "topPrizesRemaining": 3,
-      "topPrizeOddsOneIn": 2459802,
+      "topPrizeOddsOneIn": 2445673.6666666665,
       "totalWinningTicketsPrinted": 7456658,
-      "totalWinningTicketsClaimed": 5771862,
-      "totalWinningTicketsRemaining": 1684796,
-      "anyPrizeOddsOneIn": 4.379999715099038,
+      "totalWinningTicketsClaimed": 5781539,
+      "totalWinningTicketsRemaining": 1675119,
+      "anyPrizeOddsOneIn": 4.379999868666047,
       "topPrizeMultiplier": 16666.7,
       "prizeLevels": [
         {
@@ -821,80 +821,80 @@
         {
           "amount": 3000,
           "totalPrizes": 232,
-          "claimedPrizes": 178,
-          "remainingPrizes": 54
+          "claimedPrizes": 180,
+          "remainingPrizes": 52
         },
         {
           "amount": 250,
           "totalPrizes": 4891,
-          "claimedPrizes": 3698,
-          "remainingPrizes": 1193
+          "claimedPrizes": 3705,
+          "remainingPrizes": 1186
         },
         {
           "amount": 80,
           "totalPrizes": 15227,
-          "claimedPrizes": 12242,
-          "remainingPrizes": 2985
+          "claimedPrizes": 12257,
+          "remainingPrizes": 2970
         },
         {
           "amount": 50,
           "totalPrizes": 32723,
-          "claimedPrizes": 25778,
-          "remainingPrizes": 6945
+          "claimedPrizes": 25815,
+          "remainingPrizes": 6908
         },
         {
           "amount": 33,
           "totalPrizes": 104571,
-          "claimedPrizes": 84101,
-          "remainingPrizes": 20470
+          "claimedPrizes": 84254,
+          "remainingPrizes": 20317
         },
         {
           "amount": 30,
           "totalPrizes": 217898,
-          "claimedPrizes": 169705,
-          "remainingPrizes": 48193
+          "claimedPrizes": 169987,
+          "remainingPrizes": 47911
         },
         {
           "amount": 20,
           "totalPrizes": 217776,
-          "claimedPrizes": 172016,
-          "remainingPrizes": 45760
+          "claimedPrizes": 172293,
+          "remainingPrizes": 45483
         },
         {
           "amount": 18,
           "totalPrizes": 326855,
-          "claimedPrizes": 261288,
-          "remainingPrizes": 65567
+          "claimedPrizes": 261695,
+          "remainingPrizes": 65160
         },
         {
           "amount": 15,
           "totalPrizes": 653747,
-          "claimedPrizes": 520866,
-          "remainingPrizes": 132881
+          "claimedPrizes": 521744,
+          "remainingPrizes": 132003
         },
         {
           "amount": 10,
           "totalPrizes": 653697,
-          "claimedPrizes": 511748,
-          "remainingPrizes": 141949
+          "claimedPrizes": 512614,
+          "remainingPrizes": 141083
         },
         {
           "amount": 8,
           "totalPrizes": 871780,
-          "claimedPrizes": 687104,
-          "remainingPrizes": 184676
+          "claimedPrizes": 688319,
+          "remainingPrizes": 183461
         },
         {
           "amount": 5,
           "totalPrizes": 1307019,
-          "claimedPrizes": 1009016,
-          "remainingPrizes": 298003
+          "claimedPrizes": 1010671,
+          "remainingPrizes": 296348
         },
         {
           "amount": 3,
           "totalPrizes": 3050228,
-          "claimedPrizes": 2314111,
-          "remainingPrizes": 736117
+          "claimedPrizes": 2317994,
+          "remainingPrizes": 732234
         }
       ]
     },
@@ -907,17 +907,17 @@
       "ticketPrice": 10,
       "approxTicketsInGame": 8199350,
       "overallOddsOneIn": 3.22,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 8199128,
       "topPrizeAmount": 250000,
       "topPrizesPrinted": 8,
       "topPrizesClaimed": 7,
       "topPrizesRemaining": 1,
-      "topPrizeOddsOneIn": 862699,
+      "topPrizeOddsOneIn": 850138,
       "totalWinningTicketsPrinted": 2546313,
-      "totalWinningTicketsClaimed": 2278394,
-      "totalWinningTicketsRemaining": 267919,
-      "anyPrizeOddsOneIn": 3.2199993281551516,
+      "totalWinningTicketsClaimed": 2282295,
+      "totalWinningTicketsRemaining": 264018,
+      "anyPrizeOddsOneIn": 3.2200001515048218,
       "topPrizeMultiplier": 25000,
       "prizeLevels": [
         {
@@ -935,56 +935,56 @@
         {
           "amount": 1000,
           "totalPrizes": 624,
-          "claimedPrizes": 556,
-          "remainingPrizes": 68
+          "claimedPrizes": 558,
+          "remainingPrizes": 66
         },
         {
           "amount": 500,
           "totalPrizes": 4528,
-          "claimedPrizes": 4119,
-          "remainingPrizes": 409
+          "claimedPrizes": 4127,
+          "remainingPrizes": 401
         },
         {
           "amount": 200,
           "totalPrizes": 9264,
-          "claimedPrizes": 8427,
-          "remainingPrizes": 837
+          "claimedPrizes": 8443,
+          "remainingPrizes": 821
         },
         {
           "amount": 100,
           "totalPrizes": 54903,
-          "claimedPrizes": 49972,
-          "remainingPrizes": 4931
+          "claimedPrizes": 50051,
+          "remainingPrizes": 4852
         },
         {
           "amount": 50,
           "totalPrizes": 167391,
-          "claimedPrizes": 152231,
-          "remainingPrizes": 15160
+          "claimedPrizes": 152485,
+          "remainingPrizes": 14906
         },
         {
           "amount": 40,
           "totalPrizes": 95659,
-          "claimedPrizes": 86216,
-          "remainingPrizes": 9443
+          "claimedPrizes": 86346,
+          "remainingPrizes": 9313
         },
         {
           "amount": 30,
           "totalPrizes": 191325,
-          "claimedPrizes": 171001,
-          "remainingPrizes": 20324
+          "claimedPrizes": 171290,
+          "remainingPrizes": 20035
         },
         {
           "amount": 20,
           "totalPrizes": 628592,
-          "claimedPrizes": 563575,
-          "remainingPrizes": 65017
+          "claimedPrizes": 564555,
+          "remainingPrizes": 64037
         },
         {
           "amount": 10,
           "totalPrizes": 1393947,
-          "claimedPrizes": 1242227,
-          "remainingPrizes": 151720
+          "claimedPrizes": 1244370,
+          "remainingPrizes": 149577
         }
       ]
     },
@@ -997,17 +997,17 @@
       "ticketPrice": 10,
       "approxTicketsInGame": 8177500,
       "overallOddsOneIn": 3.82,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 8171664,
       "topPrizeAmount": 1000000,
       "topPrizesPrinted": 4,
       "topPrizesClaimed": 3,
       "topPrizesRemaining": 1,
-      "topPrizeOddsOneIn": 2299923,
+      "topPrizeOddsOneIn": 2292195,
       "totalWinningTicketsPrinted": 2139179,
-      "totalWinningTicketsClaimed": 1537105,
-      "totalWinningTicketsRemaining": 602074,
-      "anyPrizeOddsOneIn": 3.8200005314961283,
+      "totalWinningTicketsClaimed": 1539128,
+      "totalWinningTicketsRemaining": 600051,
+      "anyPrizeOddsOneIn": 3.820000299974502,
       "topPrizeMultiplier": 100000,
       "prizeLevels": [
         {
@@ -1025,50 +1025,50 @@
         {
           "amount": 1000,
           "totalPrizes": 41,
-          "claimedPrizes": 27,
-          "remainingPrizes": 14
+          "claimedPrizes": 28,
+          "remainingPrizes": 13
         },
         {
           "amount": 500,
           "totalPrizes": 2110,
-          "claimedPrizes": 1548,
-          "remainingPrizes": 562
+          "claimedPrizes": 1551,
+          "remainingPrizes": 559
         },
         {
           "amount": 200,
           "totalPrizes": 10953,
-          "claimedPrizes": 7904,
-          "remainingPrizes": 3049
+          "claimedPrizes": 7918,
+          "remainingPrizes": 3035
         },
         {
           "amount": 100,
           "totalPrizes": 81937,
-          "claimedPrizes": 59286,
-          "remainingPrizes": 22651
+          "claimedPrizes": 59371,
+          "remainingPrizes": 22566
         },
         {
           "amount": 50,
           "totalPrizes": 245572,
-          "claimedPrizes": 178458,
-          "remainingPrizes": 67114
+          "claimedPrizes": 178680,
+          "remainingPrizes": 66892
         },
         {
           "amount": 30,
           "totalPrizes": 326606,
-          "claimedPrizes": 237240,
-          "remainingPrizes": 89366
+          "claimedPrizes": 237546,
+          "remainingPrizes": 89060
         },
         {
           "amount": 20,
           "totalPrizes": 491144,
-          "claimedPrizes": 354946,
-          "remainingPrizes": 136198
+          "claimedPrizes": 355439,
+          "remainingPrizes": 135705
         },
         {
           "amount": 10,
           "totalPrizes": 980806,
-          "claimedPrizes": 697690,
-          "remainingPrizes": 283116
+          "claimedPrizes": 698589,
+          "remainingPrizes": 282217
         }
       ]
     },
@@ -1081,17 +1081,17 @@
       "ticketPrice": 2,
       "approxTicketsInGame": 8936625,
       "overallOddsOneIn": 4.95,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 8939849,
       "topPrizeAmount": 30000,
       "topPrizesPrinted": 5,
       "topPrizesClaimed": 4,
       "topPrizesRemaining": 1,
-      "topPrizeOddsOneIn": 1038975,
+      "topPrizeOddsOneIn": 1036386,
       "totalWinningTicketsPrinted": 1806030,
-      "totalWinningTicketsClaimed": 1596136,
-      "totalWinningTicketsRemaining": 209894,
-      "anyPrizeOddsOneIn": 4.949998570707119,
+      "totalWinningTicketsClaimed": 1596659,
+      "totalWinningTicketsRemaining": 209371,
+      "anyPrizeOddsOneIn": 4.949997850705207,
       "topPrizeMultiplier": 15000,
       "prizeLevels": [
         {
@@ -1115,38 +1115,38 @@
         {
           "amount": 50,
           "totalPrizes": 17224,
-          "claimedPrizes": 15835,
-          "remainingPrizes": 1389
+          "claimedPrizes": 15839,
+          "remainingPrizes": 1385
         },
         {
           "amount": 40,
           "totalPrizes": 71493,
-          "claimedPrizes": 65707,
-          "remainingPrizes": 5786
+          "claimedPrizes": 65722,
+          "remainingPrizes": 5771
         },
         {
           "amount": 20,
           "totalPrizes": 71493,
-          "claimedPrizes": 65336,
-          "remainingPrizes": 6157
+          "claimedPrizes": 65358,
+          "remainingPrizes": 6135
         },
         {
           "amount": 10,
           "totalPrizes": 143043,
-          "claimedPrizes": 129167,
-          "remainingPrizes": 13876
+          "claimedPrizes": 129206,
+          "remainingPrizes": 13837
         },
         {
           "amount": 5,
           "totalPrizes": 571887,
-          "claimedPrizes": 510995,
-          "remainingPrizes": 60892
+          "claimedPrizes": 511169,
+          "remainingPrizes": 60718
         },
         {
           "amount": 2,
           "totalPrizes": 929295,
-          "claimedPrizes": 807637,
-          "remainingPrizes": 121658
+          "claimedPrizes": 807906,
+          "remainingPrizes": 121389
         }
       ]
     },
@@ -1159,17 +1159,17 @@
       "ticketPrice": 2,
       "approxTicketsInGame": 18121000,
       "overallOddsOneIn": 4.09,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 18106655,
       "topPrizeAmount": 30000,
       "topPrizesPrinted": 10,
       "topPrizesClaimed": 6,
       "topPrizesRemaining": 4,
-      "topPrizeOddsOneIn": 1792315.75,
+      "topPrizeOddsOneIn": 1787586.75,
       "totalWinningTicketsPrinted": 4427055,
-      "totalWinningTicketsClaimed": 2674179,
-      "totalWinningTicketsRemaining": 1752876,
-      "anyPrizeOddsOneIn": 4.0900000912785615,
+      "totalWinningTicketsClaimed": 2678804,
+      "totalWinningTicketsRemaining": 1748251,
+      "anyPrizeOddsOneIn": 4.0900002345201,
       "topPrizeMultiplier": 15000,
       "prizeLevels": [
         {
@@ -1193,62 +1193,62 @@
         {
           "amount": 100,
           "totalPrizes": 3625,
-          "claimedPrizes": 2237,
-          "remainingPrizes": 1388
+          "claimedPrizes": 2240,
+          "remainingPrizes": 1385
         },
         {
           "amount": 50,
           "totalPrizes": 14326,
-          "claimedPrizes": 8789,
-          "remainingPrizes": 5537
+          "claimedPrizes": 8799,
+          "remainingPrizes": 5527
         },
         {
           "amount": 30,
           "totalPrizes": 22706,
-          "claimedPrizes": 14085,
-          "remainingPrizes": 8621
+          "claimedPrizes": 14110,
+          "remainingPrizes": 8596
         },
         {
           "amount": 20,
           "totalPrizes": 144968,
-          "claimedPrizes": 89731,
-          "remainingPrizes": 55237
+          "claimedPrizes": 89890,
+          "remainingPrizes": 55078
         },
         {
           "amount": 15,
           "totalPrizes": 181147,
-          "claimedPrizes": 114274,
-          "remainingPrizes": 66873
+          "claimedPrizes": 114444,
+          "remainingPrizes": 66703
         },
         {
           "amount": 10,
           "totalPrizes": 289962,
-          "claimedPrizes": 177511,
-          "remainingPrizes": 112451
+          "claimedPrizes": 177842,
+          "remainingPrizes": 112120
         },
         {
           "amount": 6,
           "totalPrizes": 434904,
-          "claimedPrizes": 264829,
-          "remainingPrizes": 170075
+          "claimedPrizes": 265301,
+          "remainingPrizes": 169603
         },
         {
           "amount": 5,
           "totalPrizes": 870000,
-          "claimedPrizes": 533584,
-          "remainingPrizes": 336416
+          "claimedPrizes": 534512,
+          "remainingPrizes": 335488
         },
         {
           "amount": 3,
           "totalPrizes": 652246,
-          "claimedPrizes": 388238,
-          "remainingPrizes": 264008
+          "claimedPrizes": 388892,
+          "remainingPrizes": 263354
         },
         {
           "amount": 2,
           "totalPrizes": 1812218,
-          "claimedPrizes": 1080309,
-          "remainingPrizes": 731909
+          "claimedPrizes": 1082182,
+          "remainingPrizes": 730036
         }
       ]
     },
@@ -1261,17 +1261,17 @@
       "ticketPrice": 5,
       "approxTicketsInGame": 59199675,
       "overallOddsOneIn": 3.77,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 59135749,
       "topPrizeAmount": 100000,
       "topPrizesPrinted": 30,
       "topPrizesClaimed": 24,
       "topPrizesRemaining": 6,
-      "topPrizeOddsOneIn": 792306.3333333334,
+      "topPrizeOddsOneIn": 789587.5,
       "totalWinningTicketsPrinted": 15685875,
-      "totalWinningTicketsClaimed": 14424910,
-      "totalWinningTicketsRemaining": 1260965,
-      "anyPrizeOddsOneIn": 3.7699999603478287,
+      "totalWinningTicketsClaimed": 14429237,
+      "totalWinningTicketsRemaining": 1256638,
+      "anyPrizeOddsOneIn": 3.7699997930987283,
       "topPrizeMultiplier": 20000,
       "prizeLevels": [
         {
@@ -1289,50 +1289,50 @@
         {
           "amount": 500,
           "totalPrizes": 5937,
-          "claimedPrizes": 5581,
-          "remainingPrizes": 356
+          "claimedPrizes": 5582,
+          "remainingPrizes": 355
         },
         {
           "amount": 200,
           "totalPrizes": 40526,
-          "claimedPrizes": 38197,
-          "remainingPrizes": 2329
+          "claimedPrizes": 38207,
+          "remainingPrizes": 2319
         },
         {
           "amount": 100,
           "totalPrizes": 247251,
-          "claimedPrizes": 232432,
-          "remainingPrizes": 14819
+          "claimedPrizes": 232505,
+          "remainingPrizes": 14746
         },
         {
           "amount": 50,
           "totalPrizes": 789329,
-          "claimedPrizes": 740128,
-          "remainingPrizes": 49201
+          "claimedPrizes": 740338,
+          "remainingPrizes": 48991
         },
         {
           "amount": 20,
           "totalPrizes": 789329,
-          "claimedPrizes": 739942,
-          "remainingPrizes": 49387
+          "claimedPrizes": 740169,
+          "remainingPrizes": 49160
         },
         {
           "amount": 15,
           "totalPrizes": 789329,
-          "claimedPrizes": 737789,
-          "remainingPrizes": 51540
+          "claimedPrizes": 737986,
+          "remainingPrizes": 51343
         },
         {
           "amount": 10,
           "totalPrizes": 5919900,
-          "claimedPrizes": 5496752,
-          "remainingPrizes": 423148
+          "claimedPrizes": 5498373,
+          "remainingPrizes": 421527
         },
         {
           "amount": 5,
           "totalPrizes": 7104096,
-          "claimedPrizes": 6433946,
-          "remainingPrizes": 670150
+          "claimedPrizes": 6435934,
+          "remainingPrizes": 668162
         }
       ]
     },
@@ -1345,36 +1345,36 @@
       "ticketPrice": 10,
       "approxTicketsInGame": 10202400,
       "overallOddsOneIn": 9.43,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 10198479,
       "topPrizeAmount": 500,
       "topPrizesPrinted": 10176,
-      "topPrizesClaimed": 2858,
-      "topPrizesRemaining": 7318,
-      "topPrizeOddsOneIn": 1003.9818256354196,
+      "topPrizesClaimed": 2879,
+      "topPrizesRemaining": 7297,
+      "topPrizeOddsOneIn": 1003.005892832671,
       "totalWinningTicketsPrinted": 1081493,
-      "totalWinningTicketsClaimed": 302369,
-      "totalWinningTicketsRemaining": 779124,
-      "anyPrizeOddsOneIn": 9.429999589282323,
+      "totalWinningTicketsClaimed": 305360,
+      "totalWinningTicketsRemaining": 776133,
+      "anyPrizeOddsOneIn": 9.429999755196597,
       "topPrizeMultiplier": 50,
       "prizeLevels": [
         {
           "amount": 500,
           "totalPrizes": 10176,
-          "claimedPrizes": 2858,
-          "remainingPrizes": 7318
+          "claimedPrizes": 2879,
+          "remainingPrizes": 7297
         },
         {
           "amount": 100,
           "totalPrizes": 254956,
-          "claimedPrizes": 71937,
-          "remainingPrizes": 183019
+          "claimedPrizes": 72646,
+          "remainingPrizes": 182310
         },
         {
           "amount": 50,
           "totalPrizes": 816361,
-          "claimedPrizes": 227574,
-          "remainingPrizes": 588787
+          "claimedPrizes": 229835,
+          "remainingPrizes": 586526
         }
       ]
     },
@@ -1387,17 +1387,17 @@
       "ticketPrice": 20,
       "approxTicketsInGame": 24210225,
       "overallOddsOneIn": 3.29,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 24226537,
       "topPrizeAmount": 1000000,
       "topPrizesPrinted": 10,
       "topPrizesClaimed": 9,
       "topPrizesRemaining": 1,
-      "topPrizeOddsOneIn": 1837192,
+      "topPrizeOddsOneIn": 1819600,
       "totalWinningTicketsPrinted": 7363689,
-      "totalWinningTicketsClaimed": 6805272,
-      "totalWinningTicketsRemaining": 558417,
-      "anyPrizeOddsOneIn": 3.29000012535435,
+      "totalWinningTicketsClaimed": 6810619,
+      "totalWinningTicketsRemaining": 553070,
+      "anyPrizeOddsOneIn": 3.2899994575731824,
       "topPrizeMultiplier": 50000,
       "prizeLevels": [
         {
@@ -1421,62 +1421,62 @@
         {
           "amount": 1000,
           "totalPrizes": 2415,
-          "claimedPrizes": 2176,
-          "remainingPrizes": 239
+          "claimedPrizes": 2179,
+          "remainingPrizes": 236
         },
         {
           "amount": 500,
           "totalPrizes": 11290,
-          "claimedPrizes": 10491,
-          "remainingPrizes": 799
+          "claimedPrizes": 10499,
+          "remainingPrizes": 791
         },
         {
           "amount": 250,
           "totalPrizes": 63014,
-          "claimedPrizes": 58407,
-          "remainingPrizes": 4607
+          "claimedPrizes": 58451,
+          "remainingPrizes": 4563
         },
         {
           "amount": 200,
           "totalPrizes": 174386,
-          "claimedPrizes": 161030,
-          "remainingPrizes": 13356
+          "claimedPrizes": 161162,
+          "remainingPrizes": 13224
         },
         {
           "amount": 150,
           "totalPrizes": 193706,
-          "claimedPrizes": 179258,
-          "remainingPrizes": 14448
+          "claimedPrizes": 179388,
+          "remainingPrizes": 14318
         },
         {
           "amount": 100,
           "totalPrizes": 866645,
-          "claimedPrizes": 800684,
-          "remainingPrizes": 65961
+          "claimedPrizes": 801306,
+          "remainingPrizes": 65339
         },
         {
           "amount": 50,
           "totalPrizes": 968409,
-          "claimedPrizes": 897942,
-          "remainingPrizes": 70467
+          "claimedPrizes": 898650,
+          "remainingPrizes": 69759
         },
         {
           "amount": 40,
           "totalPrizes": 484034,
-          "claimedPrizes": 448362,
-          "remainingPrizes": 35672
+          "claimedPrizes": 448732,
+          "remainingPrizes": 35302
         },
         {
           "amount": 30,
           "totalPrizes": 1695038,
-          "claimedPrizes": 1567174,
-          "remainingPrizes": 127864
+          "claimedPrizes": 1568418,
+          "remainingPrizes": 126620
         },
         {
           "amount": 20,
           "totalPrizes": 2904374,
-          "claimedPrizes": 2679410,
-          "remainingPrizes": 224964
+          "claimedPrizes": 2681496,
+          "remainingPrizes": 222878
         }
       ]
     },
@@ -1489,17 +1489,17 @@
       "ticketPrice": 20,
       "approxTicketsInGame": 8197525,
       "overallOddsOneIn": 3.75,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 8204393,
       "topPrizeAmount": 1000000,
       "topPrizesPrinted": 4,
       "topPrizesClaimed": 3,
       "topPrizesRemaining": 1,
-      "topPrizeOddsOneIn": 2061585,
+      "topPrizeOddsOneIn": 2060183,
       "totalWinningTicketsPrinted": 2187838,
-      "totalWinningTicketsClaimed": 1638082,
-      "totalWinningTicketsRemaining": 549756,
-      "anyPrizeOddsOneIn": 3.75,
+      "totalWinningTicketsClaimed": 1638456,
+      "totalWinningTicketsRemaining": 549382,
+      "anyPrizeOddsOneIn": 3.750000910113546,
       "topPrizeMultiplier": 50000,
       "prizeLevels": [
         {
@@ -1535,38 +1535,38 @@
         {
           "amount": 200,
           "totalPrizes": 82205,
-          "claimedPrizes": 61480,
-          "remainingPrizes": 20725
+          "claimedPrizes": 61487,
+          "remainingPrizes": 20718
         },
         {
           "amount": 100,
           "totalPrizes": 327901,
-          "claimedPrizes": 245861,
-          "remainingPrizes": 82040
+          "claimedPrizes": 245925,
+          "remainingPrizes": 81976
         },
         {
           "amount": 80,
           "totalPrizes": 131116,
-          "claimedPrizes": 98533,
-          "remainingPrizes": 32583
+          "claimedPrizes": 98560,
+          "remainingPrizes": 32556
         },
         {
           "amount": 60,
           "totalPrizes": 262523,
-          "claimedPrizes": 197018,
-          "remainingPrizes": 65505
+          "claimedPrizes": 197059,
+          "remainingPrizes": 65464
         },
         {
           "amount": 40,
           "totalPrizes": 524546,
-          "claimedPrizes": 393484,
-          "remainingPrizes": 131062
+          "claimedPrizes": 393570,
+          "remainingPrizes": 130976
         },
         {
           "amount": 20,
           "totalPrizes": 852147,
-          "claimedPrizes": 636208,
-          "remainingPrizes": 215939
+          "claimedPrizes": 636357,
+          "remainingPrizes": 215790
         }
       ]
     },
@@ -1579,17 +1579,17 @@
       "ticketPrice": 20,
       "approxTicketsInGame": 15267250,
       "overallOddsOneIn": 3.41,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 15276602,
       "topPrizeAmount": 1000000,
       "topPrizesPrinted": 6,
       "topPrizesClaimed": 5,
       "topPrizesRemaining": 1,
-      "topPrizeOddsOneIn": 480333,
+      "topPrizeOddsOneIn": 476033,
       "totalWinningTicketsPrinted": 4479942,
-      "totalWinningTicketsClaimed": 4339082,
-      "totalWinningTicketsRemaining": 140860,
-      "anyPrizeOddsOneIn": 3.410002839698992,
+      "totalWinningTicketsClaimed": 4340343,
+      "totalWinningTicketsRemaining": 139599,
+      "anyPrizeOddsOneIn": 3.410002936983789,
       "topPrizeMultiplier": 50000,
       "prizeLevels": [
         {
@@ -1613,44 +1613,44 @@
         {
           "amount": 500,
           "totalPrizes": 10879,
-          "claimedPrizes": 10638,
-          "remainingPrizes": 241
+          "claimedPrizes": 10639,
+          "remainingPrizes": 240
         },
         {
           "amount": 200,
           "totalPrizes": 127255,
-          "claimedPrizes": 124175,
-          "remainingPrizes": 3080
+          "claimedPrizes": 124214,
+          "remainingPrizes": 3041
         },
         {
           "amount": 150,
           "totalPrizes": 66876,
-          "claimedPrizes": 65163,
-          "remainingPrizes": 1713
+          "claimedPrizes": 65179,
+          "remainingPrizes": 1697
         },
         {
           "amount": 100,
           "totalPrizes": 712532,
-          "claimedPrizes": 693995,
-          "remainingPrizes": 18537
+          "claimedPrizes": 694183,
+          "remainingPrizes": 18349
         },
         {
           "amount": 50,
           "totalPrizes": 814222,
-          "claimedPrizes": 794195,
-          "remainingPrizes": 20027
+          "claimedPrizes": 794421,
+          "remainingPrizes": 19801
         },
         {
           "amount": 40,
           "totalPrizes": 712485,
-          "claimedPrizes": 694347,
-          "remainingPrizes": 18138
+          "claimedPrizes": 694560,
+          "remainingPrizes": 17925
         },
         {
           "amount": 20,
           "totalPrizes": 2035408,
-          "claimedPrizes": 1956291,
-          "remainingPrizes": 79117
+          "claimedPrizes": 1956869,
+          "remainingPrizes": 78539
         }
       ]
     },
@@ -1663,17 +1663,17 @@
       "ticketPrice": 50,
       "approxTicketsInGame": 8031760,
       "overallOddsOneIn": 3.21,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 8032213,
       "topPrizeAmount": 3000000,
       "topPrizesPrinted": 4,
       "topPrizesClaimed": 2,
       "topPrizesRemaining": 2,
-      "topPrizeOddsOneIn": 954740.5,
+      "topPrizeOddsOneIn": 947094.5,
       "totalWinningTicketsPrinted": 2502247,
-      "totalWinningTicketsClaimed": 1907393,
-      "totalWinningTicketsRemaining": 594854,
-      "anyPrizeOddsOneIn": 3.209999428431178,
+      "totalWinningTicketsClaimed": 1912157,
+      "totalWinningTicketsRemaining": 590090,
+      "anyPrizeOddsOneIn": 3.210000169465675,
       "topPrizeMultiplier": 60000,
       "prizeLevels": [
         {
@@ -1697,62 +1697,62 @@
         {
           "amount": 5000,
           "totalPrizes": 472,
-          "claimedPrizes": 359,
-          "remainingPrizes": 113
+          "claimedPrizes": 362,
+          "remainingPrizes": 110
         },
         {
           "amount": 1000,
           "totalPrizes": 1688,
-          "claimedPrizes": 1247,
-          "remainingPrizes": 441
+          "claimedPrizes": 1249,
+          "remainingPrizes": 439
         },
         {
           "amount": 500,
           "totalPrizes": 40169,
-          "claimedPrizes": 30674,
-          "remainingPrizes": 9495
+          "claimedPrizes": 30745,
+          "remainingPrizes": 9424
         },
         {
           "amount": 300,
           "totalPrizes": 50226,
-          "claimedPrizes": 38289,
-          "remainingPrizes": 11937
+          "claimedPrizes": 38390,
+          "remainingPrizes": 11836
         },
         {
           "amount": 250,
           "totalPrizes": 200822,
-          "claimedPrizes": 153282,
-          "remainingPrizes": 47540
+          "claimedPrizes": 153655,
+          "remainingPrizes": 47167
         },
         {
           "amount": 200,
           "totalPrizes": 200842,
-          "claimedPrizes": 153349,
-          "remainingPrizes": 47493
+          "claimedPrizes": 153736,
+          "remainingPrizes": 47106
         },
         {
           "amount": 150,
           "totalPrizes": 401588,
-          "claimedPrizes": 306345,
-          "remainingPrizes": 95243
+          "claimedPrizes": 307070,
+          "remainingPrizes": 94518
         },
         {
           "amount": 100,
           "totalPrizes": 401591,
-          "claimedPrizes": 306181,
-          "remainingPrizes": 95410
+          "claimedPrizes": 306976,
+          "remainingPrizes": 94615
         },
         {
           "amount": 75,
           "totalPrizes": 401585,
-          "claimedPrizes": 306005,
-          "remainingPrizes": 95580
+          "claimedPrizes": 306821,
+          "remainingPrizes": 94764
         },
         {
           "amount": 50,
           "totalPrizes": 803173,
-          "claimedPrizes": 611613,
-          "remainingPrizes": 191560
+          "claimedPrizes": 613104,
+          "remainingPrizes": 190069
         }
       ]
     },
@@ -1765,17 +1765,17 @@
       "ticketPrice": 30,
       "approxTicketsInGame": 6107225,
       "overallOddsOneIn": 3.55,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 6110949,
       "topPrizeAmount": 1000000,
       "topPrizesPrinted": 10,
       "topPrizesClaimed": 6,
       "topPrizesRemaining": 4,
-      "topPrizeOddsOneIn": 602512.25,
+      "topPrizeOddsOneIn": 601282.25,
       "totalWinningTicketsPrinted": 1721394,
-      "totalWinningTicketsClaimed": 1042507,
-      "totalWinningTicketsRemaining": 678887,
-      "anyPrizeOddsOneIn": 3.550000220949878,
+      "totalWinningTicketsClaimed": 1043893,
+      "totalWinningTicketsRemaining": 677501,
+      "anyPrizeOddsOneIn": 3.550000664205662,
       "topPrizeMultiplier": 33333.3,
       "prizeLevels": [
         {
@@ -1799,44 +1799,44 @@
         {
           "amount": 1000,
           "totalPrizes": 1244,
-          "claimedPrizes": 742,
-          "remainingPrizes": 502
+          "claimedPrizes": 744,
+          "remainingPrizes": 500
         },
         {
           "amount": 500,
           "totalPrizes": 9890,
-          "claimedPrizes": 5903,
-          "remainingPrizes": 3987
+          "claimedPrizes": 5910,
+          "remainingPrizes": 3980
         },
         {
           "amount": 200,
           "totalPrizes": 122225,
-          "claimedPrizes": 74145,
-          "remainingPrizes": 48080
+          "claimedPrizes": 74256,
+          "remainingPrizes": 47969
         },
         {
           "amount": 100,
           "totalPrizes": 488578,
-          "claimedPrizes": 296902,
-          "remainingPrizes": 191676
+          "claimedPrizes": 297284,
+          "remainingPrizes": 191294
         },
         {
           "amount": 75,
           "totalPrizes": 183236,
-          "claimedPrizes": 111127,
-          "remainingPrizes": 72109
+          "claimedPrizes": 111275,
+          "remainingPrizes": 71961
         },
         {
           "amount": 50,
           "totalPrizes": 305285,
-          "claimedPrizes": 184869,
-          "remainingPrizes": 120416
+          "claimedPrizes": 185135,
+          "remainingPrizes": 120150
         },
         {
           "amount": 30,
           "totalPrizes": 610777,
-          "claimedPrizes": 368722,
-          "remainingPrizes": 242055
+          "claimedPrizes": 369192,
+          "remainingPrizes": 241585
         }
       ]
     },
@@ -1849,17 +1849,17 @@
       "ticketPrice": 3,
       "approxTicketsInGame": 24853750,
       "overallOddsOneIn": 4.07,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 24855486,
       "topPrizeAmount": 50000,
       "topPrizesPrinted": 13,
       "topPrizesClaimed": 6,
       "topPrizesRemaining": 7,
-      "topPrizeOddsOneIn": 2206297,
+      "topPrizeOddsOneIn": 2199718.714285714,
       "totalWinningTicketsPrinted": 6106999,
-      "totalWinningTicketsClaimed": 2312385,
-      "totalWinningTicketsRemaining": 3794614,
-      "anyPrizeOddsOneIn": 4.070000005270629,
+      "totalWinningTicketsClaimed": 2323699,
+      "totalWinningTicketsRemaining": 3783300,
+      "anyPrizeOddsOneIn": 4.07,
       "topPrizeMultiplier": 16666.7,
       "prizeLevels": [
         {
@@ -1877,50 +1877,50 @@
         {
           "amount": 500,
           "totalPrizes": 2110,
-          "claimedPrizes": 838,
-          "remainingPrizes": 1272
+          "claimedPrizes": 842,
+          "remainingPrizes": 1268
         },
         {
           "amount": 100,
           "totalPrizes": 40298,
-          "claimedPrizes": 15907,
-          "remainingPrizes": 24391
+          "claimedPrizes": 15984,
+          "remainingPrizes": 24314
         },
         {
           "amount": 50,
           "totalPrizes": 99461,
-          "claimedPrizes": 39387,
-          "remainingPrizes": 60074
+          "claimedPrizes": 39574,
+          "remainingPrizes": 59887
         },
         {
           "amount": 20,
           "totalPrizes": 298297,
-          "claimedPrizes": 117753,
-          "remainingPrizes": 180544
+          "claimedPrizes": 118336,
+          "remainingPrizes": 179961
         },
         {
           "amount": 15,
           "totalPrizes": 347883,
-          "claimedPrizes": 136777,
-          "remainingPrizes": 211106
+          "claimedPrizes": 137433,
+          "remainingPrizes": 210450
         },
         {
           "amount": 10,
           "totalPrizes": 1192980,
-          "claimedPrizes": 466010,
-          "remainingPrizes": 726970
+          "claimedPrizes": 468236,
+          "remainingPrizes": 724744
         },
         {
           "amount": 5,
           "totalPrizes": 1391852,
-          "claimedPrizes": 534979,
-          "remainingPrizes": 856873
+          "claimedPrizes": 537631,
+          "remainingPrizes": 854221
         },
         {
           "amount": 3,
           "totalPrizes": 2734034,
-          "claimedPrizes": 1000701,
-          "remainingPrizes": 1733333
+          "claimedPrizes": 1005630,
+          "remainingPrizes": 1728404
         }
       ]
     },
@@ -1933,17 +1933,17 @@
       "ticketPrice": 100,
       "approxTicketsInGame": 5645205,
       "overallOddsOneIn": 3.91,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 5645528,
       "topPrizeAmount": 5000000,
       "topPrizesPrinted": 4,
       "topPrizesClaimed": 2,
       "topPrizesRemaining": 2,
-      "topPrizeOddsOneIn": 1331423.5,
+      "topPrizeOddsOneIn": 1330223,
       "totalWinningTicketsPrinted": 1443869,
-      "totalWinningTicketsClaimed": 762834,
-      "totalWinningTicketsRemaining": 681035,
-      "anyPrizeOddsOneIn": 3.9100002202529973,
+      "totalWinningTicketsClaimed": 763448,
+      "totalWinningTicketsRemaining": 680421,
+      "anyPrizeOddsOneIn": 3.9099998383353833,
       "topPrizeMultiplier": 50000,
       "prizeLevels": [
         {
@@ -1961,38 +1961,38 @@
         {
           "amount": 2500,
           "totalPrizes": 8277,
-          "claimedPrizes": 4301,
-          "remainingPrizes": 3976
+          "claimedPrizes": 4306,
+          "remainingPrizes": 3971
         },
         {
           "amount": 1000,
           "totalPrizes": 24037,
-          "claimedPrizes": 12477,
-          "remainingPrizes": 11560
+          "claimedPrizes": 12488,
+          "remainingPrizes": 11549
         },
         {
           "amount": 500,
           "totalPrizes": 188129,
-          "claimedPrizes": 99742,
-          "remainingPrizes": 88387
+          "claimedPrizes": 99811,
+          "remainingPrizes": 88318
         },
         {
           "amount": 400,
           "totalPrizes": 187928,
-          "claimedPrizes": 99685,
-          "remainingPrizes": 88243
+          "claimedPrizes": 99773,
+          "remainingPrizes": 88155
         },
         {
           "amount": 250,
           "totalPrizes": 188129,
-          "claimedPrizes": 99393,
-          "remainingPrizes": 88736
+          "claimedPrizes": 99453,
+          "remainingPrizes": 88676
         },
         {
           "amount": 200,
           "totalPrizes": 847331,
-          "claimedPrizes": 447217,
-          "remainingPrizes": 400114
+          "claimedPrizes": 447598,
+          "remainingPrizes": 399733
         }
       ]
     },
@@ -2005,17 +2005,17 @@
       "ticketPrice": 5,
       "approxTicketsInGame": 17339625,
       "overallOddsOneIn": 4.26,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 17324351,
       "topPrizeAmount": 100000,
       "topPrizesPrinted": 5,
       "topPrizesClaimed": 3,
       "topPrizesRemaining": 2,
-      "topPrizeOddsOneIn": 2941272.5,
+      "topPrizeOddsOneIn": 2929118.5,
       "totalWinningTicketsPrinted": 4066749,
-      "totalWinningTicketsClaimed": 2685870,
-      "totalWinningTicketsRemaining": 1380879,
-      "anyPrizeOddsOneIn": 4.26000033312115,
+      "totalWinningTicketsClaimed": 2691576,
+      "totalWinningTicketsRemaining": 1375173,
+      "anyPrizeOddsOneIn": 4.260000014543625,
       "topPrizeMultiplier": 20000,
       "prizeLevels": [
         {
@@ -2033,74 +2033,74 @@
         {
           "amount": 500,
           "totalPrizes": 2036,
-          "claimedPrizes": 1384,
-          "remainingPrizes": 652
+          "claimedPrizes": 1388,
+          "remainingPrizes": 648
         },
         {
           "amount": 400,
           "totalPrizes": 1720,
-          "claimedPrizes": 1149,
-          "remainingPrizes": 571
+          "claimedPrizes": 1152,
+          "remainingPrizes": 568
         },
         {
           "amount": 300,
           "totalPrizes": 2034,
-          "claimedPrizes": 1358,
-          "remainingPrizes": 676
+          "claimedPrizes": 1360,
+          "remainingPrizes": 674
         },
         {
           "amount": 200,
           "totalPrizes": 3896,
-          "claimedPrizes": 2639,
-          "remainingPrizes": 1257
+          "claimedPrizes": 2647,
+          "remainingPrizes": 1249
         },
         {
           "amount": 100,
           "totalPrizes": 57728,
-          "claimedPrizes": 39014,
-          "remainingPrizes": 18714
+          "claimedPrizes": 39096,
+          "remainingPrizes": 18632
         },
         {
           "amount": 50,
           "totalPrizes": 184345,
-          "claimedPrizes": 125374,
-          "remainingPrizes": 58971
+          "claimedPrizes": 125621,
+          "remainingPrizes": 58724
         },
         {
           "amount": 30,
           "totalPrizes": 57767,
-          "claimedPrizes": 39153,
-          "remainingPrizes": 18614
+          "claimedPrizes": 39249,
+          "remainingPrizes": 18518
         },
         {
           "amount": 25,
           "totalPrizes": 346762,
-          "claimedPrizes": 232999,
-          "remainingPrizes": 113763
+          "claimedPrizes": 233500,
+          "remainingPrizes": 113262
         },
         {
           "amount": 20,
           "totalPrizes": 288930,
-          "claimedPrizes": 193771,
-          "remainingPrizes": 95159
+          "claimedPrizes": 194164,
+          "remainingPrizes": 94766
         },
         {
           "amount": 15,
           "totalPrizes": 404589,
-          "claimedPrizes": 269664,
-          "remainingPrizes": 134925
+          "claimedPrizes": 270253,
+          "remainingPrizes": 134336
         },
         {
           "amount": 10,
           "totalPrizes": 924841,
-          "claimedPrizes": 608808,
-          "remainingPrizes": 316033
+          "claimedPrizes": 610079,
+          "remainingPrizes": 314762
         },
         {
           "amount": 5,
           "totalPrizes": 1792084,
-          "claimedPrizes": 1170549,
-          "remainingPrizes": 621535
+          "claimedPrizes": 1173059,
+          "remainingPrizes": 619025
         }
       ]
     },
@@ -2113,17 +2113,17 @@
       "ticketPrice": 10,
       "approxTicketsInGame": 22393250,
       "overallOddsOneIn": 3.56,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 22403909,
       "topPrizeAmount": 250000,
       "topPrizesPrinted": 10,
       "topPrizesClaimed": 7,
       "topPrizesRemaining": 3,
-      "topPrizeOddsOneIn": 2116678.6666666665,
+      "topPrizeOddsOneIn": 2104835.6666666665,
       "totalWinningTicketsPrinted": 6293233,
-      "totalWinningTicketsClaimed": 4509515,
-      "totalWinningTicketsRemaining": 1783718,
-      "anyPrizeOddsOneIn": 3.5599999551498613,
+      "totalWinningTicketsClaimed": 4519495,
+      "totalWinningTicketsRemaining": 1773738,
+      "anyPrizeOddsOneIn": 3.559999842141286,
       "topPrizeMultiplier": 25000,
       "prizeLevels": [
         {
@@ -2141,56 +2141,56 @@
         {
           "amount": 1000,
           "totalPrizes": 2032,
-          "claimedPrizes": 1428,
-          "remainingPrizes": 604
+          "claimedPrizes": 1430,
+          "remainingPrizes": 602
         },
         {
           "amount": 500,
           "totalPrizes": 3719,
-          "claimedPrizes": 2701,
-          "remainingPrizes": 1018
+          "claimedPrizes": 2704,
+          "remainingPrizes": 1015
         },
         {
           "amount": 200,
           "totalPrizes": 22149,
-          "claimedPrizes": 16219,
-          "remainingPrizes": 5930
+          "claimedPrizes": 16255,
+          "remainingPrizes": 5894
         },
         {
           "amount": 100,
           "totalPrizes": 135237,
-          "claimedPrizes": 98334,
-          "remainingPrizes": 36903
+          "claimedPrizes": 98530,
+          "remainingPrizes": 36707
         },
         {
           "amount": 80,
           "totalPrizes": 83953,
-          "claimedPrizes": 61171,
-          "remainingPrizes": 22782
+          "claimedPrizes": 61309,
+          "remainingPrizes": 22644
         },
         {
           "amount": 50,
           "totalPrizes": 447865,
-          "claimedPrizes": 325406,
-          "remainingPrizes": 122459
+          "claimedPrizes": 326172,
+          "remainingPrizes": 121693
         },
         {
           "amount": 30,
           "totalPrizes": 1567555,
-          "claimedPrizes": 1136923,
-          "remainingPrizes": 430632
+          "claimedPrizes": 1139444,
+          "remainingPrizes": 428111
         },
         {
           "amount": 20,
           "totalPrizes": 1567547,
-          "claimedPrizes": 1132758,
-          "remainingPrizes": 434789
+          "claimedPrizes": 1135312,
+          "remainingPrizes": 432235
         },
         {
           "amount": 10,
           "totalPrizes": 2463136,
-          "claimedPrizes": 1734548,
-          "remainingPrizes": 728588
+          "claimedPrizes": 1738312,
+          "remainingPrizes": 724824
         }
       ]
     },
@@ -2203,17 +2203,17 @@
       "ticketPrice": 10,
       "approxTicketsInGame": 34459550,
       "overallOddsOneIn": 3.54,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 34489749,
       "topPrizeAmount": 250000,
       "topPrizesPrinted": 10,
       "topPrizesClaimed": 9,
       "topPrizesRemaining": 1,
-      "topPrizeOddsOneIn": 6961906,
+      "topPrizeOddsOneIn": 6924375,
       "totalWinningTicketsPrinted": 9742867,
-      "totalWinningTicketsClaimed": 7776227,
-      "totalWinningTicketsRemaining": 1966640,
-      "anyPrizeOddsOneIn": 3.5400002033925886,
+      "totalWinningTicketsClaimed": 7786829,
+      "totalWinningTicketsRemaining": 1956038,
+      "anyPrizeOddsOneIn": 3.5400002453940056,
       "topPrizeMultiplier": 25000,
       "prizeLevels": [
         {
@@ -2231,56 +2231,56 @@
         {
           "amount": 1000,
           "totalPrizes": 1735,
-          "claimedPrizes": 1370,
-          "remainingPrizes": 365
+          "claimedPrizes": 1371,
+          "remainingPrizes": 364
         },
         {
           "amount": 500,
           "totalPrizes": 6337,
-          "claimedPrizes": 5145,
-          "remainingPrizes": 1192
+          "claimedPrizes": 5152,
+          "remainingPrizes": 1185
         },
         {
           "amount": 200,
           "totalPrizes": 76080,
-          "claimedPrizes": 61380,
-          "remainingPrizes": 14700
+          "claimedPrizes": 61455,
+          "remainingPrizes": 14625
         },
         {
           "amount": 100,
           "totalPrizes": 354588,
-          "claimedPrizes": 286112,
-          "remainingPrizes": 68476
+          "claimedPrizes": 286496,
+          "remainingPrizes": 68092
         },
         {
           "amount": 50,
           "totalPrizes": 689191,
-          "claimedPrizes": 555092,
-          "remainingPrizes": 134099
+          "claimedPrizes": 555868,
+          "remainingPrizes": 133323
         },
         {
           "amount": 30,
           "totalPrizes": 2067573,
-          "claimedPrizes": 1668729,
-          "remainingPrizes": 398844
+          "claimedPrizes": 1671019,
+          "remainingPrizes": 396554
         },
         {
           "amount": 20,
           "totalPrizes": 1378382,
-          "claimedPrizes": 1107720,
-          "remainingPrizes": 270662
+          "claimedPrizes": 1109273,
+          "remainingPrizes": 269109
         },
         {
           "amount": 15,
           "totalPrizes": 1378579,
-          "claimedPrizes": 1093306,
-          "remainingPrizes": 285273
+          "claimedPrizes": 1094783,
+          "remainingPrizes": 283796
         },
         {
           "amount": 10,
           "totalPrizes": 3790255,
-          "claimedPrizes": 2997256,
-          "remainingPrizes": 792999
+          "claimedPrizes": 3001295,
+          "remainingPrizes": 788960
         }
       ]
     },
@@ -2293,17 +2293,17 @@
       "ticketPrice": 20,
       "approxTicketsInGame": 6086825,
       "overallOddsOneIn": 3.8,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 6080160,
       "topPrizeAmount": 1000000,
       "topPrizesPrinted": 4,
       "topPrizesClaimed": 3,
       "topPrizesRemaining": 1,
-      "topPrizeOddsOneIn": 1150408,
+      "topPrizeOddsOneIn": 1148816,
       "totalWinningTicketsPrinted": 1600042,
-      "totalWinningTicketsClaimed": 1297303,
-      "totalWinningTicketsRemaining": 302739,
-      "anyPrizeOddsOneIn": 3.7999993393649314,
+      "totalWinningTicketsClaimed": 1297722,
+      "totalWinningTicketsRemaining": 302320,
+      "anyPrizeOddsOneIn": 3.8,
       "topPrizeMultiplier": 50000,
       "prizeLevels": [
         {
@@ -2327,32 +2327,32 @@
         {
           "amount": 500,
           "totalPrizes": 6601,
-          "claimedPrizes": 5371,
-          "remainingPrizes": 1230
+          "claimedPrizes": 5373,
+          "remainingPrizes": 1228
         },
         {
           "amount": 200,
           "totalPrizes": 71476,
-          "claimedPrizes": 58167,
-          "remainingPrizes": 13309
+          "claimedPrizes": 58185,
+          "remainingPrizes": 13291
         },
         {
           "amount": 100,
           "totalPrizes": 365204,
-          "claimedPrizes": 297869,
-          "remainingPrizes": 67335
+          "claimedPrizes": 297947,
+          "remainingPrizes": 67257
         },
         {
           "amount": 40,
           "totalPrizes": 486917,
-          "claimedPrizes": 396123,
-          "remainingPrizes": 90794
+          "claimedPrizes": 396274,
+          "remainingPrizes": 90643
         },
         {
           "amount": 20,
           "totalPrizes": 669618,
-          "claimedPrizes": 539590,
-          "remainingPrizes": 130028
+          "claimedPrizes": 539760,
+          "remainingPrizes": 129858
         }
       ]
     },
@@ -2365,16 +2365,16 @@
       "ticketPrice": 2,
       "approxTicketsInGame": 9299875,
       "overallOddsOneIn": 4.4,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 9297737,
       "topPrizeAmount": 30000,
       "topPrizesPrinted": 5,
       "topPrizesClaimed": 3,
       "topPrizesRemaining": 2,
-      "topPrizeOddsOneIn": 2095830,
+      "topPrizeOddsOneIn": 2094202,
       "totalWinningTicketsPrinted": 2113122,
-      "totalWinningTicketsClaimed": 1160472,
-      "totalWinningTicketsRemaining": 952650,
+      "totalWinningTicketsClaimed": 1161212,
+      "totalWinningTicketsRemaining": 951910,
       "anyPrizeOddsOneIn": 4.4,
       "topPrizeMultiplier": 15000,
       "prizeLevels": [
@@ -2393,44 +2393,44 @@
         {
           "amount": 100,
           "totalPrizes": 5049,
-          "claimedPrizes": 2912,
-          "remainingPrizes": 2137
+          "claimedPrizes": 2913,
+          "remainingPrizes": 2136
         },
         {
           "amount": 50,
           "totalPrizes": 62006,
-          "claimedPrizes": 36049,
-          "remainingPrizes": 25957
+          "claimedPrizes": 36076,
+          "remainingPrizes": 25930
         },
         {
           "amount": 20,
           "totalPrizes": 74399,
-          "claimedPrizes": 44406,
-          "remainingPrizes": 29993
+          "claimedPrizes": 44438,
+          "remainingPrizes": 29961
         },
         {
           "amount": 10,
           "totalPrizes": 111570,
-          "claimedPrizes": 62950,
-          "remainingPrizes": 48620
+          "claimedPrizes": 62986,
+          "remainingPrizes": 48584
         },
         {
           "amount": 5,
           "totalPrizes": 148783,
-          "claimedPrizes": 86293,
-          "remainingPrizes": 62490
+          "claimedPrizes": 86346,
+          "remainingPrizes": 62437
         },
         {
           "amount": 4,
           "totalPrizes": 744115,
-          "claimedPrizes": 381436,
-          "remainingPrizes": 362679
+          "claimedPrizes": 381677,
+          "remainingPrizes": 362438
         },
         {
           "amount": 2,
           "totalPrizes": 967117,
-          "claimedPrizes": 546375,
-          "remainingPrizes": 420742
+          "claimedPrizes": 546725,
+          "remainingPrizes": 420392
         }
       ]
     },
@@ -2451,8 +2451,8 @@
       "topPrizesRemaining": 1,
       "topPrizeOddsOneIn": null,
       "totalWinningTicketsPrinted": 221792,
-      "totalWinningTicketsClaimed": 193505,
-      "totalWinningTicketsRemaining": 28287,
+      "totalWinningTicketsClaimed": 196804,
+      "totalWinningTicketsRemaining": 24988,
       "anyPrizeOddsOneIn": null,
       "topPrizeMultiplier": 500,
       "prizeLevels": [
@@ -2477,8 +2477,8 @@
         {
           "amount": 40,
           "totalPrizes": 52,
-          "claimedPrizes": 46,
-          "remainingPrizes": 6
+          "claimedPrizes": 47,
+          "remainingPrizes": 5
         },
         {
           "amount": 30,
@@ -2489,50 +2489,50 @@
         {
           "amount": 20,
           "totalPrizes": 2284,
-          "claimedPrizes": 2091,
-          "remainingPrizes": 193
+          "claimedPrizes": 2124,
+          "remainingPrizes": 160
         },
         {
           "amount": 15,
           "totalPrizes": 2287,
-          "claimedPrizes": 2048,
-          "remainingPrizes": 239
+          "claimedPrizes": 2086,
+          "remainingPrizes": 201
         },
         {
           "amount": 10,
           "totalPrizes": 6853,
-          "claimedPrizes": 6169,
-          "remainingPrizes": 684
+          "claimedPrizes": 6275,
+          "remainingPrizes": 578
         },
         {
           "amount": 5,
           "totalPrizes": 7988,
-          "claimedPrizes": 7117,
-          "remainingPrizes": 871
+          "claimedPrizes": 7238,
+          "remainingPrizes": 750
         },
         {
           "amount": 4,
           "totalPrizes": 5712,
-          "claimedPrizes": 5029,
-          "remainingPrizes": 683
+          "claimedPrizes": 5113,
+          "remainingPrizes": 599
         },
         {
           "amount": 3,
           "totalPrizes": 12568,
-          "claimedPrizes": 10926,
-          "remainingPrizes": 1642
+          "claimedPrizes": 11133,
+          "remainingPrizes": 1435
         },
         {
           "amount": 2,
           "totalPrizes": 67427,
-          "claimedPrizes": 59035,
-          "remainingPrizes": 8392
+          "claimedPrizes": 60051,
+          "remainingPrizes": 7376
         },
         {
           "amount": 1,
           "totalPrizes": 116504,
-          "claimedPrizes": 100937,
-          "remainingPrizes": 15567
+          "claimedPrizes": 102630,
+          "remainingPrizes": 13874
         }
       ]
     },
@@ -2545,17 +2545,17 @@
       "ticketPrice": 10,
       "approxTicketsInGame": 25087000,
       "overallOddsOneIn": 3.54,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 25085056,
       "topPrizeAmount": 250000,
       "topPrizesPrinted": 10,
       "topPrizesClaimed": 8,
       "topPrizesRemaining": 2,
-      "topPrizeOddsOneIn": 1528528,
+      "topPrizeOddsOneIn": 1518663.5,
       "totalWinningTicketsPrinted": 7086174,
-      "totalWinningTicketsClaimed": 6222599,
-      "totalWinningTicketsRemaining": 863575,
-      "anyPrizeOddsOneIn": 3.540000578988507,
+      "totalWinningTicketsClaimed": 6228172,
+      "totalWinningTicketsRemaining": 858002,
+      "anyPrizeOddsOneIn": 3.539999906760124,
       "topPrizeMultiplier": 25000,
       "prizeLevels": [
         {
@@ -2573,8 +2573,8 @@
         {
           "amount": 1000,
           "totalPrizes": 1263,
-          "claimedPrizes": 1085,
-          "remainingPrizes": 178
+          "claimedPrizes": 1087,
+          "remainingPrizes": 176
         },
         {
           "amount": 500,
@@ -2585,44 +2585,44 @@
         {
           "amount": 200,
           "totalPrizes": 54383,
-          "claimedPrizes": 48309,
-          "remainingPrizes": 6074
+          "claimedPrizes": 48353,
+          "remainingPrizes": 6030
         },
         {
           "amount": 100,
           "totalPrizes": 252885,
-          "claimedPrizes": 224438,
-          "remainingPrizes": 28447
+          "claimedPrizes": 224612,
+          "remainingPrizes": 28273
         },
         {
           "amount": 50,
           "totalPrizes": 501740,
-          "claimedPrizes": 444316,
-          "remainingPrizes": 57424
+          "claimedPrizes": 444742,
+          "remainingPrizes": 56998
         },
         {
           "amount": 30,
           "totalPrizes": 1505220,
-          "claimedPrizes": 1335912,
-          "remainingPrizes": 169308
+          "claimedPrizes": 1337106,
+          "remainingPrizes": 168114
         },
         {
           "amount": 20,
           "totalPrizes": 1003480,
-          "claimedPrizes": 887089,
-          "remainingPrizes": 116391
+          "claimedPrizes": 887840,
+          "remainingPrizes": 115640
         },
         {
           "amount": 15,
           "totalPrizes": 1003846,
-          "claimedPrizes": 876487,
-          "remainingPrizes": 127359
+          "claimedPrizes": 877240,
+          "remainingPrizes": 126606
         },
         {
           "amount": 10,
           "totalPrizes": 2759021,
-          "claimedPrizes": 2401101,
-          "remainingPrizes": 357920
+          "claimedPrizes": 2403330,
+          "remainingPrizes": 355691
         }
       ]
     },
@@ -2635,17 +2635,17 @@
       "ticketPrice": 50,
       "approxTicketsInGame": 4651020,
       "overallOddsOneIn": 3.76,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 4654026,
       "topPrizeAmount": 2000000,
       "topPrizesPrinted": 4,
       "topPrizesClaimed": 2,
       "topPrizesRemaining": 2,
-      "topPrizeOddsOneIn": 906891.5,
+      "topPrizeOddsOneIn": 904573.5,
       "totalWinningTicketsPrinted": 1237773,
-      "totalWinningTicketsClaimed": 755384,
-      "totalWinningTicketsRemaining": 482389,
-      "anyPrizeOddsOneIn": 3.760000746285674,
+      "totalWinningTicketsClaimed": 756617,
+      "totalWinningTicketsRemaining": 481156,
+      "anyPrizeOddsOneIn": 3.7600009144643316,
       "topPrizeMultiplier": 40000,
       "prizeLevels": [
         {
@@ -2669,38 +2669,38 @@
         {
           "amount": 500,
           "totalPrizes": 46836,
-          "claimedPrizes": 28632,
-          "remainingPrizes": 18204
+          "claimedPrizes": 28673,
+          "remainingPrizes": 18163
         },
         {
           "amount": 400,
           "totalPrizes": 65950,
-          "claimedPrizes": 40391,
-          "remainingPrizes": 25559
+          "claimedPrizes": 40455,
+          "remainingPrizes": 25495
         },
         {
           "amount": 250,
           "totalPrizes": 77490,
-          "claimedPrizes": 47443,
-          "remainingPrizes": 30047
+          "claimedPrizes": 47509,
+          "remainingPrizes": 29981
         },
         {
           "amount": 150,
           "totalPrizes": 290734,
-          "claimedPrizes": 177556,
-          "remainingPrizes": 113178
+          "claimedPrizes": 177854,
+          "remainingPrizes": 112880
         },
         {
           "amount": 100,
           "totalPrizes": 406919,
-          "claimedPrizes": 248309,
-          "remainingPrizes": 158610
+          "claimedPrizes": 248728,
+          "remainingPrizes": 158191
         },
         {
           "amount": 50,
           "totalPrizes": 348790,
-          "claimedPrizes": 212430,
-          "remainingPrizes": 136360
+          "claimedPrizes": 212775,
+          "remainingPrizes": 136015
         }
       ]
     },
@@ -2713,42 +2713,42 @@
       "ticketPrice": 20,
       "approxTicketsInGame": 4965650,
       "overallOddsOneIn": 9.49,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 4967142,
       "topPrizeAmount": 1000,
       "topPrizesPrinted": 2974,
-      "topPrizesClaimed": 678,
-      "topPrizesRemaining": 2296,
-      "topPrizeOddsOneIn": 1623.2817944250871,
+      "topPrizesClaimed": 688,
+      "topPrizesRemaining": 2286,
+      "topPrizeOddsOneIn": 1624.2055993000874,
       "totalWinningTicketsPrinted": 523408,
-      "totalWinningTicketsClaimed": 130673,
-      "totalWinningTicketsRemaining": 392735,
-      "anyPrizeOddsOneIn": 9.48999961806307,
+      "totalWinningTicketsClaimed": 132161,
+      "totalWinningTicketsRemaining": 391247,
+      "anyPrizeOddsOneIn": 9.489999923322095,
       "topPrizeMultiplier": 50,
       "prizeLevels": [
         {
           "amount": 1000,
           "totalPrizes": 2974,
-          "claimedPrizes": 678,
-          "remainingPrizes": 2296
+          "claimedPrizes": 688,
+          "remainingPrizes": 2286
         },
         {
           "amount": 500,
           "totalPrizes": 23858,
-          "claimedPrizes": 5910,
-          "remainingPrizes": 17948
+          "claimedPrizes": 5964,
+          "remainingPrizes": 17894
         },
         {
           "amount": 200,
           "totalPrizes": 99302,
-          "claimedPrizes": 25332,
-          "remainingPrizes": 73970
+          "claimedPrizes": 25608,
+          "remainingPrizes": 73694
         },
         {
           "amount": 100,
           "totalPrizes": 397274,
-          "claimedPrizes": 98753,
-          "remainingPrizes": 298521
+          "claimedPrizes": 99901,
+          "remainingPrizes": 297373
         }
       ]
     },
@@ -2761,17 +2761,17 @@
       "ticketPrice": 50,
       "approxTicketsInGame": 5002420,
       "overallOddsOneIn": 3.45,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 4996770,
       "topPrizeAmount": 1000000,
       "topPrizesPrinted": 10,
       "topPrizesClaimed": 3,
       "topPrizesRemaining": 7,
-      "topPrizeOddsOneIn": 340618.5714285714,
+      "topPrizeOddsOneIn": 339737.71428571426,
       "totalWinningTicketsPrinted": 1448339,
-      "totalWinningTicketsClaimed": 757229,
-      "totalWinningTicketsRemaining": 691110,
-      "anyPrizeOddsOneIn": 3.450000723473832,
+      "totalWinningTicketsClaimed": 759016,
+      "totalWinningTicketsRemaining": 689323,
+      "anyPrizeOddsOneIn": 3.449999492255445,
       "topPrizeMultiplier": 20000,
       "prizeLevels": [
         {
@@ -2795,32 +2795,32 @@
         {
           "amount": 500,
           "totalPrizes": 62975,
-          "claimedPrizes": 32829,
-          "remainingPrizes": 30146
+          "claimedPrizes": 32900,
+          "remainingPrizes": 30075
         },
         {
           "amount": 300,
           "totalPrizes": 71890,
-          "claimedPrizes": 37483,
-          "remainingPrizes": 34407
+          "claimedPrizes": 37577,
+          "remainingPrizes": 34313
         },
         {
           "amount": 200,
           "totalPrizes": 250121,
-          "claimedPrizes": 131188,
-          "remainingPrizes": 118933
+          "claimedPrizes": 131485,
+          "remainingPrizes": 118636
         },
         {
           "amount": 100,
           "totalPrizes": 562893,
-          "claimedPrizes": 294879,
-          "remainingPrizes": 268014
+          "claimedPrizes": 295574,
+          "remainingPrizes": 267319
         },
         {
           "amount": 50,
           "totalPrizes": 499843,
-          "claimedPrizes": 260550,
-          "remainingPrizes": 239293
+          "claimedPrizes": 261180,
+          "remainingPrizes": 238663
         }
       ]
     },
@@ -2833,17 +2833,17 @@
       "ticketPrice": 20,
       "approxTicketsInGame": 6073475,
       "overallOddsOneIn": 3.82,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 6074973,
       "topPrizeAmount": 1000000,
       "topPrizesPrinted": 4,
       "topPrizesClaimed": 0,
       "topPrizesRemaining": 4,
-      "topPrizeOddsOneIn": 1449130.25,
+      "topPrizeOddsOneIn": 1441417.75,
       "totalWinningTicketsPrinted": 1590307,
-      "totalWinningTicketsClaimed": 72893,
-      "totalWinningTicketsRemaining": 1517414,
-      "anyPrizeOddsOneIn": 3.819999683672353,
+      "totalWinningTicketsClaimed": 80969,
+      "totalWinningTicketsRemaining": 1509338,
+      "anyPrizeOddsOneIn": 3.8199998939932605,
       "topPrizeMultiplier": 50000,
       "prizeLevels": [
         {
@@ -2861,44 +2861,44 @@
         {
           "amount": 2000,
           "totalPrizes": 149,
-          "claimedPrizes": 2,
-          "remainingPrizes": 147
+          "claimedPrizes": 3,
+          "remainingPrizes": 146
         },
         {
           "amount": 500,
           "totalPrizes": 4061,
-          "claimedPrizes": 183,
-          "remainingPrizes": 3878
+          "claimedPrizes": 202,
+          "remainingPrizes": 3859
         },
         {
           "amount": 200,
           "totalPrizes": 67719,
-          "claimedPrizes": 3071,
-          "remainingPrizes": 64648
+          "claimedPrizes": 3420,
+          "remainingPrizes": 64299
         },
         {
           "amount": 100,
           "totalPrizes": 303611,
-          "claimedPrizes": 14270,
-          "remainingPrizes": 289341
+          "claimedPrizes": 15828,
+          "remainingPrizes": 287783
         },
         {
           "amount": 75,
           "totalPrizes": 121494,
-          "claimedPrizes": 5664,
-          "remainingPrizes": 115830
+          "claimedPrizes": 6323,
+          "remainingPrizes": 115171
         },
         {
           "amount": 40,
           "totalPrizes": 486024,
-          "claimedPrizes": 22572,
-          "remainingPrizes": 463452
+          "claimedPrizes": 25054,
+          "remainingPrizes": 460970
         },
         {
           "amount": 20,
           "totalPrizes": 607233,
-          "claimedPrizes": 27131,
-          "remainingPrizes": 580102
+          "claimedPrizes": 30139,
+          "remainingPrizes": 577094
         }
       ]
     },
@@ -2911,17 +2911,17 @@
       "ticketPrice": 20,
       "approxTicketsInGame": 6114525,
       "overallOddsOneIn": 3.88,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 6117278,
       "topPrizeAmount": 1000000,
       "topPrizesPrinted": 4,
       "topPrizesClaimed": 2,
       "topPrizesRemaining": 2,
-      "topPrizeOddsOneIn": 1669052,
+      "topPrizeOddsOneIn": 1663800.5,
       "totalWinningTicketsPrinted": 1576618,
-      "totalWinningTicketsClaimed": 716282,
-      "totalWinningTicketsRemaining": 860336,
-      "anyPrizeOddsOneIn": 3.880000371947704,
+      "totalWinningTicketsClaimed": 718989,
+      "totalWinningTicketsRemaining": 857629,
+      "anyPrizeOddsOneIn": 3.880000559682567,
       "topPrizeMultiplier": 50000,
       "prizeLevels": [
         {
@@ -2939,44 +2939,44 @@
         {
           "amount": 1000,
           "totalPrizes": 275,
-          "claimedPrizes": 125,
-          "remainingPrizes": 150
+          "claimedPrizes": 126,
+          "remainingPrizes": 149
         },
         {
           "amount": 500,
           "totalPrizes": 3897,
-          "claimedPrizes": 1768,
-          "remainingPrizes": 2129
+          "claimedPrizes": 1769,
+          "remainingPrizes": 2128
         },
         {
           "amount": 200,
           "totalPrizes": 55959,
-          "claimedPrizes": 25545,
-          "remainingPrizes": 30414
+          "claimedPrizes": 25644,
+          "remainingPrizes": 30315
         },
         {
           "amount": 100,
           "totalPrizes": 293490,
-          "claimedPrizes": 134122,
-          "remainingPrizes": 159368
+          "claimedPrizes": 134655,
+          "remainingPrizes": 158835
         },
         {
           "amount": 75,
           "totalPrizes": 97871,
-          "claimedPrizes": 44537,
-          "remainingPrizes": 53334
+          "claimedPrizes": 44693,
+          "remainingPrizes": 53178
         },
         {
           "amount": 50,
           "totalPrizes": 489077,
-          "claimedPrizes": 223061,
-          "remainingPrizes": 266016
+          "claimedPrizes": 223972,
+          "remainingPrizes": 265105
         },
         {
           "amount": 20,
           "totalPrizes": 636025,
-          "claimedPrizes": 287113,
-          "remainingPrizes": 348912
+          "claimedPrizes": 288119,
+          "remainingPrizes": 347906
         }
       ]
     },
@@ -2989,17 +2989,17 @@
       "ticketPrice": 3,
       "approxTicketsInGame": 17205625,
       "overallOddsOneIn": 4.39,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 17208497,
       "topPrizeAmount": 60000,
       "topPrizesPrinted": 6,
       "topPrizesClaimed": 2,
       "topPrizesRemaining": 4,
-      "topPrizeOddsOneIn": 2695800.25,
+      "topPrizeOddsOneIn": 2693228.75,
       "totalWinningTicketsPrinted": 3919931,
-      "totalWinningTicketsClaimed": 1463621,
-      "totalWinningTicketsRemaining": 2456310,
-      "anyPrizeOddsOneIn": 4.390000040711474,
+      "totalWinningTicketsClaimed": 1465964,
+      "totalWinningTicketsRemaining": 2453967,
+      "anyPrizeOddsOneIn": 4.3899999470245525,
       "topPrizeMultiplier": 20000,
       "prizeLevels": [
         {
@@ -3017,62 +3017,62 @@
         {
           "amount": 300,
           "totalPrizes": 708,
-          "claimedPrizes": 273,
-          "remainingPrizes": 435
+          "claimedPrizes": 274,
+          "remainingPrizes": 434
         },
         {
           "amount": 150,
           "totalPrizes": 2713,
-          "claimedPrizes": 1027,
-          "remainingPrizes": 1686
+          "claimedPrizes": 1029,
+          "remainingPrizes": 1684
         },
         {
           "amount": 90,
           "totalPrizes": 10772,
-          "claimedPrizes": 4100,
-          "remainingPrizes": 6672
+          "claimedPrizes": 4108,
+          "remainingPrizes": 6664
         },
         {
           "amount": 45,
           "totalPrizes": 17217,
-          "claimedPrizes": 6654,
-          "remainingPrizes": 10563
+          "claimedPrizes": 6668,
+          "remainingPrizes": 10549
         },
         {
           "amount": 30,
           "totalPrizes": 103266,
-          "claimedPrizes": 39251,
-          "remainingPrizes": 64015
+          "claimedPrizes": 39309,
+          "remainingPrizes": 63957
         },
         {
           "amount": 20,
           "totalPrizes": 240691,
-          "claimedPrizes": 92201,
-          "remainingPrizes": 148490
+          "claimedPrizes": 92325,
+          "remainingPrizes": 148366
         },
         {
           "amount": 15,
           "totalPrizes": 516273,
-          "claimedPrizes": 196257,
-          "remainingPrizes": 320016
+          "claimedPrizes": 196578,
+          "remainingPrizes": 319695
         },
         {
           "amount": 10,
           "totalPrizes": 619463,
-          "claimedPrizes": 234836,
-          "remainingPrizes": 384627
+          "claimedPrizes": 235181,
+          "remainingPrizes": 384282
         },
         {
           "amount": 5,
           "totalPrizes": 688271,
-          "claimedPrizes": 255672,
-          "remainingPrizes": 432599
+          "claimedPrizes": 256098,
+          "remainingPrizes": 432173
         },
         {
           "amount": 3,
           "totalPrizes": 1720521,
-          "claimedPrizes": 633340,
-          "remainingPrizes": 1087181
+          "claimedPrizes": 634384,
+          "remainingPrizes": 1086137
         }
       ]
     },
@@ -3085,17 +3085,17 @@
       "ticketPrice": 5,
       "approxTicketsInGame": 14827950,
       "overallOddsOneIn": 4.13,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 14832333,
       "topPrizeAmount": 200000,
       "topPrizesPrinted": 4,
       "topPrizesClaimed": 2,
       "topPrizesRemaining": 2,
-      "topPrizeOddsOneIn": 2945037,
+      "topPrizeOddsOneIn": 2943577,
       "totalWinningTicketsPrinted": 3591364,
-      "totalWinningTicketsClaimed": 2165196,
-      "totalWinningTicketsRemaining": 1426168,
-      "anyPrizeOddsOneIn": 4.130000112188746,
+      "totalWinningTicketsClaimed": 2165903,
+      "totalWinningTicketsRemaining": 1425461,
+      "anyPrizeOddsOneIn": 4.13000004910692,
       "topPrizeMultiplier": 40000,
       "prizeLevels": [
         {
@@ -3119,38 +3119,38 @@
         {
           "amount": 100,
           "totalPrizes": 31634,
-          "claimedPrizes": 19434,
-          "remainingPrizes": 12200
+          "claimedPrizes": 19439,
+          "remainingPrizes": 12195
         },
         {
           "amount": 50,
           "totalPrizes": 197534,
-          "claimedPrizes": 121517,
-          "remainingPrizes": 76017
+          "claimedPrizes": 121550,
+          "remainingPrizes": 75984
         },
         {
           "amount": 25,
           "totalPrizes": 494485,
-          "claimedPrizes": 302417,
-          "remainingPrizes": 192068
+          "claimedPrizes": 302514,
+          "remainingPrizes": 191971
         },
         {
           "amount": 15,
           "totalPrizes": 296645,
-          "claimedPrizes": 181825,
-          "remainingPrizes": 114820
+          "claimedPrizes": 181872,
+          "remainingPrizes": 114773
         },
         {
           "amount": 10,
           "totalPrizes": 988715,
-          "claimedPrizes": 600025,
-          "remainingPrizes": 388690
+          "claimedPrizes": 600237,
+          "remainingPrizes": 388478
         },
         {
           "amount": 5,
           "totalPrizes": 1581468,
-          "claimedPrizes": 939430,
-          "remainingPrizes": 642038
+          "claimedPrizes": 939743,
+          "remainingPrizes": 641725
         }
       ]
     },
@@ -3163,17 +3163,17 @@
       "ticketPrice": 10,
       "approxTicketsInGame": 11808600,
       "overallOddsOneIn": 3.98,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 11806837,
       "topPrizeAmount": 500000,
       "topPrizesPrinted": 4,
       "topPrizesClaimed": 2,
       "topPrizesRemaining": 2,
-      "topPrizeOddsOneIn": 2248600.5,
+      "topPrizeOddsOneIn": 2243908,
       "totalWinningTicketsPrinted": 2966542,
-      "totalWinningTicketsClaimed": 1836592,
-      "totalWinningTicketsRemaining": 1129950,
-      "anyPrizeOddsOneIn": 3.98,
+      "totalWinningTicketsClaimed": 1838950,
+      "totalWinningTicketsRemaining": 1127592,
+      "anyPrizeOddsOneIn": 3.9799998581047045,
       "topPrizeMultiplier": 50000,
       "prizeLevels": [
         {
@@ -3197,44 +3197,44 @@
         {
           "amount": 500,
           "totalPrizes": 881,
-          "claimedPrizes": 545,
-          "remainingPrizes": 336
+          "claimedPrizes": 546,
+          "remainingPrizes": 335
         },
         {
           "amount": 200,
           "totalPrizes": 15015,
-          "claimedPrizes": 9437,
-          "remainingPrizes": 5578
+          "claimedPrizes": 9447,
+          "remainingPrizes": 5568
         },
         {
           "amount": 100,
           "totalPrizes": 116898,
-          "claimedPrizes": 73157,
-          "remainingPrizes": 43741
+          "claimedPrizes": 73260,
+          "remainingPrizes": 43638
         },
         {
           "amount": 50,
           "totalPrizes": 472544,
-          "claimedPrizes": 295149,
-          "remainingPrizes": 177395
+          "claimedPrizes": 295514,
+          "remainingPrizes": 177030
         },
         {
           "amount": 30,
           "totalPrizes": 354144,
-          "claimedPrizes": 220580,
-          "remainingPrizes": 133564
+          "claimedPrizes": 220870,
+          "remainingPrizes": 133274
         },
         {
           "amount": 20,
           "totalPrizes": 826316,
-          "claimedPrizes": 513263,
-          "remainingPrizes": 313053
+          "claimedPrizes": 513900,
+          "remainingPrizes": 312416
         },
         {
           "amount": 10,
           "totalPrizes": 1180617,
-          "claimedPrizes": 724393,
-          "remainingPrizes": 456224
+          "claimedPrizes": 725345,
+          "remainingPrizes": 455272
         }
       ]
     },
@@ -3247,17 +3247,17 @@
       "ticketPrice": 20,
       "approxTicketsInGame": 7131450,
       "overallOddsOneIn": 3.88,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 7125504,
       "topPrizeAmount": 1000000,
       "topPrizesPrinted": 4,
       "topPrizesClaimed": 2,
       "topPrizesRemaining": 2,
-      "topPrizeOddsOneIn": 1386339.5,
+      "topPrizeOddsOneIn": 1384333.5,
       "totalWinningTicketsPrinted": 1836470,
-      "totalWinningTicketsClaimed": 1121862,
-      "totalWinningTicketsRemaining": 714608,
-      "anyPrizeOddsOneIn": 3.879999944025256,
+      "totalWinningTicketsClaimed": 1122896,
+      "totalWinningTicketsRemaining": 713574,
+      "anyPrizeOddsOneIn": 3.879999831832438,
       "topPrizeMultiplier": 50000,
       "prizeLevels": [
         {
@@ -3281,38 +3281,38 @@
         {
           "amount": 500,
           "totalPrizes": 6537,
-          "claimedPrizes": 3995,
-          "remainingPrizes": 2542
+          "claimedPrizes": 3997,
+          "remainingPrizes": 2540
         },
         {
           "amount": 200,
           "totalPrizes": 46728,
-          "claimedPrizes": 28649,
-          "remainingPrizes": 18079
+          "claimedPrizes": 28670,
+          "remainingPrizes": 18058
         },
         {
           "amount": 100,
           "totalPrizes": 427807,
-          "claimedPrizes": 262527,
-          "remainingPrizes": 165280
+          "claimedPrizes": 262761,
+          "remainingPrizes": 165046
         },
         {
           "amount": 50,
           "totalPrizes": 285297,
-          "claimedPrizes": 174611,
-          "remainingPrizes": 110686
+          "claimedPrizes": 174777,
+          "remainingPrizes": 110520
         },
         {
           "amount": 40,
           "totalPrizes": 356634,
-          "claimedPrizes": 218452,
-          "remainingPrizes": 138182
+          "claimedPrizes": 218673,
+          "remainingPrizes": 137961
         },
         {
           "amount": 20,
           "totalPrizes": 713264,
-          "claimedPrizes": 433505,
-          "remainingPrizes": 279759
+          "claimedPrizes": 433895,
+          "remainingPrizes": 279369
         }
       ]
     },
@@ -3325,54 +3325,54 @@
       "ticketPrice": 2,
       "approxTicketsInGame": 9173750,
       "overallOddsOneIn": 4.82,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 9167799,
       "topPrizeAmount": 200,
       "topPrizesPrinted": 7609,
-      "topPrizesClaimed": 3992,
-      "topPrizesRemaining": 3617,
-      "topPrizeOddsOneIn": 1258.5410561238596,
+      "topPrizesClaimed": 4004,
+      "topPrizesRemaining": 3605,
+      "topPrizeOddsOneIn": 1259.5575589459086,
       "totalWinningTicketsPrinted": 1902033,
-      "totalWinningTicketsClaimed": 957605,
-      "totalWinningTicketsRemaining": 944428,
-      "anyPrizeOddsOneIn": 4.820000042353679,
+      "totalWinningTicketsClaimed": 959978,
+      "totalWinningTicketsRemaining": 942055,
+      "anyPrizeOddsOneIn": 4.819999893849086,
       "topPrizeMultiplier": 100,
       "prizeLevels": [
         {
           "amount": 200,
           "totalPrizes": 7609,
-          "claimedPrizes": 3992,
-          "remainingPrizes": 3617
+          "claimedPrizes": 4004,
+          "remainingPrizes": 3605
         },
         {
           "amount": 50,
           "totalPrizes": 22971,
-          "claimedPrizes": 12035,
-          "remainingPrizes": 10936
+          "claimedPrizes": 12055,
+          "remainingPrizes": 10916
         },
         {
           "amount": 20,
           "totalPrizes": 110077,
-          "claimedPrizes": 57634,
-          "remainingPrizes": 52443
+          "claimedPrizes": 57773,
+          "remainingPrizes": 52304
         },
         {
           "amount": 10,
           "totalPrizes": 220188,
-          "claimedPrizes": 113798,
-          "remainingPrizes": 106390
+          "claimedPrizes": 114083,
+          "remainingPrizes": 106105
         },
         {
           "amount": 5,
           "totalPrizes": 587116,
-          "claimedPrizes": 298328,
-          "remainingPrizes": 288788
+          "claimedPrizes": 299066,
+          "remainingPrizes": 288050
         },
         {
           "amount": 2,
           "totalPrizes": 954072,
-          "claimedPrizes": 471818,
-          "remainingPrizes": 482254
+          "claimedPrizes": 472997,
+          "remainingPrizes": 481075
         }
       ]
     },
@@ -3385,17 +3385,17 @@
       "ticketPrice": 5,
       "approxTicketsInGame": 5138550,
       "overallOddsOneIn": 4.27,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 5134385,
       "topPrizeAmount": 100000,
       "topPrizesPrinted": 5,
       "topPrizesClaimed": 0,
       "topPrizesRemaining": 5,
-      "topPrizeOddsOneIn": 929243.4,
+      "topPrizeOddsOneIn": 917038.8,
       "totalWinningTicketsPrinted": 1202432,
-      "totalWinningTicketsClaimed": 114325,
-      "totalWinningTicketsRemaining": 1088107,
-      "anyPrizeOddsOneIn": 4.270000101092999,
+      "totalWinningTicketsClaimed": 128616,
+      "totalWinningTicketsRemaining": 1073816,
+      "anyPrizeOddsOneIn": 4.269999701997363,
       "topPrizeMultiplier": 20000,
       "prizeLevels": [
         {
@@ -3407,50 +3407,50 @@
         {
           "amount": 1000,
           "totalPrizes": 50,
-          "claimedPrizes": 7,
-          "remainingPrizes": 43
+          "claimedPrizes": 8,
+          "remainingPrizes": 42
         },
         {
           "amount": 500,
           "totalPrizes": 538,
-          "claimedPrizes": 50,
-          "remainingPrizes": 488
+          "claimedPrizes": 54,
+          "remainingPrizes": 484
         },
         {
           "amount": 250,
           "totalPrizes": 2172,
-          "claimedPrizes": 231,
-          "remainingPrizes": 1941
+          "claimedPrizes": 262,
+          "remainingPrizes": 1910
         },
         {
           "amount": 100,
           "totalPrizes": 12164,
-          "claimedPrizes": 1182,
-          "remainingPrizes": 10982
+          "claimedPrizes": 1331,
+          "remainingPrizes": 10833
         },
         {
           "amount": 50,
           "totalPrizes": 34220,
-          "claimedPrizes": 3391,
-          "remainingPrizes": 30829
+          "claimedPrizes": 3817,
+          "remainingPrizes": 30403
         },
         {
           "amount": 25,
           "totalPrizes": 91490,
-          "claimedPrizes": 9262,
-          "remainingPrizes": 82228
+          "claimedPrizes": 10350,
+          "remainingPrizes": 81140
         },
         {
           "amount": 15,
           "totalPrizes": 559437,
-          "claimedPrizes": 54146,
-          "remainingPrizes": 505291
+          "claimedPrizes": 60916,
+          "remainingPrizes": 498521
         },
         {
           "amount": 5,
           "totalPrizes": 502356,
-          "claimedPrizes": 46056,
-          "remainingPrizes": 456300
+          "claimedPrizes": 51878,
+          "remainingPrizes": 450478
         }
       ]
     },
@@ -3463,17 +3463,17 @@
       "ticketPrice": 10,
       "approxTicketsInGame": 30139300,
       "overallOddsOneIn": 3.54,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 30121120,
       "topPrizeAmount": 250000,
       "topPrizesPrinted": 14,
       "topPrizesClaimed": 0,
       "topPrizesRemaining": 14,
-      "topPrizeOddsOneIn": 2057608.5714285714,
+      "topPrizeOddsOneIn": 2053711,
       "totalWinningTicketsPrinted": 8508791,
-      "totalWinningTicketsClaimed": 371356,
-      "totalWinningTicketsRemaining": 8137435,
-      "anyPrizeOddsOneIn": 3.5400000122888846,
+      "totalWinningTicketsClaimed": 386770,
+      "totalWinningTicketsRemaining": 8122021,
+      "anyPrizeOddsOneIn": 3.5399999581384978,
       "topPrizeMultiplier": 25000,
       "prizeLevels": [
         {
@@ -3491,56 +3491,56 @@
         {
           "amount": 1000,
           "totalPrizes": 1526,
-          "claimedPrizes": 58,
-          "remainingPrizes": 1468
+          "claimedPrizes": 60,
+          "remainingPrizes": 1466
         },
         {
           "amount": 500,
           "totalPrizes": 5023,
-          "claimedPrizes": 231,
-          "remainingPrizes": 4792
+          "claimedPrizes": 238,
+          "remainingPrizes": 4785
         },
         {
           "amount": 200,
           "totalPrizes": 65261,
-          "claimedPrizes": 2814,
-          "remainingPrizes": 62447
+          "claimedPrizes": 2937,
+          "remainingPrizes": 62324
         },
         {
           "amount": 100,
           "totalPrizes": 298968,
-          "claimedPrizes": 13375,
-          "remainingPrizes": 285593
+          "claimedPrizes": 13946,
+          "remainingPrizes": 285022
         },
         {
           "amount": 50,
           "totalPrizes": 602786,
-          "claimedPrizes": 26829,
-          "remainingPrizes": 575957
+          "claimedPrizes": 27920,
+          "remainingPrizes": 574866
         },
         {
           "amount": 30,
           "totalPrizes": 1808358,
-          "claimedPrizes": 80429,
-          "remainingPrizes": 1727929
+          "claimedPrizes": 83720,
+          "remainingPrizes": 1724638
         },
         {
           "amount": 20,
           "totalPrizes": 1205572,
-          "claimedPrizes": 53085,
-          "remainingPrizes": 1152487
+          "claimedPrizes": 55230,
+          "remainingPrizes": 1150342
         },
         {
           "amount": 15,
           "totalPrizes": 1205176,
-          "claimedPrizes": 52332,
-          "remainingPrizes": 1152844
+          "claimedPrizes": 54539,
+          "remainingPrizes": 1150637
         },
         {
           "amount": 10,
           "totalPrizes": 3315917,
-          "claimedPrizes": 142196,
-          "remainingPrizes": 3173721
+          "claimedPrizes": 148173,
+          "remainingPrizes": 3167744
         }
       ]
     },
@@ -3553,17 +3553,17 @@
       "ticketPrice": 20,
       "approxTicketsInGame": 6064025,
       "overallOddsOneIn": 3.84,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 6060741,
       "topPrizeAmount": 1000000,
       "topPrizesPrinted": 4,
       "topPrizesClaimed": 2,
       "topPrizesRemaining": 2,
-      "topPrizeOddsOneIn": 1248311,
+      "topPrizeOddsOneIn": 1245385,
       "totalWinningTicketsPrinted": 1578318,
-      "totalWinningTicketsClaimed": 928156,
-      "totalWinningTicketsRemaining": 650162,
-      "anyPrizeOddsOneIn": 3.839999876953744,
+      "totalWinningTicketsClaimed": 929680,
+      "totalWinningTicketsRemaining": 648638,
+      "anyPrizeOddsOneIn": 3.8400001233353582,
       "topPrizeMultiplier": 50000,
       "prizeLevels": [
         {
@@ -3587,32 +3587,32 @@
         {
           "amount": 500,
           "totalPrizes": 3084,
-          "claimedPrizes": 1791,
-          "remainingPrizes": 1293
+          "claimedPrizes": 1793,
+          "remainingPrizes": 1291
         },
         {
           "amount": 200,
           "totalPrizes": 71653,
-          "claimedPrizes": 42026,
-          "remainingPrizes": 29627
+          "claimedPrizes": 42093,
+          "remainingPrizes": 29560
         },
         {
           "amount": 100,
           "totalPrizes": 291191,
-          "claimedPrizes": 172472,
-          "remainingPrizes": 118719
+          "claimedPrizes": 172754,
+          "remainingPrizes": 118437
         },
         {
           "amount": 50,
           "totalPrizes": 582417,
-          "claimedPrizes": 343167,
-          "remainingPrizes": 239250
+          "claimedPrizes": 343726,
+          "remainingPrizes": 238691
         },
         {
           "amount": 20,
           "totalPrizes": 629764,
-          "claimedPrizes": 368581,
-          "remainingPrizes": 261183
+          "claimedPrizes": 369195,
+          "remainingPrizes": 260569
         }
       ]
     },
@@ -3625,17 +3625,17 @@
       "ticketPrice": 10,
       "approxTicketsInGame": 7911300,
       "overallOddsOneIn": 3.82,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 7910899,
       "topPrizeAmount": 250000,
       "topPrizesPrinted": 6,
       "topPrizesClaimed": 2,
       "topPrizesRemaining": 4,
-      "topPrizeOddsOneIn": 921802.25,
+      "topPrizeOddsOneIn": 919735.75,
       "totalWinningTicketsPrinted": 2070916,
-      "totalWinningTicketsClaimed": 1105678,
-      "totalWinningTicketsRemaining": 965238,
-      "anyPrizeOddsOneIn": 3.8199998342377737,
+      "totalWinningTicketsClaimed": 1107842,
+      "totalWinningTicketsRemaining": 963074,
+      "anyPrizeOddsOneIn": 3.820000332269379,
       "topPrizeMultiplier": 25000,
       "prizeLevels": [
         {
@@ -3659,50 +3659,50 @@
         {
           "amount": 1000,
           "totalPrizes": 394,
-          "claimedPrizes": 204,
-          "remainingPrizes": 190
+          "claimedPrizes": 205,
+          "remainingPrizes": 189
         },
         {
           "amount": 500,
           "totalPrizes": 2646,
-          "claimedPrizes": 1416,
-          "remainingPrizes": 1230
+          "claimedPrizes": 1420,
+          "remainingPrizes": 1226
         },
         {
           "amount": 200,
           "totalPrizes": 17458,
-          "claimedPrizes": 9364,
-          "remainingPrizes": 8094
+          "claimedPrizes": 9384,
+          "remainingPrizes": 8074
         },
         {
           "amount": 100,
           "totalPrizes": 72523,
-          "claimedPrizes": 39074,
-          "remainingPrizes": 33449
+          "claimedPrizes": 39156,
+          "remainingPrizes": 33367
         },
         {
           "amount": 50,
           "totalPrizes": 276930,
-          "claimedPrizes": 149290,
-          "remainingPrizes": 127640
+          "claimedPrizes": 149576,
+          "remainingPrizes": 127354
         },
         {
           "amount": 30,
           "totalPrizes": 276843,
-          "claimedPrizes": 149028,
-          "remainingPrizes": 127815
+          "claimedPrizes": 149306,
+          "remainingPrizes": 127537
         },
         {
           "amount": 20,
           "totalPrizes": 474627,
-          "claimedPrizes": 252764,
-          "remainingPrizes": 221863
+          "claimedPrizes": 253262,
+          "remainingPrizes": 221365
         },
         {
           "amount": 10,
           "totalPrizes": 949443,
-          "claimedPrizes": 504514,
-          "remainingPrizes": 444929
+          "claimedPrizes": 505509,
+          "remainingPrizes": 443934
         }
       ]
     },
@@ -3715,17 +3715,17 @@
       "ticketPrice": 20,
       "approxTicketsInGame": 6119075,
       "overallOddsOneIn": 3.61,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 6117177,
       "topPrizeAmount": 1000000,
       "topPrizesPrinted": 4,
       "topPrizesClaimed": 2,
       "topPrizesRemaining": 2,
-      "topPrizeOddsOneIn": 1694411.5,
+      "topPrizeOddsOneIn": 1692043,
       "totalWinningTicketsPrinted": 1694509,
-      "totalWinningTicketsClaimed": 755777,
-      "totalWinningTicketsRemaining": 938732,
-      "anyPrizeOddsOneIn": 3.610000511328047,
+      "totalWinningTicketsClaimed": 757089,
+      "totalWinningTicketsRemaining": 937420,
+      "anyPrizeOddsOneIn": 3.6099997866484608,
       "topPrizeMultiplier": 50000,
       "prizeLevels": [
         {
@@ -3749,38 +3749,38 @@
         {
           "amount": 500,
           "totalPrizes": 9163,
-          "claimedPrizes": 4113,
-          "remainingPrizes": 5050
+          "claimedPrizes": 4117,
+          "remainingPrizes": 5046
         },
         {
           "amount": 200,
           "totalPrizes": 84141,
-          "claimedPrizes": 37645,
-          "remainingPrizes": 46496
+          "claimedPrizes": 37722,
+          "remainingPrizes": 46419
         },
         {
           "amount": 100,
           "totalPrizes": 193821,
-          "claimedPrizes": 86719,
-          "remainingPrizes": 107102
+          "claimedPrizes": 86868,
+          "remainingPrizes": 106953
         },
         {
           "amount": 50,
           "totalPrizes": 489737,
-          "claimedPrizes": 219218,
-          "remainingPrizes": 270519
+          "claimedPrizes": 219624,
+          "remainingPrizes": 270113
         },
         {
           "amount": 40,
           "totalPrizes": 183489,
-          "claimedPrizes": 82082,
-          "remainingPrizes": 101407
+          "claimedPrizes": 82225,
+          "remainingPrizes": 101264
         },
         {
           "amount": 20,
           "totalPrizes": 733928,
-          "claimedPrizes": 325899,
-          "remainingPrizes": 408029
+          "claimedPrizes": 326432,
+          "remainingPrizes": 407496
         }
       ]
     },
@@ -3793,17 +3793,17 @@
       "ticketPrice": 5,
       "approxTicketsInGame": 5124375,
       "overallOddsOneIn": 4.28,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 5125120,
       "topPrizeAmount": 100000,
       "topPrizesPrinted": 4,
       "topPrizesClaimed": 2,
       "topPrizesRemaining": 2,
-      "topPrizeOddsOneIn": 223949,
+      "topPrizeOddsOneIn": 222528,
       "totalWinningTicketsPrinted": 1197458,
-      "totalWinningTicketsClaimed": 1092809,
-      "totalWinningTicketsRemaining": 104649,
-      "anyPrizeOddsOneIn": 4.280002675610851,
+      "totalWinningTicketsClaimed": 1093473,
+      "totalWinningTicketsRemaining": 103985,
+      "anyPrizeOddsOneIn": 4.28000192335433,
       "topPrizeMultiplier": 20000,
       "prizeLevels": [
         {
@@ -3833,38 +3833,38 @@
         {
           "amount": 100,
           "totalPrizes": 17061,
-          "claimedPrizes": 15986,
-          "remainingPrizes": 1075
+          "claimedPrizes": 15993,
+          "remainingPrizes": 1068
         },
         {
           "amount": 50,
           "totalPrizes": 68325,
-          "claimedPrizes": 63951,
-          "remainingPrizes": 4374
+          "claimedPrizes": 63982,
+          "remainingPrizes": 4343
         },
         {
           "amount": 30,
           "totalPrizes": 51311,
-          "claimedPrizes": 47833,
-          "remainingPrizes": 3478
+          "claimedPrizes": 47852,
+          "remainingPrizes": 3459
         },
         {
           "amount": 20,
           "totalPrizes": 136526,
-          "claimedPrizes": 126781,
-          "remainingPrizes": 9745
+          "claimedPrizes": 126856,
+          "remainingPrizes": 9670
         },
         {
           "amount": 10,
           "totalPrizes": 393033,
-          "claimedPrizes": 360637,
-          "remainingPrizes": 32396
+          "claimedPrizes": 360876,
+          "remainingPrizes": 32157
         },
         {
           "amount": 5,
           "totalPrizes": 529441,
-          "claimedPrizes": 475973,
-          "remainingPrizes": 53468
+          "claimedPrizes": 476266,
+          "remainingPrizes": 53175
         }
       ]
     },
@@ -3877,17 +3877,17 @@
       "ticketPrice": 5,
       "approxTicketsInGame": 7341750,
       "overallOddsOneIn": 4.26,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 7344577,
       "topPrizeAmount": 100000,
       "topPrizesPrinted": 5,
       "topPrizesClaimed": 3,
       "topPrizesRemaining": 2,
-      "topPrizeOddsOneIn": 877029.5,
+      "topPrizeOddsOneIn": 875438.5,
       "totalWinningTicketsPrinted": 1724079,
-      "totalWinningTicketsClaimed": 1312328,
-      "totalWinningTicketsRemaining": 411751,
-      "anyPrizeOddsOneIn": 4.25999936855041,
+      "totalWinningTicketsClaimed": 1313075,
+      "totalWinningTicketsRemaining": 411004,
+      "anyPrizeOddsOneIn": 4.259999902677346,
       "topPrizeMultiplier": 20000,
       "prizeLevels": [
         {
@@ -3905,44 +3905,44 @@
         {
           "amount": 500,
           "totalPrizes": 2314,
-          "claimedPrizes": 1819,
-          "remainingPrizes": 495
+          "claimedPrizes": 1820,
+          "remainingPrizes": 494
         },
         {
           "amount": 200,
           "totalPrizes": 3075,
-          "claimedPrizes": 2401,
-          "remainingPrizes": 674
+          "claimedPrizes": 2402,
+          "remainingPrizes": 673
         },
         {
           "amount": 100,
           "totalPrizes": 29017,
-          "claimedPrizes": 22805,
-          "remainingPrizes": 6212
+          "claimedPrizes": 22819,
+          "remainingPrizes": 6198
         },
         {
           "amount": 50,
           "totalPrizes": 49977,
-          "claimedPrizes": 39103,
-          "remainingPrizes": 10874
+          "claimedPrizes": 39130,
+          "remainingPrizes": 10847
         },
         {
           "amount": 25,
           "totalPrizes": 293713,
-          "claimedPrizes": 228677,
-          "remainingPrizes": 65036
+          "claimedPrizes": 228800,
+          "remainingPrizes": 64913
         },
         {
           "amount": 10,
           "totalPrizes": 636185,
-          "claimedPrizes": 486788,
-          "remainingPrizes": 149397
+          "claimedPrizes": 487047,
+          "remainingPrizes": 149138
         },
         {
           "amount": 5,
           "totalPrizes": 709757,
-          "claimedPrizes": 530703,
-          "remainingPrizes": 179054
+          "claimedPrizes": 531025,
+          "remainingPrizes": 178732
         }
       ]
     },
@@ -3955,17 +3955,17 @@
       "ticketPrice": 30,
       "approxTicketsInGame": 8197000,
       "overallOddsOneIn": 3.54,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 8196495,
       "topPrizeAmount": 2000000,
       "topPrizesPrinted": 4,
       "topPrizesClaimed": 2,
       "topPrizesRemaining": 2,
-      "topPrizeOddsOneIn": 2687835.5,
+      "topPrizeOddsOneIn": 2681936,
       "totalWinningTicketsPrinted": 2315394,
-      "totalWinningTicketsClaimed": 796843,
-      "totalWinningTicketsRemaining": 1518551,
-      "anyPrizeOddsOneIn": 3.5400003029203497,
+      "totalWinningTicketsClaimed": 800176,
+      "totalWinningTicketsRemaining": 1515218,
+      "anyPrizeOddsOneIn": 3.540000184791891,
       "topPrizeMultiplier": 66666.7,
       "prizeLevels": [
         {
@@ -3977,44 +3977,44 @@
         {
           "amount": 3000,
           "totalPrizes": 103,
-          "claimedPrizes": 27,
-          "remainingPrizes": 76
+          "claimedPrizes": 28,
+          "remainingPrizes": 75
         },
         {
           "amount": 500,
           "totalPrizes": 15412,
-          "claimedPrizes": 5265,
-          "remainingPrizes": 10147
+          "claimedPrizes": 5282,
+          "remainingPrizes": 10130
         },
         {
           "amount": 300,
           "totalPrizes": 127869,
-          "claimedPrizes": 44300,
-          "remainingPrizes": 83569
+          "claimedPrizes": 44487,
+          "remainingPrizes": 83382
         },
         {
           "amount": 150,
           "totalPrizes": 204963,
-          "claimedPrizes": 70867,
-          "remainingPrizes": 134096
+          "claimedPrizes": 71148,
+          "remainingPrizes": 133815
         },
         {
           "amount": 100,
           "totalPrizes": 410035,
-          "claimedPrizes": 141787,
-          "remainingPrizes": 268248
+          "claimedPrizes": 142408,
+          "remainingPrizes": 267627
         },
         {
           "amount": 50,
           "totalPrizes": 573722,
-          "claimedPrizes": 197425,
-          "remainingPrizes": 376297
+          "claimedPrizes": 198234,
+          "remainingPrizes": 375488
         },
         {
           "amount": 30,
           "totalPrizes": 983286,
-          "claimedPrizes": 337170,
-          "remainingPrizes": 646116
+          "claimedPrizes": 338587,
+          "remainingPrizes": 644699
         }
       ]
     },
@@ -4027,17 +4027,17 @@
       "ticketPrice": 10,
       "approxTicketsInGame": 8190100,
       "overallOddsOneIn": 3.89,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 8194643,
       "topPrizeAmount": 250000,
       "topPrizesPrinted": 5,
       "topPrizesClaimed": 3,
       "topPrizesRemaining": 2,
-      "topPrizeOddsOneIn": 2367010.5,
+      "topPrizeOddsOneIn": 2359818,
       "totalWinningTicketsPrinted": 2106592,
-      "totalWinningTicketsClaimed": 889620,
-      "totalWinningTicketsRemaining": 1216972,
-      "anyPrizeOddsOneIn": 3.8899999342630727,
+      "totalWinningTicketsClaimed": 893318,
+      "totalWinningTicketsRemaining": 1213274,
+      "anyPrizeOddsOneIn": 3.890000115390258,
       "topPrizeMultiplier": 25000,
       "prizeLevels": [
         {
@@ -4055,44 +4055,44 @@
         {
           "amount": 1000,
           "totalPrizes": 276,
-          "claimedPrizes": 114,
-          "remainingPrizes": 162
+          "claimedPrizes": 115,
+          "remainingPrizes": 161
         },
         {
           "amount": 500,
           "totalPrizes": 7748,
-          "claimedPrizes": 3319,
-          "remainingPrizes": 4429
+          "claimedPrizes": 3333,
+          "remainingPrizes": 4415
         },
         {
           "amount": 100,
           "totalPrizes": 133012,
-          "claimedPrizes": 57040,
-          "remainingPrizes": 75972
+          "claimedPrizes": 57261,
+          "remainingPrizes": 75751
         },
         {
           "amount": 50,
           "totalPrizes": 163802,
-          "claimedPrizes": 70190,
-          "remainingPrizes": 93612
+          "claimedPrizes": 70464,
+          "remainingPrizes": 93338
         },
         {
           "amount": 30,
           "totalPrizes": 327604,
-          "claimedPrizes": 139732,
-          "remainingPrizes": 187872
+          "claimedPrizes": 140307,
+          "remainingPrizes": 187297
         },
         {
           "amount": 20,
           "totalPrizes": 573378,
-          "claimedPrizes": 243937,
-          "remainingPrizes": 329441
+          "claimedPrizes": 245003,
+          "remainingPrizes": 328375
         },
         {
           "amount": 10,
           "totalPrizes": 900755,
-          "claimedPrizes": 375280,
-          "remainingPrizes": 525475
+          "claimedPrizes": 376827,
+          "remainingPrizes": 523928
         }
       ]
     },
@@ -4105,17 +4105,17 @@
       "ticketPrice": 1,
       "approxTicketsInGame": 16274700,
       "overallOddsOneIn": 4.68,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 16282829,
       "topPrizeAmount": 500,
       "topPrizesPrinted": 40,
       "topPrizesClaimed": 14,
       "topPrizesRemaining": 26,
-      "topPrizeOddsOneIn": 415191.42307692306,
+      "topPrizeOddsOneIn": 412644.6153846154,
       "totalWinningTicketsPrinted": 3479237,
-      "totalWinningTicketsClaimed": 1172618,
-      "totalWinningTicketsRemaining": 2306619,
-      "anyPrizeOddsOneIn": 4.680000034682798,
+      "totalWinningTicketsClaimed": 1186767,
+      "totalWinningTicketsRemaining": 2292470,
+      "anyPrizeOddsOneIn": 4.68000017448429,
       "topPrizeMultiplier": 500,
       "prizeLevels": [
         {
@@ -4127,56 +4127,56 @@
         {
           "amount": 90,
           "totalPrizes": 1171,
-          "claimedPrizes": 463,
-          "remainingPrizes": 708
+          "claimedPrizes": 468,
+          "remainingPrizes": 703
         },
         {
           "amount": 60,
           "totalPrizes": 1235,
-          "claimedPrizes": 482,
-          "remainingPrizes": 753
+          "claimedPrizes": 487,
+          "remainingPrizes": 748
         },
         {
           "amount": 30,
           "totalPrizes": 5058,
-          "claimedPrizes": 1914,
-          "remainingPrizes": 3144
+          "claimedPrizes": 1938,
+          "remainingPrizes": 3120
         },
         {
           "amount": 20,
           "totalPrizes": 108498,
-          "claimedPrizes": 40052,
-          "remainingPrizes": 68446
+          "claimedPrizes": 40507,
+          "remainingPrizes": 67991
         },
         {
           "amount": 10,
           "totalPrizes": 135690,
-          "claimedPrizes": 51169,
-          "remainingPrizes": 84521
+          "claimedPrizes": 51777,
+          "remainingPrizes": 83913
         },
         {
           "amount": 6,
           "totalPrizes": 189989,
-          "claimedPrizes": 67170,
-          "remainingPrizes": 122819
+          "claimedPrizes": 67945,
+          "remainingPrizes": 122044
         },
         {
           "amount": 3,
           "totalPrizes": 325327,
-          "claimedPrizes": 117250,
-          "remainingPrizes": 208077
+          "claimedPrizes": 118654,
+          "remainingPrizes": 206673
         },
         {
           "amount": 2,
           "totalPrizes": 1084759,
-          "claimedPrizes": 346688,
-          "remainingPrizes": 738071
+          "claimedPrizes": 350861,
+          "remainingPrizes": 733898
         },
         {
           "amount": 1,
           "totalPrizes": 1627470,
-          "claimedPrizes": 547416,
-          "remainingPrizes": 1080054
+          "claimedPrizes": 554116,
+          "remainingPrizes": 1073354
         }
       ]
     },
@@ -4189,17 +4189,17 @@
       "ticketPrice": 5,
       "approxTicketsInGame": 10153650,
       "overallOddsOneIn": 4.3,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 10156935,
       "topPrizeAmount": 200000,
       "topPrizesPrinted": 5,
       "topPrizesClaimed": 4,
       "topPrizesRemaining": 1,
-      "topPrizeOddsOneIn": 4630915,
+      "topPrizeOddsOneIn": 4619714,
       "totalWinningTicketsPrinted": 2362078,
-      "totalWinningTicketsClaimed": 1285121,
-      "totalWinningTicketsRemaining": 1076957,
-      "anyPrizeOddsOneIn": 4.299999907145782,
+      "totalWinningTicketsClaimed": 1287726,
+      "totalWinningTicketsRemaining": 1074352,
+      "anyPrizeOddsOneIn": 4.300000372317453,
       "topPrizeMultiplier": 40000,
       "prizeLevels": [
         {
@@ -4223,50 +4223,50 @@
         {
           "amount": 500,
           "totalPrizes": 862,
-          "claimedPrizes": 494,
-          "remainingPrizes": 368
+          "claimedPrizes": 495,
+          "remainingPrizes": 367
         },
         {
           "amount": 200,
           "totalPrizes": 4222,
-          "claimedPrizes": 2368,
-          "remainingPrizes": 1854
+          "claimedPrizes": 2371,
+          "remainingPrizes": 1851
         },
         {
           "amount": 100,
           "totalPrizes": 21507,
-          "claimedPrizes": 12047,
-          "remainingPrizes": 9460
+          "claimedPrizes": 12077,
+          "remainingPrizes": 9430
         },
         {
           "amount": 50,
           "totalPrizes": 135382,
-          "claimedPrizes": 75242,
-          "remainingPrizes": 60140
+          "claimedPrizes": 75379,
+          "remainingPrizes": 60003
         },
         {
           "amount": 25,
           "totalPrizes": 135382,
-          "claimedPrizes": 75070,
-          "remainingPrizes": 60312
+          "claimedPrizes": 75249,
+          "remainingPrizes": 60133
         },
         {
           "amount": 20,
           "totalPrizes": 236927,
-          "claimedPrizes": 131593,
-          "remainingPrizes": 105334
+          "claimedPrizes": 131860,
+          "remainingPrizes": 105067
         },
         {
           "amount": 10,
           "totalPrizes": 812278,
-          "claimedPrizes": 444799,
-          "remainingPrizes": 367479
+          "claimedPrizes": 445691,
+          "remainingPrizes": 366587
         },
         {
           "amount": 5,
           "totalPrizes": 1015400,
-          "claimedPrizes": 543443,
-          "remainingPrizes": 471957
+          "claimedPrizes": 544539,
+          "remainingPrizes": 470861
         }
       ]
     },
@@ -4279,17 +4279,17 @@
       "ticketPrice": 10,
       "approxTicketsInGame": 7635950,
       "overallOddsOneIn": 4.09,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 7637879,
       "topPrizeAmount": 500000,
       "topPrizesPrinted": 4,
       "topPrizesClaimed": 2,
       "topPrizesRemaining": 2,
-      "topPrizeOddsOneIn": 1456498,
+      "topPrizeOddsOneIn": 1450304,
       "totalWinningTicketsPrinted": 1867452,
-      "totalWinningTicketsClaimed": 1155228,
-      "totalWinningTicketsRemaining": 712224,
-      "anyPrizeOddsOneIn": 4.089999775351575,
+      "totalWinningTicketsClaimed": 1158257,
+      "totalWinningTicketsRemaining": 709195,
+      "anyPrizeOddsOneIn": 4.09000063452224,
       "topPrizeMultiplier": 50000,
       "prizeLevels": [
         {
@@ -4319,44 +4319,44 @@
         {
           "amount": 500,
           "totalPrizes": 1270,
-          "claimedPrizes": 790,
-          "remainingPrizes": 480
+          "claimedPrizes": 791,
+          "remainingPrizes": 479
         },
         {
           "amount": 200,
           "totalPrizes": 12727,
-          "claimedPrizes": 7918,
-          "remainingPrizes": 4809
+          "claimedPrizes": 7937,
+          "remainingPrizes": 4790
         },
         {
           "amount": 100,
           "totalPrizes": 96977,
-          "claimedPrizes": 60687,
-          "remainingPrizes": 36290
+          "claimedPrizes": 60857,
+          "remainingPrizes": 36120
         },
         {
           "amount": 50,
           "totalPrizes": 152688,
-          "claimedPrizes": 95593,
-          "remainingPrizes": 57095
+          "claimedPrizes": 95830,
+          "remainingPrizes": 56858
         },
         {
           "amount": 30,
           "totalPrizes": 343712,
-          "claimedPrizes": 214659,
-          "remainingPrizes": 129053
+          "claimedPrizes": 215209,
+          "remainingPrizes": 128503
         },
         {
           "amount": 20,
           "totalPrizes": 458090,
-          "claimedPrizes": 285168,
-          "remainingPrizes": 172922
+          "claimedPrizes": 285921,
+          "remainingPrizes": 172169
         },
         {
           "amount": 10,
           "totalPrizes": 801781,
-          "claimedPrizes": 490287,
-          "remainingPrizes": 311494
+          "claimedPrizes": 491586,
+          "remainingPrizes": 310195
         }
       ]
     },
@@ -4369,17 +4369,17 @@
       "ticketPrice": 20,
       "approxTicketsInGame": 5134275,
       "overallOddsOneIn": 3.74,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 5131280,
       "topPrizeAmount": 1000000,
       "topPrizesPrinted": 4,
       "topPrizesClaimed": 3,
       "topPrizesRemaining": 1,
-      "topPrizeOddsOneIn": 2178688,
+      "topPrizeOddsOneIn": 2171014,
       "totalWinningTicketsPrinted": 1372000,
-      "totalWinningTicketsClaimed": 789463,
-      "totalWinningTicketsRemaining": 582537,
-      "anyPrizeOddsOneIn": 3.7399993476809197,
+      "totalWinningTicketsClaimed": 791515,
+      "totalWinningTicketsRemaining": 580485,
+      "anyPrizeOddsOneIn": 3.74000017226974,
       "topPrizeMultiplier": 50000,
       "prizeLevels": [
         {
@@ -4403,44 +4403,44 @@
         {
           "amount": 2000,
           "totalPrizes": 257,
-          "claimedPrizes": 155,
-          "remainingPrizes": 102
+          "claimedPrizes": 156,
+          "remainingPrizes": 101
         },
         {
           "amount": 500,
           "totalPrizes": 4299,
-          "claimedPrizes": 2495,
-          "remainingPrizes": 1804
+          "claimedPrizes": 2501,
+          "remainingPrizes": 1798
         },
         {
           "amount": 200,
           "totalPrizes": 58204,
-          "claimedPrizes": 33897,
-          "remainingPrizes": 24307
+          "claimedPrizes": 33973,
+          "remainingPrizes": 24231
         },
         {
           "amount": 100,
           "totalPrizes": 128439,
-          "claimedPrizes": 74489,
-          "remainingPrizes": 53950
+          "claimedPrizes": 74689,
+          "remainingPrizes": 53750
         },
         {
           "amount": 50,
           "totalPrizes": 359514,
-          "claimedPrizes": 207293,
-          "remainingPrizes": 152221
+          "claimedPrizes": 207832,
+          "remainingPrizes": 151682
         },
         {
           "amount": 40,
           "totalPrizes": 308053,
-          "claimedPrizes": 177332,
-          "remainingPrizes": 130721
+          "claimedPrizes": 177787,
+          "remainingPrizes": 130266
         },
         {
           "amount": 20,
           "totalPrizes": 513205,
-          "claimedPrizes": 293787,
-          "remainingPrizes": 219418
+          "claimedPrizes": 294562,
+          "remainingPrizes": 218643
         }
       ]
     },
@@ -4453,17 +4453,17 @@
       "ticketPrice": 2,
       "approxTicketsInGame": 9121125,
       "overallOddsOneIn": 4.87,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 9127997,
       "topPrizeAmount": 30000,
       "topPrizesPrinted": 5,
       "topPrizesClaimed": 3,
       "topPrizesRemaining": 2,
-      "topPrizeOddsOneIn": 1582550.5,
+      "topPrizeOddsOneIn": 1567704,
       "totalWinningTicketsPrinted": 1874332,
-      "totalWinningTicketsClaimed": 1224414,
-      "totalWinningTicketsRemaining": 649918,
-      "anyPrizeOddsOneIn": 4.870000523142919,
+      "totalWinningTicketsClaimed": 1230511,
+      "totalWinningTicketsRemaining": 643821,
+      "anyPrizeOddsOneIn": 4.869999580628777,
       "topPrizeMultiplier": 15000,
       "prizeLevels": [
         {
@@ -4481,50 +4481,50 @@
         {
           "amount": 500,
           "totalPrizes": 1672,
-          "claimedPrizes": 1149,
-          "remainingPrizes": 523
+          "claimedPrizes": 1157,
+          "remainingPrizes": 515
         },
         {
           "amount": 100,
           "totalPrizes": 3491,
-          "claimedPrizes": 2403,
-          "remainingPrizes": 1088
+          "claimedPrizes": 2416,
+          "remainingPrizes": 1075
         },
         {
           "amount": 50,
           "totalPrizes": 26596,
-          "claimedPrizes": 18191,
-          "remainingPrizes": 8405
+          "claimedPrizes": 18270,
+          "remainingPrizes": 8326
         },
         {
           "amount": 20,
           "totalPrizes": 91160,
-          "claimedPrizes": 62103,
-          "remainingPrizes": 29057
+          "claimedPrizes": 62409,
+          "remainingPrizes": 28751
         },
         {
           "amount": 15,
           "totalPrizes": 73037,
-          "claimedPrizes": 49457,
-          "remainingPrizes": 23580
+          "claimedPrizes": 49687,
+          "remainingPrizes": 23350
         },
         {
           "amount": 10,
           "totalPrizes": 145870,
-          "claimedPrizes": 97540,
-          "remainingPrizes": 48330
+          "claimedPrizes": 98058,
+          "remainingPrizes": 47812
         },
         {
           "amount": 5,
           "totalPrizes": 583889,
-          "claimedPrizes": 386327,
-          "remainingPrizes": 197562
+          "claimedPrizes": 388212,
+          "remainingPrizes": 195677
         },
         {
           "amount": 2,
           "totalPrizes": 948597,
-          "claimedPrizes": 607230,
-          "remainingPrizes": 341367
+          "claimedPrizes": 610288,
+          "remainingPrizes": 338309
         }
       ]
     },
@@ -4537,17 +4537,17 @@
       "ticketPrice": 5,
       "approxTicketsInGame": 22347825,
       "overallOddsOneIn": 4.07,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 22347576,
       "topPrizeAmount": 100000,
       "topPrizesPrinted": 10,
       "topPrizesClaimed": 4,
       "topPrizesRemaining": 6,
-      "topPrizeOddsOneIn": 2523390.5,
+      "topPrizeOddsOneIn": 2514931.6666666665,
       "totalWinningTicketsPrinted": 5490805,
-      "totalWinningTicketsClaimed": 1770819,
-      "totalWinningTicketsRemaining": 3719986,
-      "anyPrizeOddsOneIn": 4.069999994623636,
+      "totalWinningTicketsClaimed": 1783289,
+      "totalWinningTicketsRemaining": 3707516,
+      "anyPrizeOddsOneIn": 4.069999967633316,
       "topPrizeMultiplier": 20000,
       "prizeLevels": [
         {
@@ -4559,62 +4559,62 @@
         {
           "amount": 1000,
           "totalPrizes": 223,
-          "claimedPrizes": 78,
-          "remainingPrizes": 145
+          "claimedPrizes": 80,
+          "remainingPrizes": 143
         },
         {
           "amount": 500,
           "totalPrizes": 1683,
-          "claimedPrizes": 556,
-          "remainingPrizes": 1127
+          "claimedPrizes": 562,
+          "remainingPrizes": 1121
         },
         {
           "amount": 200,
           "totalPrizes": 4468,
-          "claimedPrizes": 1471,
-          "remainingPrizes": 2997
+          "claimedPrizes": 1486,
+          "remainingPrizes": 2982
         },
         {
           "amount": 100,
           "totalPrizes": 46657,
-          "claimedPrizes": 15635,
-          "remainingPrizes": 31022
+          "claimedPrizes": 15716,
+          "remainingPrizes": 30941
         },
         {
           "amount": 50,
           "totalPrizes": 223383,
-          "claimedPrizes": 74151,
-          "remainingPrizes": 149232
+          "claimedPrizes": 74702,
+          "remainingPrizes": 148681
         },
         {
           "amount": 25,
           "totalPrizes": 447083,
-          "claimedPrizes": 148158,
-          "remainingPrizes": 298925
+          "claimedPrizes": 149240,
+          "remainingPrizes": 297843
         },
         {
           "amount": 20,
           "totalPrizes": 595900,
-          "claimedPrizes": 196923,
-          "remainingPrizes": 398977
+          "claimedPrizes": 198287,
+          "remainingPrizes": 397613
         },
         {
           "amount": 15,
           "totalPrizes": 893933,
-          "claimedPrizes": 295095,
-          "remainingPrizes": 598838
+          "claimedPrizes": 297166,
+          "remainingPrizes": 596767
         },
         {
           "amount": 10,
           "totalPrizes": 893731,
-          "claimedPrizes": 292366,
-          "remainingPrizes": 601365
+          "claimedPrizes": 294335,
+          "remainingPrizes": 599396
         },
         {
           "amount": 5,
           "totalPrizes": 2383734,
-          "claimedPrizes": 746382,
-          "remainingPrizes": 1637352
+          "claimedPrizes": 751711,
+          "remainingPrizes": 1632023
         }
       ]
     },
@@ -4627,17 +4627,17 @@
       "ticketPrice": 5,
       "approxTicketsInGame": 61191675,
       "overallOddsOneIn": 3.77,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 61124552,
       "topPrizeAmount": 100000,
       "topPrizesPrinted": 30,
       "topPrizesClaimed": 3,
       "topPrizesRemaining": 27,
-      "topPrizeOddsOneIn": 1971306.4814814816,
+      "topPrizeOddsOneIn": 1967991.2592592593,
       "totalWinningTicketsPrinted": 16213409,
-      "totalWinningTicketsClaimed": 2095299,
-      "totalWinningTicketsRemaining": 14118110,
-      "anyPrizeOddsOneIn": 3.7700000212493032,
+      "totalWinningTicketsClaimed": 2119042,
+      "totalWinningTicketsRemaining": 14094367,
+      "anyPrizeOddsOneIn": 3.7700000290896356,
       "topPrizeMultiplier": 20000,
       "prizeLevels": [
         {
@@ -4655,50 +4655,50 @@
         {
           "amount": 500,
           "totalPrizes": 6077,
-          "claimedPrizes": 816,
-          "remainingPrizes": 5261
+          "claimedPrizes": 833,
+          "remainingPrizes": 5244
         },
         {
           "amount": 200,
           "totalPrizes": 41781,
-          "claimedPrizes": 5642,
-          "remainingPrizes": 36139
+          "claimedPrizes": 5701,
+          "remainingPrizes": 36080
         },
         {
           "amount": 100,
           "totalPrizes": 255538,
-          "claimedPrizes": 34230,
-          "remainingPrizes": 221308
+          "claimedPrizes": 34569,
+          "remainingPrizes": 220969
         },
         {
           "amount": 50,
           "totalPrizes": 815889,
-          "claimedPrizes": 108813,
-          "remainingPrizes": 707076
+          "claimedPrizes": 110071,
+          "remainingPrizes": 705818
         },
         {
           "amount": 20,
           "totalPrizes": 815889,
-          "claimedPrizes": 108221,
-          "remainingPrizes": 707668
+          "claimedPrizes": 109418,
+          "remainingPrizes": 706471
         },
         {
           "amount": 15,
           "totalPrizes": 815889,
-          "claimedPrizes": 107619,
-          "remainingPrizes": 708270
+          "claimedPrizes": 108868,
+          "remainingPrizes": 707021
         },
         {
           "amount": 10,
           "totalPrizes": 6119173,
-          "claimedPrizes": 799771,
-          "remainingPrizes": 5319402
+          "claimedPrizes": 808798,
+          "remainingPrizes": 5310375
         },
         {
           "amount": 5,
           "totalPrizes": 7342990,
-          "claimedPrizes": 930163,
-          "remainingPrizes": 6412827
+          "claimedPrizes": 940760,
+          "remainingPrizes": 6402230
         }
       ]
     },
@@ -4711,17 +4711,17 @@
       "ticketPrice": 20,
       "approxTicketsInGame": 6105050,
       "overallOddsOneIn": 3.99,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 6110410,
       "topPrizeAmount": 1000000,
       "topPrizesPrinted": 4,
       "topPrizesClaimed": 2,
       "topPrizesRemaining": 2,
-      "topPrizeOddsOneIn": 1300393,
+      "topPrizeOddsOneIn": 1298737,
       "totalWinningTicketsPrinted": 1531431,
-      "totalWinningTicketsClaimed": 879605,
-      "totalWinningTicketsRemaining": 651826,
-      "anyPrizeOddsOneIn": 3.9900003988794555,
+      "totalWinningTicketsClaimed": 880435,
+      "totalWinningTicketsRemaining": 650996,
+      "anyPrizeOddsOneIn": 3.98999993855569,
       "topPrizeMultiplier": 50000,
       "prizeLevels": [
         {
@@ -4745,32 +4745,32 @@
         {
           "amount": 500,
           "totalPrizes": 3833,
-          "claimedPrizes": 2225,
-          "remainingPrizes": 1608
+          "claimedPrizes": 2227,
+          "remainingPrizes": 1606
         },
         {
           "amount": 200,
           "totalPrizes": 62292,
-          "claimedPrizes": 35922,
-          "remainingPrizes": 26370
+          "claimedPrizes": 35960,
+          "remainingPrizes": 26332
         },
         {
           "amount": 100,
           "totalPrizes": 341890,
-          "claimedPrizes": 197362,
-          "remainingPrizes": 144528
+          "claimedPrizes": 197548,
+          "remainingPrizes": 144342
         },
         {
           "amount": 50,
           "totalPrizes": 537230,
-          "claimedPrizes": 308861,
-          "remainingPrizes": 228369
+          "claimedPrizes": 309163,
+          "remainingPrizes": 228067
         },
         {
           "amount": 20,
           "totalPrizes": 586038,
-          "claimedPrizes": 335156,
-          "remainingPrizes": 250882
+          "claimedPrizes": 335458,
+          "remainingPrizes": 250580
         }
       ]
     },
@@ -4783,17 +4783,17 @@
       "ticketPrice": 5,
       "approxTicketsInGame": 7249200,
       "overallOddsOneIn": 4.28,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 7242098,
       "topPrizeAmount": 100000,
       "topPrizesPrinted": 5,
       "topPrizesClaimed": 3,
       "topPrizesRemaining": 2,
-      "topPrizeOddsOneIn": 1806175,
+      "topPrizeOddsOneIn": 1800568,
       "totalWinningTicketsPrinted": 1692079,
-      "totalWinningTicketsClaimed": 848072,
-      "totalWinningTicketsRemaining": 844007,
-      "anyPrizeOddsOneIn": 4.280000047392972,
+      "totalWinningTicketsClaimed": 850692,
+      "totalWinningTicketsRemaining": 841387,
+      "anyPrizeOddsOneIn": 4.279999572135058,
       "topPrizeMultiplier": 20000,
       "prizeLevels": [
         {
@@ -4811,50 +4811,50 @@
         {
           "amount": 500,
           "totalPrizes": 2180,
-          "claimedPrizes": 1113,
-          "remainingPrizes": 1067
+          "claimedPrizes": 1118,
+          "remainingPrizes": 1062
         },
         {
           "amount": 250,
           "totalPrizes": 7662,
-          "claimedPrizes": 3943,
-          "remainingPrizes": 3719
+          "claimedPrizes": 3954,
+          "remainingPrizes": 3708
         },
         {
           "amount": 100,
           "totalPrizes": 16162,
-          "claimedPrizes": 8351,
-          "remainingPrizes": 7811
+          "claimedPrizes": 8381,
+          "remainingPrizes": 7781
         },
         {
           "amount": 50,
           "totalPrizes": 42280,
-          "claimedPrizes": 21860,
-          "remainingPrizes": 20420
+          "claimedPrizes": 21945,
+          "remainingPrizes": 20335
         },
         {
           "amount": 20,
           "totalPrizes": 309310,
-          "claimedPrizes": 157415,
-          "remainingPrizes": 151895
+          "claimedPrizes": 157903,
+          "remainingPrizes": 151407
         },
         {
           "amount": 15,
           "totalPrizes": 270733,
-          "claimedPrizes": 137286,
-          "remainingPrizes": 133447
+          "claimedPrizes": 137667,
+          "remainingPrizes": 133066
         },
         {
           "amount": 10,
           "totalPrizes": 347844,
-          "claimedPrizes": 175331,
-          "remainingPrizes": 172513
+          "claimedPrizes": 175898,
+          "remainingPrizes": 171946
         },
         {
           "amount": 5,
           "totalPrizes": 695852,
-          "claimedPrizes": 342749,
-          "remainingPrizes": 353103
+          "claimedPrizes": 343802,
+          "remainingPrizes": 352050
         }
       ]
     },
@@ -4867,17 +4867,17 @@
       "ticketPrice": 5,
       "approxTicketsInGame": 5092500,
       "overallOddsOneIn": null,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": null,
       "topPrizeAmount": 100000,
       "topPrizesPrinted": 5,
       "topPrizesClaimed": 4,
       "topPrizesRemaining": 1,
-      "topPrizeOddsOneIn": 1203996,
+      "topPrizeOddsOneIn": 1189623,
       "totalWinningTicketsPrinted": 1257801,
-      "totalWinningTicketsClaimed": 960425,
-      "totalWinningTicketsRemaining": 297376,
-      "anyPrizeOddsOneIn": 4.048732917249542,
+      "totalWinningTicketsClaimed": 963975,
+      "totalWinningTicketsRemaining": 293826,
+      "anyPrizeOddsOneIn": 4.048732923567009,
       "topPrizeMultiplier": 20000,
       "prizeLevels": [
         {
@@ -4901,56 +4901,56 @@
         {
           "amount": 500,
           "totalPrizes": 649,
-          "claimedPrizes": 504,
-          "remainingPrizes": 145
+          "claimedPrizes": 505,
+          "remainingPrizes": 144
         },
         {
           "amount": 200,
           "totalPrizes": 2132,
-          "claimedPrizes": 1667,
-          "remainingPrizes": 465
+          "claimedPrizes": 1672,
+          "remainingPrizes": 460
         },
         {
           "amount": 100,
           "totalPrizes": 10641,
-          "claimedPrizes": 8359,
-          "remainingPrizes": 2282
+          "claimedPrizes": 8392,
+          "remainingPrizes": 2249
         },
         {
           "amount": 50,
           "totalPrizes": 44878,
-          "claimedPrizes": 35716,
-          "remainingPrizes": 9162
+          "claimedPrizes": 35843,
+          "remainingPrizes": 9035
         },
         {
           "amount": 25,
           "totalPrizes": 67994,
-          "claimedPrizes": 52956,
-          "remainingPrizes": 15038
+          "claimedPrizes": 53161,
+          "remainingPrizes": 14833
         },
         {
           "amount": 20,
           "totalPrizes": 169676,
-          "claimedPrizes": 132160,
-          "remainingPrizes": 37516
+          "claimedPrizes": 132671,
+          "remainingPrizes": 37005
         },
         {
           "amount": 15,
           "totalPrizes": 113123,
-          "claimedPrizes": 87789,
-          "remainingPrizes": 25334
+          "claimedPrizes": 88106,
+          "remainingPrizes": 25017
         },
         {
           "amount": 10,
           "totalPrizes": 339575,
-          "claimedPrizes": 261286,
-          "remainingPrizes": 78289
+          "claimedPrizes": 262280,
+          "remainingPrizes": 77295
         },
         {
           "amount": 5,
           "totalPrizes": 509108,
-          "claimedPrizes": 379972,
-          "remainingPrizes": 129136
+          "claimedPrizes": 381329,
+          "remainingPrizes": 127779
         }
       ]
     },
@@ -4963,17 +4963,17 @@
       "ticketPrice": 5,
       "approxTicketsInGame": 7319250,
       "overallOddsOneIn": 4.15,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 7317674,
       "topPrizeAmount": 100000,
       "topPrizesPrinted": 4,
       "topPrizesClaimed": 3,
       "topPrizesRemaining": 1,
-      "topPrizeOddsOneIn": 879742,
+      "topPrizeOddsOneIn": 877264,
       "totalWinningTicketsPrinted": 1763295,
-      "totalWinningTicketsClaimed": 1551309,
-      "totalWinningTicketsRemaining": 211986,
-      "anyPrizeOddsOneIn": 4.150000471729265,
+      "totalWinningTicketsClaimed": 1551906,
+      "totalWinningTicketsRemaining": 211389,
+      "anyPrizeOddsOneIn": 4.1499983442847075,
       "topPrizeMultiplier": 20000,
       "prizeLevels": [
         {
@@ -5009,56 +5009,56 @@
         {
           "amount": 200,
           "totalPrizes": 2549,
-          "claimedPrizes": 2269,
-          "remainingPrizes": 280
+          "claimedPrizes": 2270,
+          "remainingPrizes": 279
         },
         {
           "amount": 100,
           "totalPrizes": 18386,
-          "claimedPrizes": 16150,
-          "remainingPrizes": 2236
+          "claimedPrizes": 16160,
+          "remainingPrizes": 2226
         },
         {
           "amount": 75,
           "totalPrizes": 7620,
-          "claimedPrizes": 6905,
-          "remainingPrizes": 715
+          "claimedPrizes": 6906,
+          "remainingPrizes": 714
         },
         {
           "amount": 50,
           "totalPrizes": 97590,
-          "claimedPrizes": 86931,
-          "remainingPrizes": 10659
+          "claimedPrizes": 86970,
+          "remainingPrizes": 10620
         },
         {
           "amount": 25,
           "totalPrizes": 97606,
-          "claimedPrizes": 87364,
-          "remainingPrizes": 10242
+          "claimedPrizes": 87400,
+          "remainingPrizes": 10206
         },
         {
           "amount": 20,
           "totalPrizes": 122214,
-          "claimedPrizes": 109360,
-          "remainingPrizes": 12854
+          "claimedPrizes": 109411,
+          "remainingPrizes": 12803
         },
         {
           "amount": 15,
           "totalPrizes": 121807,
-          "claimedPrizes": 109147,
-          "remainingPrizes": 12660
+          "claimedPrizes": 109193,
+          "remainingPrizes": 12614
         },
         {
           "amount": 10,
           "totalPrizes": 439176,
-          "claimedPrizes": 389614,
-          "remainingPrizes": 49562
+          "claimedPrizes": 389738,
+          "remainingPrizes": 49438
         },
         {
           "amount": 5,
           "totalPrizes": 853679,
-          "claimedPrizes": 741188,
-          "remainingPrizes": 112491
+          "claimedPrizes": 741477,
+          "remainingPrizes": 112202
         }
       ]
     },
@@ -5071,17 +5071,17 @@
       "ticketPrice": 20,
       "approxTicketsInGame": 14800925,
       "overallOddsOneIn": 3.41,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 14810404,
       "topPrizeAmount": 1000000,
       "topPrizesPrinted": 6,
       "topPrizesClaimed": 1,
       "topPrizesRemaining": 5,
-      "topPrizeOddsOneIn": 2418407.4,
+      "topPrizeOddsOneIn": 2412356.8,
       "totalWinningTicketsPrinted": 4343227,
-      "totalWinningTicketsClaimed": 797175,
-      "totalWinningTicketsRemaining": 3546052,
-      "anyPrizeOddsOneIn": 3.4099999097587967,
+      "totalWinningTicketsClaimed": 806047,
+      "totalWinningTicketsRemaining": 3537180,
+      "anyPrizeOddsOneIn": 3.4100000565422173,
       "topPrizeMultiplier": 50000,
       "prizeLevels": [
         {
@@ -5105,44 +5105,44 @@
         {
           "amount": 500,
           "totalPrizes": 10476,
-          "claimedPrizes": 1913,
-          "remainingPrizes": 8563
+          "claimedPrizes": 1936,
+          "remainingPrizes": 8540
         },
         {
           "amount": 200,
           "totalPrizes": 123293,
-          "claimedPrizes": 22800,
-          "remainingPrizes": 100493
+          "claimedPrizes": 23026,
+          "remainingPrizes": 100267
         },
         {
           "amount": 150,
           "totalPrizes": 64749,
-          "claimedPrizes": 11911,
-          "remainingPrizes": 52838
+          "claimedPrizes": 12050,
+          "remainingPrizes": 52699
         },
         {
           "amount": 100,
           "totalPrizes": 690781,
-          "claimedPrizes": 127952,
-          "remainingPrizes": 562829
+          "claimedPrizes": 129315,
+          "remainingPrizes": 561466
         },
         {
           "amount": 50,
           "totalPrizes": 788958,
-          "claimedPrizes": 146004,
-          "remainingPrizes": 642954
+          "claimedPrizes": 147663,
+          "remainingPrizes": 641295
         },
         {
           "amount": 40,
           "totalPrizes": 690950,
-          "claimedPrizes": 127692,
-          "remainingPrizes": 563258
+          "claimedPrizes": 129105,
+          "remainingPrizes": 561845
         },
         {
           "amount": 20,
           "totalPrizes": 1973738,
-          "claimedPrizes": 358857,
-          "remainingPrizes": 1614881
+          "claimedPrizes": 362906,
+          "remainingPrizes": 1610832
         }
       ]
     },
@@ -5155,17 +5155,17 @@
       "ticketPrice": 5,
       "approxTicketsInGame": 9908250,
       "overallOddsOneIn": 3.8,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 9909697,
       "topPrizeAmount": 100000,
       "topPrizesPrinted": 4,
       "topPrizesClaimed": 0,
       "topPrizesRemaining": 4,
-      "topPrizeOddsOneIn": 1948211.5,
+      "topPrizeOddsOneIn": 1941767.75,
       "totalWinningTicketsPrinted": 2607815,
-      "totalWinningTicketsClaimed": 557066,
-      "totalWinningTicketsRemaining": 2050749,
-      "anyPrizeOddsOneIn": 3.799999902474657,
+      "totalWinningTicketsClaimed": 563849,
+      "totalWinningTicketsRemaining": 2043966,
+      "anyPrizeOddsOneIn": 3.8000000978489856,
       "topPrizeMultiplier": 20000,
       "prizeLevels": [
         {
@@ -5183,44 +5183,44 @@
         {
           "amount": 500,
           "totalPrizes": 280,
-          "claimedPrizes": 58,
-          "remainingPrizes": 222
+          "claimedPrizes": 59,
+          "remainingPrizes": 221
         },
         {
           "amount": 100,
           "totalPrizes": 6632,
-          "claimedPrizes": 1500,
-          "remainingPrizes": 5132
+          "claimedPrizes": 1510,
+          "remainingPrizes": 5122
         },
         {
           "amount": 50,
           "totalPrizes": 68821,
-          "claimedPrizes": 15348,
-          "remainingPrizes": 53473
+          "claimedPrizes": 15525,
+          "remainingPrizes": 53296
         },
         {
           "amount": 20,
           "totalPrizes": 396370,
-          "claimedPrizes": 86538,
-          "remainingPrizes": 309832
+          "claimedPrizes": 87634,
+          "remainingPrizes": 308736
         },
         {
           "amount": 15,
           "totalPrizes": 396330,
-          "claimedPrizes": 86285,
-          "remainingPrizes": 310045
+          "claimedPrizes": 87342,
+          "remainingPrizes": 308988
         },
         {
           "amount": 10,
           "totalPrizes": 506378,
-          "claimedPrizes": 109257,
-          "remainingPrizes": 397121
+          "claimedPrizes": 110582,
+          "remainingPrizes": 395796
         },
         {
           "amount": 5,
           "totalPrizes": 1232988,
-          "claimedPrizes": 258077,
-          "remainingPrizes": 974911
+          "claimedPrizes": 261194,
+          "remainingPrizes": 971794
         }
       ]
     },
@@ -5233,17 +5233,17 @@
       "ticketPrice": 5,
       "approxTicketsInGame": 5472750,
       "overallOddsOneIn": 3.77,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 5471914,
       "topPrizeAmount": 100000,
       "topPrizesPrinted": 4,
       "topPrizesClaimed": 2,
       "topPrizesRemaining": 2,
-      "topPrizeOddsOneIn": 1906368.5,
+      "topPrizeOddsOneIn": 1896775.5,
       "totalWinningTicketsPrinted": 1451436,
-      "totalWinningTicketsClaimed": 440100,
-      "totalWinningTicketsRemaining": 1011336,
-      "anyPrizeOddsOneIn": 3.770000276861498,
+      "totalWinningTicketsClaimed": 445189,
+      "totalWinningTicketsRemaining": 1006247,
+      "anyPrizeOddsOneIn": 3.769999811179561,
       "topPrizeMultiplier": 20000,
       "prizeLevels": [
         {
@@ -5261,38 +5261,38 @@
         {
           "amount": 500,
           "totalPrizes": 1159,
-          "claimedPrizes": 363,
-          "remainingPrizes": 796
+          "claimedPrizes": 366,
+          "remainingPrizes": 793
         },
         {
           "amount": 100,
           "totalPrizes": 20954,
-          "claimedPrizes": 6647,
-          "remainingPrizes": 14307
+          "claimedPrizes": 6723,
+          "remainingPrizes": 14231
         },
         {
           "amount": 50,
           "totalPrizes": 42891,
-          "claimedPrizes": 13352,
-          "remainingPrizes": 29539
+          "claimedPrizes": 13489,
+          "remainingPrizes": 29402
         },
         {
           "amount": 20,
           "totalPrizes": 145940,
-          "claimedPrizes": 45430,
-          "remainingPrizes": 100510
+          "claimedPrizes": 45932,
+          "remainingPrizes": 100008
         },
         {
           "amount": 10,
           "totalPrizes": 656742,
-          "claimedPrizes": 200306,
-          "remainingPrizes": 456436
+          "claimedPrizes": 202665,
+          "remainingPrizes": 454077
         },
         {
           "amount": 5,
           "totalPrizes": 583736,
-          "claimedPrizes": 173997,
-          "remainingPrizes": 409739
+          "claimedPrizes": 176009,
+          "remainingPrizes": 407727
         }
       ]
     },
@@ -5305,17 +5305,17 @@
       "ticketPrice": 2,
       "approxTicketsInGame": 24413750,
       "overallOddsOneIn": 4.8,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 24399874,
       "topPrizeAmount": 30000,
       "topPrizesPrinted": 10,
       "topPrizesClaimed": 2,
       "topPrizesRemaining": 8,
-      "topPrizeOddsOneIn": 2677161,
+      "topPrizeOddsOneIn": 2670331.75,
       "totalWinningTicketsPrinted": 5083307,
-      "totalWinningTicketsClaimed": 621372,
-      "totalWinningTicketsRemaining": 4461935,
-      "anyPrizeOddsOneIn": 4.8,
+      "totalWinningTicketsClaimed": 632754,
+      "totalWinningTicketsRemaining": 4450553,
+      "anyPrizeOddsOneIn": 4.799999910123528,
       "topPrizeMultiplier": 15000,
       "prizeLevels": [
         {
@@ -5339,62 +5339,62 @@
         {
           "amount": 500,
           "totalPrizes": 934,
-          "claimedPrizes": 117,
-          "remainingPrizes": 817
+          "claimedPrizes": 119,
+          "remainingPrizes": 815
         },
         {
           "amount": 200,
           "totalPrizes": 10172,
-          "claimedPrizes": 1331,
-          "remainingPrizes": 8841
+          "claimedPrizes": 1358,
+          "remainingPrizes": 8814
         },
         {
           "amount": 50,
           "totalPrizes": 91610,
-          "claimedPrizes": 12147,
-          "remainingPrizes": 79463
+          "claimedPrizes": 12352,
+          "remainingPrizes": 79258
         },
         {
           "amount": 20,
           "totalPrizes": 195310,
-          "claimedPrizes": 25343,
-          "remainingPrizes": 169967
+          "claimedPrizes": 25789,
+          "remainingPrizes": 169521
         },
         {
           "amount": 15,
           "totalPrizes": 195310,
-          "claimedPrizes": 25369,
-          "remainingPrizes": 169941
+          "claimedPrizes": 25835,
+          "remainingPrizes": 169475
         },
         {
           "amount": 10,
           "totalPrizes": 488243,
-          "claimedPrizes": 61686,
-          "remainingPrizes": 426557
+          "claimedPrizes": 62769,
+          "remainingPrizes": 425474
         },
         {
           "amount": 8,
           "totalPrizes": 97622,
-          "claimedPrizes": 12219,
-          "remainingPrizes": 85403
+          "claimedPrizes": 12457,
+          "remainingPrizes": 85165
         },
         {
           "amount": 5,
           "totalPrizes": 293062,
-          "claimedPrizes": 36471,
-          "remainingPrizes": 256591
+          "claimedPrizes": 37136,
+          "remainingPrizes": 255926
         },
         {
           "amount": 4,
           "totalPrizes": 1367170,
-          "claimedPrizes": 168033,
-          "remainingPrizes": 1199137
+          "claimedPrizes": 171065,
+          "remainingPrizes": 1196105
         },
         {
           "amount": 2,
           "totalPrizes": 2343720,
-          "claimedPrizes": 278637,
-          "remainingPrizes": 2065083
+          "claimedPrizes": 283855,
+          "remainingPrizes": 2059865
         }
       ]
     },
@@ -5407,17 +5407,17 @@
       "ticketPrice": 20,
       "approxTicketsInGame": 25701775,
       "overallOddsOneIn": 3.29,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 25721312,
       "topPrizeAmount": 1000000,
       "topPrizesPrinted": 10,
       "topPrizesClaimed": 1,
       "topPrizesRemaining": 9,
-      "topPrizeOddsOneIn": 2562101.777777778,
+      "topPrizeOddsOneIn": 2557062.222222222,
       "totalWinningTicketsPrinted": 7818028,
-      "totalWinningTicketsClaimed": 809239,
-      "totalWinningTicketsRemaining": 7008789,
-      "anyPrizeOddsOneIn": 3.29000002710882,
+      "totalWinningTicketsClaimed": 823025,
+      "totalWinningTicketsRemaining": 6995003,
+      "anyPrizeOddsOneIn": 3.2900000185846956,
       "topPrizeMultiplier": 50000,
       "prizeLevels": [
         {
@@ -5435,68 +5435,68 @@
         {
           "amount": 5000,
           "totalPrizes": 343,
-          "claimedPrizes": 24,
-          "remainingPrizes": 319
+          "claimedPrizes": 25,
+          "remainingPrizes": 318
         },
         {
           "amount": 1000,
           "totalPrizes": 2581,
-          "claimedPrizes": 246,
-          "remainingPrizes": 2335
+          "claimedPrizes": 247,
+          "remainingPrizes": 2334
         },
         {
           "amount": 500,
           "totalPrizes": 12035,
-          "claimedPrizes": 1237,
-          "remainingPrizes": 10798
+          "claimedPrizes": 1262,
+          "remainingPrizes": 10773
         },
         {
           "amount": 250,
           "totalPrizes": 66748,
-          "claimedPrizes": 6851,
-          "remainingPrizes": 59897
+          "claimedPrizes": 6983,
+          "remainingPrizes": 59765
         },
         {
           "amount": 200,
           "totalPrizes": 185051,
-          "claimedPrizes": 19230,
-          "remainingPrizes": 165821
+          "claimedPrizes": 19529,
+          "remainingPrizes": 165522
         },
         {
           "amount": 150,
           "totalPrizes": 205886,
-          "claimedPrizes": 21451,
-          "remainingPrizes": 184435
+          "claimedPrizes": 21782,
+          "remainingPrizes": 184104
         },
         {
           "amount": 100,
           "totalPrizes": 919945,
-          "claimedPrizes": 95537,
-          "remainingPrizes": 824408
+          "claimedPrizes": 97125,
+          "remainingPrizes": 822820
         },
         {
           "amount": 50,
           "totalPrizes": 1028071,
-          "claimedPrizes": 106978,
-          "remainingPrizes": 921093
+          "claimedPrizes": 108805,
+          "remainingPrizes": 919266
         },
         {
           "amount": 40,
           "totalPrizes": 514059,
-          "claimedPrizes": 53481,
-          "remainingPrizes": 460578
+          "claimedPrizes": 54407,
+          "remainingPrizes": 459652
         },
         {
           "amount": 30,
           "totalPrizes": 1799106,
-          "claimedPrizes": 186322,
-          "remainingPrizes": 1612784
+          "claimedPrizes": 189487,
+          "remainingPrizes": 1609619
         },
         {
           "amount": 20,
           "totalPrizes": 3084150,
-          "claimedPrizes": 317879,
-          "remainingPrizes": 2766271
+          "claimedPrizes": 323370,
+          "remainingPrizes": 2760780
         }
       ]
     },
@@ -5509,7 +5509,7 @@
       "ticketPrice": 5,
       "approxTicketsInGame": 10130850,
       "overallOddsOneIn": 3.83,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 10132870,
       "topPrizeAmount": 100000,
       "topPrizesPrinted": 5,
@@ -5517,9 +5517,9 @@
       "topPrizesRemaining": 0,
       "topPrizeOddsOneIn": null,
       "totalWinningTicketsPrinted": 2645658,
-      "totalWinningTicketsClaimed": 2288475,
-      "totalWinningTicketsRemaining": 357183,
-      "anyPrizeOddsOneIn": 3.830000307965385,
+      "totalWinningTicketsClaimed": 2293898,
+      "totalWinningTicketsRemaining": 351760,
+      "anyPrizeOddsOneIn": 3.830000568569479,
       "topPrizeMultiplier": 20000,
       "prizeLevels": [
         {
@@ -5537,50 +5537,50 @@
         {
           "amount": 500,
           "totalPrizes": 1012,
-          "claimedPrizes": 897,
-          "remainingPrizes": 115
+          "claimedPrizes": 898,
+          "remainingPrizes": 114
         },
         {
           "amount": 200,
           "totalPrizes": 6959,
-          "claimedPrizes": 6158,
-          "remainingPrizes": 801
+          "claimedPrizes": 6176,
+          "remainingPrizes": 783
         },
         {
           "amount": 100,
           "totalPrizes": 37310,
-          "claimedPrizes": 33151,
-          "remainingPrizes": 4159
+          "claimedPrizes": 33218,
+          "remainingPrizes": 4092
         },
         {
           "amount": 50,
           "totalPrizes": 135078,
-          "claimedPrizes": 119520,
-          "remainingPrizes": 15558
+          "claimedPrizes": 119769,
+          "remainingPrizes": 15309
         },
         {
           "amount": 20,
           "totalPrizes": 202598,
-          "claimedPrizes": 178741,
-          "remainingPrizes": 23857
+          "claimedPrizes": 179127,
+          "remainingPrizes": 23471
         },
         {
           "amount": 15,
           "totalPrizes": 135078,
-          "claimedPrizes": 118663,
-          "remainingPrizes": 16415
+          "claimedPrizes": 118916,
+          "remainingPrizes": 16162
         },
         {
           "amount": 10,
           "totalPrizes": 945537,
-          "claimedPrizes": 824331,
-          "remainingPrizes": 121206
+          "claimedPrizes": 826353,
+          "remainingPrizes": 119184
         },
         {
           "amount": 5,
           "totalPrizes": 1182056,
-          "claimedPrizes": 1006990,
-          "remainingPrizes": 175066
+          "claimedPrizes": 1009417,
+          "remainingPrizes": 172639
         }
       ]
     },
@@ -5593,17 +5593,17 @@
       "ticketPrice": 5,
       "approxTicketsInGame": 11207850,
       "overallOddsOneIn": 4.23,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 11199513,
       "topPrizeAmount": 200000,
       "topPrizesPrinted": 4,
       "topPrizesClaimed": 1,
       "topPrizesRemaining": 3,
-      "topPrizeOddsOneIn": 2760406.3333333335,
+      "topPrizeOddsOneIn": 2743805,
       "totalWinningTicketsPrinted": 2647639,
-      "totalWinningTicketsClaimed": 689904,
-      "totalWinningTicketsRemaining": 1957735,
-      "anyPrizeOddsOneIn": 4.229999974460282,
+      "totalWinningTicketsClaimed": 701678,
+      "totalWinningTicketsRemaining": 1945961,
+      "anyPrizeOddsOneIn": 4.229999984583452,
       "topPrizeMultiplier": 40000,
       "prizeLevels": [
         {
@@ -5627,50 +5627,50 @@
         {
           "amount": 500,
           "totalPrizes": 1424,
-          "claimedPrizes": 360,
-          "remainingPrizes": 1064
+          "claimedPrizes": 369,
+          "remainingPrizes": 1055
         },
         {
           "amount": 200,
           "totalPrizes": 2912,
-          "claimedPrizes": 775,
-          "remainingPrizes": 2137
+          "claimedPrizes": 784,
+          "remainingPrizes": 2128
         },
         {
           "amount": 100,
           "totalPrizes": 27941,
-          "claimedPrizes": 7571,
-          "remainingPrizes": 20370
+          "claimedPrizes": 7702,
+          "remainingPrizes": 20239
         },
         {
           "amount": 50,
           "totalPrizes": 149438,
-          "claimedPrizes": 40683,
-          "remainingPrizes": 108755
+          "claimedPrizes": 41372,
+          "remainingPrizes": 108066
         },
         {
           "amount": 25,
           "totalPrizes": 149400,
-          "claimedPrizes": 40311,
-          "remainingPrizes": 109089
+          "claimedPrizes": 40948,
+          "remainingPrizes": 108452
         },
         {
           "amount": 20,
           "totalPrizes": 448352,
-          "claimedPrizes": 120477,
-          "remainingPrizes": 327875
+          "claimedPrizes": 122488,
+          "remainingPrizes": 325864
         },
         {
           "amount": 10,
           "totalPrizes": 709807,
-          "claimedPrizes": 186092,
-          "remainingPrizes": 523715
+          "claimedPrizes": 189238,
+          "remainingPrizes": 520569
         },
         {
           "amount": 5,
           "totalPrizes": 1158249,
-          "claimedPrizes": 293605,
-          "remainingPrizes": 864644
+          "claimedPrizes": 298747,
+          "remainingPrizes": 859502
         }
       ]
     },
@@ -5683,17 +5683,17 @@
       "ticketPrice": 10,
       "approxTicketsInGame": 8109400,
       "overallOddsOneIn": 3.83,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 8117294,
       "topPrizeAmount": 500000,
       "topPrizesPrinted": 4,
       "topPrizesClaimed": 1,
       "topPrizesRemaining": 3,
-      "topPrizeOddsOneIn": 2031840.6666666667,
+      "topPrizeOddsOneIn": 2020517.6666666667,
       "totalWinningTicketsPrinted": 2119398,
-      "totalWinningTicketsClaimed": 527878,
-      "totalWinningTicketsRemaining": 1591520,
-      "anyPrizeOddsOneIn": 3.83000025133206,
+      "totalWinningTicketsClaimed": 536747,
+      "totalWinningTicketsRemaining": 1582651,
+      "anyPrizeOddsOneIn": 3.82999979148909,
       "topPrizeMultiplier": 50000,
       "prizeLevels": [
         {
@@ -5705,56 +5705,56 @@
         {
           "amount": 10000,
           "totalPrizes": 10,
-          "claimedPrizes": 1,
-          "remainingPrizes": 9
+          "claimedPrizes": 2,
+          "remainingPrizes": 8
         },
         {
           "amount": 1000,
           "totalPrizes": 206,
-          "claimedPrizes": 53,
-          "remainingPrizes": 153
+          "claimedPrizes": 54,
+          "remainingPrizes": 152
         },
         {
           "amount": 500,
           "totalPrizes": 1701,
-          "claimedPrizes": 437,
-          "remainingPrizes": 1264
+          "claimedPrizes": 439,
+          "remainingPrizes": 1262
         },
         {
           "amount": 200,
           "totalPrizes": 16196,
-          "claimedPrizes": 4141,
-          "remainingPrizes": 12055
+          "claimedPrizes": 4206,
+          "remainingPrizes": 11990
         },
         {
           "amount": 100,
           "totalPrizes": 73862,
-          "claimedPrizes": 18667,
-          "remainingPrizes": 55195
+          "claimedPrizes": 18991,
+          "remainingPrizes": 54871
         },
         {
           "amount": 50,
           "totalPrizes": 202658,
-          "claimedPrizes": 51547,
-          "remainingPrizes": 151111
+          "claimedPrizes": 52435,
+          "remainingPrizes": 150223
         },
         {
           "amount": 30,
           "totalPrizes": 446069,
-          "claimedPrizes": 112726,
-          "remainingPrizes": 333343
+          "claimedPrizes": 114594,
+          "remainingPrizes": 331475
         },
         {
           "amount": 20,
           "totalPrizes": 567753,
-          "claimedPrizes": 141541,
-          "remainingPrizes": 426212
+          "claimedPrizes": 143905,
+          "remainingPrizes": 423848
         },
         {
           "amount": 10,
           "totalPrizes": 810939,
-          "claimedPrizes": 198764,
-          "remainingPrizes": 612175
+          "claimedPrizes": 202120,
+          "remainingPrizes": 608819
         }
       ]
     },
@@ -5767,17 +5767,17 @@
       "ticketPrice": 20,
       "approxTicketsInGame": 6111975,
       "overallOddsOneIn": 3.44,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 6115126,
       "topPrizeAmount": 1000000,
       "topPrizesPrinted": 4,
       "topPrizesClaimed": 1,
       "topPrizesRemaining": 3,
-      "topPrizeOddsOneIn": 1608757.3333333333,
+      "topPrizeOddsOneIn": 1601233,
       "totalWinningTicketsPrinted": 1777653,
-      "totalWinningTicketsClaimed": 374667,
-      "totalWinningTicketsRemaining": 1402986,
-      "anyPrizeOddsOneIn": 3.440000114042478,
+      "totalWinningTicketsClaimed": 381229,
+      "totalWinningTicketsRemaining": 1396424,
+      "anyPrizeOddsOneIn": 3.4400003150905456,
       "topPrizeMultiplier": 50000,
       "prizeLevels": [
         {
@@ -5795,44 +5795,44 @@
         {
           "amount": 1000,
           "totalPrizes": 253,
-          "claimedPrizes": 46,
-          "remainingPrizes": 207
+          "claimedPrizes": 48,
+          "remainingPrizes": 205
         },
         {
           "amount": 500,
           "totalPrizes": 3823,
-          "claimedPrizes": 808,
-          "remainingPrizes": 3015
+          "claimedPrizes": 825,
+          "remainingPrizes": 2998
         },
         {
           "amount": 200,
           "totalPrizes": 62124,
-          "claimedPrizes": 13089,
-          "remainingPrizes": 49035
+          "claimedPrizes": 13323,
+          "remainingPrizes": 48801
         },
         {
           "amount": 100,
           "totalPrizes": 244479,
-          "claimedPrizes": 52170,
-          "remainingPrizes": 192309
+          "claimedPrizes": 53118,
+          "remainingPrizes": 191361
         },
         {
           "amount": 50,
           "totalPrizes": 305730,
-          "claimedPrizes": 64597,
-          "remainingPrizes": 241133
+          "claimedPrizes": 65677,
+          "remainingPrizes": 240053
         },
         {
           "amount": 40,
           "totalPrizes": 488770,
-          "claimedPrizes": 103565,
-          "remainingPrizes": 385205
+          "claimedPrizes": 105357,
+          "remainingPrizes": 383413
         },
         {
           "amount": 20,
           "totalPrizes": 672458,
-          "claimedPrizes": 140388,
-          "remainingPrizes": 532070
+          "claimedPrizes": 142877,
+          "remainingPrizes": 529581
         }
       ]
     },
@@ -5845,17 +5845,17 @@
       "ticketPrice": 50,
       "approxTicketsInGame": 4610380,
       "overallOddsOneIn": 3.26,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 4611485,
       "topPrizeAmount": 2500000,
       "topPrizesPrinted": 4,
       "topPrizesClaimed": 0,
       "topPrizesRemaining": 4,
-      "topPrizeOddsOneIn": 980899,
+      "topPrizeOddsOneIn": 977023.75,
       "totalWinningTicketsPrinted": 1414566,
-      "totalWinningTicketsClaimed": 211009,
-      "totalWinningTicketsRemaining": 1203557,
-      "anyPrizeOddsOneIn": 3.260000149556689,
+      "totalWinningTicketsClaimed": 215764,
+      "totalWinningTicketsRemaining": 1198802,
+      "anyPrizeOddsOneIn": 3.2600004003997323,
       "topPrizeMultiplier": 50000,
       "prizeLevels": [
         {
@@ -5885,38 +5885,38 @@
         {
           "amount": 500,
           "totalPrizes": 38372,
-          "claimedPrizes": 5684,
-          "remainingPrizes": 32688
+          "claimedPrizes": 5826,
+          "remainingPrizes": 32546
         },
         {
           "amount": 350,
           "totalPrizes": 42572,
-          "claimedPrizes": 6294,
-          "remainingPrizes": 36278
+          "claimedPrizes": 6444,
+          "remainingPrizes": 36128
         },
         {
           "amount": 250,
           "totalPrizes": 65464,
-          "claimedPrizes": 9693,
-          "remainingPrizes": 55771
+          "claimedPrizes": 9908,
+          "remainingPrizes": 55556
         },
         {
           "amount": 150,
           "totalPrizes": 345854,
-          "claimedPrizes": 52119,
-          "remainingPrizes": 293735
+          "claimedPrizes": 53228,
+          "remainingPrizes": 292626
         },
         {
           "amount": 100,
           "totalPrizes": 403314,
-          "claimedPrizes": 60271,
-          "remainingPrizes": 343043
+          "claimedPrizes": 61665,
+          "remainingPrizes": 341649
         },
         {
           "amount": 50,
           "totalPrizes": 518611,
-          "claimedPrizes": 76890,
-          "remainingPrizes": 441721
+          "claimedPrizes": 78635,
+          "remainingPrizes": 439976
         }
       ]
     },
@@ -5929,17 +5929,17 @@
       "ticketPrice": 2,
       "approxTicketsInGame": 9287750,
       "overallOddsOneIn": 4.28,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 9288713,
       "topPrizeAmount": 30000,
       "topPrizesPrinted": 6,
       "topPrizesClaimed": 1,
       "topPrizesRemaining": 5,
-      "topPrizeOddsOneIn": 1621746,
+      "topPrizeOddsOneIn": 1611427.8,
       "totalWinningTicketsPrinted": 2170260,
-      "totalWinningTicketsClaimed": 275697,
-      "totalWinningTicketsRemaining": 1894563,
-      "anyPrizeOddsOneIn": 4.280000190017434,
+      "totalWinningTicketsClaimed": 287751,
+      "totalWinningTicketsRemaining": 1882509,
+      "anyPrizeOddsOneIn": 4.2800002549788605,
       "topPrizeMultiplier": 15000,
       "prizeLevels": [
         {
@@ -5957,50 +5957,50 @@
         {
           "amount": 100,
           "totalPrizes": 3710,
-          "claimedPrizes": 476,
-          "remainingPrizes": 3234
+          "claimedPrizes": 503,
+          "remainingPrizes": 3207
         },
         {
           "amount": 50,
           "totalPrizes": 11871,
-          "claimedPrizes": 1665,
-          "remainingPrizes": 10206
+          "claimedPrizes": 1731,
+          "remainingPrizes": 10140
         },
         {
           "amount": 30,
           "totalPrizes": 12444,
-          "claimedPrizes": 1699,
-          "remainingPrizes": 10745
+          "claimedPrizes": 1776,
+          "remainingPrizes": 10668
         },
         {
           "amount": 20,
           "totalPrizes": 160970,
-          "claimedPrizes": 21867,
-          "remainingPrizes": 139103
+          "claimedPrizes": 22821,
+          "remainingPrizes": 138149
         },
         {
           "amount": 10,
           "totalPrizes": 210500,
-          "claimedPrizes": 28066,
-          "remainingPrizes": 182434
+          "claimedPrizes": 29263,
+          "remainingPrizes": 181237
         },
         {
           "amount": 5,
           "totalPrizes": 396706,
-          "claimedPrizes": 51605,
-          "remainingPrizes": 345101
+          "claimedPrizes": 53885,
+          "remainingPrizes": 342821
         },
         {
           "amount": 3,
           "totalPrizes": 495056,
-          "claimedPrizes": 61846,
-          "remainingPrizes": 433210
+          "claimedPrizes": 64620,
+          "remainingPrizes": 430436
         },
         {
           "amount": 2,
           "totalPrizes": 878981,
-          "claimedPrizes": 108472,
-          "remainingPrizes": 770509
+          "claimedPrizes": 113151,
+          "remainingPrizes": 765830
         }
       ]
     },
@@ -6013,17 +6013,17 @@
       "ticketPrice": 5,
       "approxTicketsInGame": 5131500,
       "overallOddsOneIn": 3.99,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 5134288,
       "topPrizeAmount": 100000,
       "topPrizesPrinted": 4,
       "topPrizesClaimed": 3,
       "topPrizesRemaining": 1,
-      "topPrizeOddsOneIn": 3838296,
+      "topPrizeOddsOneIn": 3793265,
       "totalWinningTicketsPrinted": 1286789,
-      "totalWinningTicketsClaimed": 324810,
-      "totalWinningTicketsRemaining": 961979,
-      "anyPrizeOddsOneIn": 3.9899997817000163,
+      "totalWinningTicketsClaimed": 336096,
+      "totalWinningTicketsRemaining": 950693,
+      "anyPrizeOddsOneIn": 3.989999926369501,
       "topPrizeMultiplier": 20000,
       "prizeLevels": [
         {
@@ -6041,44 +6041,44 @@
         {
           "amount": 500,
           "totalPrizes": 474,
-          "claimedPrizes": 132,
-          "remainingPrizes": 342
+          "claimedPrizes": 134,
+          "remainingPrizes": 340
         },
         {
           "amount": 100,
           "totalPrizes": 20528,
-          "claimedPrizes": 5517,
-          "remainingPrizes": 15011
+          "claimedPrizes": 5691,
+          "remainingPrizes": 14837
         },
         {
           "amount": 50,
           "totalPrizes": 68420,
-          "claimedPrizes": 18158,
-          "remainingPrizes": 50262
+          "claimedPrizes": 18745,
+          "remainingPrizes": 49675
         },
         {
           "amount": 20,
           "totalPrizes": 136840,
-          "claimedPrizes": 35744,
-          "remainingPrizes": 101096
+          "claimedPrizes": 36974,
+          "remainingPrizes": 99866
         },
         {
           "amount": 15,
           "totalPrizes": 136840,
-          "claimedPrizes": 35294,
-          "remainingPrizes": 101546
+          "claimedPrizes": 36468,
+          "remainingPrizes": 100372
         },
         {
           "amount": 10,
           "totalPrizes": 376353,
-          "claimedPrizes": 95501,
-          "remainingPrizes": 280852
+          "claimedPrizes": 98928,
+          "remainingPrizes": 277425
         },
         {
           "amount": 5,
           "totalPrizes": 547274,
-          "claimedPrizes": 134450,
-          "remainingPrizes": 412824
+          "claimedPrizes": 139142,
+          "remainingPrizes": 408132
         }
       ]
     },
@@ -6091,17 +6091,17 @@
       "ticketPrice": 10,
       "approxTicketsInGame": 8137550,
       "overallOddsOneIn": 4.05,
-      "detailsAsOfDate": "2026-10-14",
+      "detailsAsOfDate": "2026-10-15",
       "estimatedTotalTicketsAtLaunch": 8142100,
       "topPrizeAmount": 250000,
       "topPrizesPrinted": 4,
       "topPrizesClaimed": 0,
       "topPrizesRemaining": 4,
-      "topPrizeOddsOneIn": 1922628.25,
+      "topPrizeOddsOneIn": 1909679.25,
       "totalWinningTicketsPrinted": 2010395,
-      "totalWinningTicketsClaimed": 111503,
-      "totalWinningTicketsRemaining": 1898892,
-      "anyPrizeOddsOneIn": 4.0500002106491575,
+      "totalWinningTicketsClaimed": 124292,
+      "totalWinningTicketsRemaining": 1886103,
+      "anyPrizeOddsOneIn": 4.049999920470939,
       "topPrizeMultiplier": 25000,
       "prizeLevels": [
         {
@@ -6125,50 +6125,50 @@
         {
           "amount": 1000,
           "totalPrizes": 206,
-          "claimedPrizes": 8,
-          "remainingPrizes": 198
+          "claimedPrizes": 11,
+          "remainingPrizes": 195
         },
         {
           "amount": 500,
           "totalPrizes": 2849,
-          "claimedPrizes": 158,
-          "remainingPrizes": 2691
+          "claimedPrizes": 181,
+          "remainingPrizes": 2668
         },
         {
           "amount": 200,
           "totalPrizes": 27075,
-          "claimedPrizes": 1543,
-          "remainingPrizes": 25532
+          "claimedPrizes": 1695,
+          "remainingPrizes": 25380
         },
         {
           "amount": 100,
           "totalPrizes": 108596,
-          "claimedPrizes": 6141,
-          "remainingPrizes": 102455
+          "claimedPrizes": 6912,
+          "remainingPrizes": 101684
         },
         {
           "amount": 50,
           "totalPrizes": 162724,
-          "claimedPrizes": 9376,
-          "remainingPrizes": 153348
+          "claimedPrizes": 10410,
+          "remainingPrizes": 152314
         },
         {
           "amount": 30,
           "totalPrizes": 366233,
-          "claimedPrizes": 20673,
-          "remainingPrizes": 345560
+          "claimedPrizes": 23038,
+          "remainingPrizes": 343195
         },
         {
           "amount": 20,
           "totalPrizes": 488242,
-          "claimedPrizes": 27292,
-          "remainingPrizes": 460950
+          "claimedPrizes": 30329,
+          "remainingPrizes": 457913
         },
         {
           "amount": 10,
           "totalPrizes": 854454,
-          "claimedPrizes": 46311,
-          "remainingPrizes": 808143
+          "claimedPrizes": 51715,
+          "remainingPrizes": 802739
         }
       ]
     }
