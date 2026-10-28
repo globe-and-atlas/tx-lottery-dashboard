@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T17:37:08.257Z",
+  "updatedAt": "2026-10-28T17:59:20.799Z",
   "snapshots": [
     {
       "date": "2026-03-24",
@@ -14861,6 +14861,95 @@
           "topPrizeAmount": 5000000,
           "topPrizesRemaining": 2,
           "topPrizeOddsOneIn": 1318434.5
+        }
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "generatedAt": "2026-10-28T17:59:20.799Z",
+      "csvAsOfDate": "2026-10-27",
+      "totalGames": 76,
+      "totalTopPrizesRemaining": 12923,
+      "bestOverall": {
+        "gameNumber": "2650",
+        "gameName": "$50, $100 OR $500!",
+        "ticketPrice": 10,
+        "topPrizeAmount": 500,
+        "topPrizesRemaining": 6972,
+        "topPrizeOddsOneIn": 1001.9767641996558
+      },
+      "bestByPrice": [
+        {
+          "ticketPrice": 1,
+          "gameNumber": "2735",
+          "gameName": "3-2-Won!",
+          "topPrizeAmount": 500,
+          "topPrizesRemaining": 24,
+          "topPrizeOddsOneIn": 415904.375
+        },
+        {
+          "ticketPrice": 2,
+          "gameNumber": "2715",
+          "gameName": "Find $200",
+          "topPrizeAmount": 200,
+          "topPrizesRemaining": 3497,
+          "topPrizeOddsOneIn": 1262.8538747497855
+        },
+        {
+          "ticketPrice": 3,
+          "gameNumber": "2662",
+          "gameName": "Cashword",
+          "topPrizeAmount": 50000,
+          "topPrizesRemaining": 7,
+          "topPrizeOddsOneIn": 2119575.1428571427
+        },
+        {
+          "ticketPrice": 5,
+          "gameNumber": "2727",
+          "gameName": "All About the 8s",
+          "topPrizeAmount": 100000,
+          "topPrizesRemaining": 1,
+          "topPrizeOddsOneIn": 417206
+        },
+        {
+          "ticketPrice": 10,
+          "gameNumber": "2650",
+          "gameName": "$50, $100 OR $500!",
+          "topPrizeAmount": 500,
+          "topPrizesRemaining": 6972,
+          "topPrizeOddsOneIn": 1001.9767641996558
+        },
+        {
+          "ticketPrice": 20,
+          "gameNumber": "2678",
+          "gameName": "$100, $200, $500 OR $1,000!",
+          "topPrizeAmount": 1000,
+          "topPrizesRemaining": 2195,
+          "topPrizeOddsOneIn": 1614.2469248291573
+        },
+        {
+          "ticketPrice": 30,
+          "gameNumber": "2661",
+          "gameName": "Premier Play",
+          "topPrizeAmount": 1000000,
+          "topPrizesRemaining": 4,
+          "topPrizeOddsOneIn": 586278
+        },
+        {
+          "ticketPrice": 50,
+          "gameNumber": "2689",
+          "gameName": "Casino Millions",
+          "topPrizeAmount": 1000000,
+          "topPrizesRemaining": 7,
+          "topPrizeOddsOneIn": 329883.5714285714
+        },
+        {
+          "ticketPrice": 100,
+          "gameNumber": "2665",
+          "gameName": "$5,000,000 Fortune",
+          "topPrizeAmount": 5000000,
+          "topPrizesRemaining": 2,
+          "topPrizeOddsOneIn": 1317345.5
         }
       ]
     }
